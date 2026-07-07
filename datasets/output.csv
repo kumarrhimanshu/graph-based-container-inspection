@@ -1,0 +1,1001 @@
+Container_ID,Destination,Goods,Container_Length,Actual_Weight,Shipping_Company,Weight_Difference,Weight_Factor,Destination_Factor,Goods_Factor,Company_Factor,Risk_Score,Decision
+C000001,Denmark,Ceramics,40,27009,SM Line,229,0.6,0.02,0.25,0.036,0.308,Proceed to further inspection
+C000002,Denmark,Garments,40,26637,X-Press Feeders,143,0.4,0.02,0.17,0.036,0.209,Store to ship
+C000003,Taiwan,Fertilizer,53,34284,Emirates Shipping Line,284,0.6,0.032,0.46,0.034,0.344,Proceed to further inspection
+C000004,Colombia,Tea,53,34024,Hyundai Merchant Marine (HMM),24,0.01,0.043,0.17,0.03,0.047,Store to ship
+C000005,Poland,Frozen Meat,45,28654,K Line,396,0.8,0.029,0.24,0.029,0.395,Proceed to further inspection
+C000006,United Arab Emirates,Solar Panels,20,21950,Matson Navigation,223,0.6,0.045,0.24,0.028,0.313,Proceed to further inspection
+C000007,Russia,Rubber,48,32899,CMA CGM,249,0.6,0.058,0.27,0.027,0.322,Proceed to further inspection
+C000008,Oman,Rice,20,22021,Unifeeder,294,0.6,0.038,0.38,0.034,0.333,Proceed to further inspection
+C000009,Norway,Semiconductors,53,34010,Mediterranean Shipping Company (MSC),10,0.01,0.02,0.32,0.026,0.062,Store to ship
+C000010,Vietnam,Cement,20,21767,COSCO Shipping,40,0.01,0.048,0.3,0.032,0.069,Store to ship
+C000011,Netherlands,Lithium Batteries,20,21681,Unifeeder,46,0.01,0.021,0.82,0.034,0.141,Store to ship
+C000012,South Africa,Rice,45,28823,Unifeeder,227,0.6,0.046,0.38,0.034,0.336,Proceed to further inspection
+C000013,Saudi Arabia,Granite,40,27001,Grimaldi Lines,221,0.6,0.05,0.29,0.033,0.323,Proceed to further inspection
+C000014,France,Corn,20,22101,Safmarine,374,0.8,0.024,0.16,0.035,0.381,Proceed to further inspection
+C000015,Spain,Cement,45,29208,Baltic Shipping Company,158,0.4,0.027,0.3,0.041,0.232,Store to ship
+C000016,South Africa,Garments,48,32383,Iran Shipping Lines,267,0.6,0.046,0.17,0.07,0.307,Proceed to further inspection
+C000017,Netherlands,Semiconductors,45,28857,PIL (Pacific International Lines),193,0.4,0.021,0.32,0.034,0.232,Store to ship
+C000018,Germany,Electronics,40,27087,Mediterranean Shipping Company (MSC),307,0.8,0.022,0.28,0.026,0.398,Proceed to further inspection
+C000019,Argentina,Sugar,20,22012,Maersk,285,0.6,0.05,0.18,0.025,0.305,Proceed to further inspection
+C000020,Ukraine,Food Products,53,34028,North Korea Shipping Corporation,28,0.01,0.055,0.16,0.085,0.055,Store to ship
+C000021,Saudi Arabia,Paper,48,32990,Mitsui O.S.K. Lines (MOL),340,0.8,0.05,0.21,0.028,0.397,Proceed to further inspection
+C000022,Turkey,Cement,40,26482,Hapag-Lloyd,298,0.6,0.055,0.3,0.028,0.326,Proceed to further inspection
+C000023,Indonesia,Chemicals,20,21708,Grimaldi Lines,19,0.01,0.047,0.71,0.033,0.132,Store to ship
+C000024,China,Electronics,45,29081,Hapag-Lloyd,31,0.01,0.073,0.28,0.028,0.074,Store to ship
+C000025,United Kingdom,Electrical Cables,53,34093,ZIM Integrated Shipping Services,93,0.07,0.025,0.27,0.035,0.083,Store to ship
+C000026,Norway,Solvents,53,33739,Nippon Yusen Kaisha (NYK),261,0.6,0.02,0.78,0.029,0.389,Proceed to further inspection
+C000027,Italy,Vaccines,53,34328,Maersk,328,0.8,0.026,0.19,0.025,0.386,Proceed to further inspection
+C000028,Malaysia,Plastic Granules,48,32459,Maersk,191,0.4,0.073,0.39,0.025,0.259,Store to ship
+C000029,Greece,Lubricants,20,21681,Hyundai Merchant Marine (HMM),46,0.01,0.024,0.37,0.03,0.072,Store to ship
+C000030,Egypt,Tea,40,26637,Maersk,143,0.4,0.044,0.17,0.025,0.215,Store to ship
+C000031,Belgium,Glass,40,26450,Wan Hai Lines,330,0.8,0.023,0.24,0.032,0.393,Proceed to further inspection
+C000032,Vietnam,Marble,40,27100,Seaboard Marine,320,0.8,0.048,0.28,0.035,0.408,Proceed to further inspection
+C000033,Australia,Vehicles,48,32407,Evergreen Marine,243,0.6,0.023,0.36,0.029,0.325,Proceed to further inspection
+C000034,Chile,Lubricants,20,21660,Yang Ming Marine,67,0.07,0.039,0.37,0.031,0.103,Store to ship
+C000035,Portugal,Vegetables,53,33757,Maersk,243,0.6,0.025,0.14,0.025,0.291,Store to ship
+C000036,Philippines,Automobile Parts,48,32777,TS Lines,127,0.4,0.043,0.31,0.037,0.238,Store to ship
+C000037,Indonesia,Electronics,48,32627,Evergreen Marine,23,0.01,0.047,0.28,0.029,0.065,Store to ship
+C000038,Portugal,Vehicles,48,32390,Res Trans-Logis,260,0.6,0.025,0.36,0.042,0.327,Proceed to further inspection
+C000039,Greece,Textiles,40,26684,Bahri,96,0.07,0.024,0.2,0.037,0.072,Store to ship
+C000040,Italy,Vehicles,40,26878,Emirates Shipping Line,98,0.07,0.026,0.36,0.034,0.097,Store to ship
+C000041,Thailand,Solvents,20,21475,Sinokor Merchant Marine,252,0.6,0.042,0.78,0.036,0.396,Proceed to further inspection
+C000042,Brazil,Petroleum Products,45,28933,Black Sea Shipping,117,0.4,0.052,0.84,0.055,0.324,Proceed to further inspection
+C000043,South Africa,Garments,40,27164,Hapag-Lloyd,384,0.8,0.046,0.17,0.028,0.389,Proceed to further inspection
+C000044,Spain,Heavy Machinery,40,27140,Roy Shipping Agency,360,0.8,0.027,0.49,0.079,0.437,Proceed to further inspection
+C000045,United Arab Emirates,Scientific Instruments,45,29055,Hapag-Lloyd,5,0.01,0.045,0.25,0.028,0.06,Store to ship
+C000046,Poland,Automobile Parts,40,26564,Mediterranean Shipping Company (MSC),216,0.6,0.029,0.31,0.026,0.319,Proceed to further inspection
+C000047,Belgium,Seafood,53,33788,K Line,212,0.6,0.023,0.22,0.029,0.303,Proceed to further inspection
+C000048,Colombia,Industrial Chemicals,53,33629,Iran Shipping Lines,371,0.8,0.043,0.75,0.07,0.482,Proceed to further inspection
+C000049,Peru,Rice,40,27163,Roy Shipping Agency,383,0.8,0.041,0.38,0.079,0.425,Proceed to further inspection
+C000050,Italy,Mobile Phones,48,32658,Hyundai Merchant Marine (HMM),8,0.01,0.026,0.27,0.03,0.057,Store to ship
+C000051,Saudi Arabia,Copper,20,21828,Mediterranean Shipping Company (MSC),101,0.4,0.05,0.35,0.026,0.245,Store to ship
+C000052,Argentina,Furniture,53,33808,Baltic Shipping Company,192,0.4,0.05,0.21,0.041,0.225,Store to ship
+C000053,Germany,Steel Coils,45,29400,K Line,350,0.8,0.022,0.4,0.029,0.417,Proceed to further inspection
+C000054,Turkey,Coal,45,28896,Hyundai Merchant Marine (HMM),154,0.4,0.055,0.53,0.03,0.275,Store to ship
+C000055,Greece,Scientific Instruments,40,27040,Hapag-Lloyd,260,0.6,0.024,0.25,0.028,0.308,Proceed to further inspection
+C000056,Thailand,Sand,48,32396,Yang Ming Marine,254,0.6,0.042,0.42,0.031,0.34,Proceed to further inspection
+C000057,Norway,Medical Equipment,40,26614,Hyundai Merchant Marine (HMM),166,0.4,0.02,0.23,0.03,0.218,Store to ship
+C000058,Ukraine,Footwear,40,26397,Hamburg Süd,383,0.8,0.055,0.19,0.03,0.395,Proceed to further inspection
+C000059,India,Semiconductors,53,33932,Mitsui O.S.K. Lines (MOL),68,0.07,0.04,0.32,0.028,0.095,Store to ship
+C000060,Brazil,Scientific Instruments,48,32559,Bahri,91,0.07,0.052,0.25,0.037,0.089,Store to ship
+C000061,Japan,Cotton,40,26582,Crowley Maritime,198,0.4,0.025,0.18,0.033,0.212,Store to ship
+C000062,Ukraine,Semiconductors,53,33781,Baltic Shipping Company,219,0.6,0.055,0.32,0.041,0.33,Proceed to further inspection
+C000063,South Africa,Automobile Parts,53,33980,Yang Ming Marine,20,0.01,0.046,0.31,0.031,0.07,Store to ship
+C000064,United Arab Emirates,Petroleum Products,53,33721,ZIM Integrated Shipping Services,279,0.6,0.045,0.84,0.035,0.406,Proceed to further inspection
+C000065,Sweden,Petroleum Products,45,29191,Syrian Shipping Lines,141,0.4,0.02,0.84,0.075,0.316,Proceed to further inspection
+C000066,Indonesia,Scientific Instruments,20,21729,Maersk,2,0.01,0.047,0.25,0.025,0.06,Store to ship
+C000067,Greece,Paper,40,26632,Matson Navigation,148,0.4,0.024,0.21,0.028,0.216,Store to ship
+C000068,Russia,Ceramics,20,21860,Evergreen Marine,133,0.4,0.058,0.25,0.029,0.233,Store to ship
+C000069,Pakistan,Solvents,53,34355,Syrian Shipping Lines,355,0.8,0.06,0.78,0.075,0.492,Proceed to further inspection
+C000070,United Arab Emirates,Food Products,20,21814,Mitsui O.S.K. Lines (MOL),87,0.07,0.045,0.16,0.028,0.072,Store to ship
+C000071,Egypt,Industrial Tools,40,26595,North Korea Shipping Corporation,185,0.4,0.044,0.3,0.085,0.241,Store to ship
+C000072,Poland,Copper,48,32448,APL,202,0.6,0.029,0.35,0.031,0.325,Proceed to further inspection
+C000073,Argentina,Copper,48,32907,Nippon Yusen Kaisha (NYK),257,0.6,0.05,0.35,0.029,0.332,Proceed to further inspection
+C000074,Belgium,Coal,45,28912,PIL (Pacific International Lines),138,0.4,0.023,0.53,0.034,0.265,Store to ship
+C000075,Japan,Natural Gas Equipment,20,21760,Hamburg Süd,33,0.01,0.025,0.52,0.03,0.095,Store to ship
+C000076,Qatar,Sand,45,28826,Nippon Yusen Kaisha (NYK),224,0.6,0.035,0.42,0.029,0.338,Proceed to further inspection
+C000077,United Arab Emirates,Chemicals,45,28813,Baltic Shipping Company,237,0.6,0.045,0.71,0.041,0.387,Proceed to further inspection
+C000078,United Kingdom,Coal,48,32481,X-Press Feeders,169,0.4,0.025,0.53,0.036,0.266,Store to ship
+C000079,Morocco,Industrial Chemicals,48,32637,Seaboard Marine,13,0.01,0.04,0.75,0.035,0.136,Store to ship
+C000080,Australia,Computers,53,34085,Mediterranean Shipping Company (MSC),85,0.07,0.023,0.26,0.026,0.08,Store to ship
+C000081,New Zealand,Timber,40,26823,CMA CGM,43,0.01,0.021,0.29,0.027,0.058,Store to ship
+C000082,Norway,Scientific Instruments,20,21444,Grimaldi Lines,283,0.6,0.02,0.25,0.033,0.307,Proceed to further inspection
+C000083,China,Coffee,40,26533,Sinokor Merchant Marine,247,0.6,0.073,0.18,0.036,0.314,Proceed to further inspection
+C000084,New Zealand,Rubber,45,28818,Nippon Yusen Kaisha (NYK),232,0.6,0.021,0.27,0.029,0.31,Proceed to further inspection
+C000085,New Zealand,Coal,40,26797,CMA CGM,17,0.01,0.021,0.53,0.027,0.095,Store to ship
+C000086,Belgium,Plastic Granules,48,32895,Unifeeder,245,0.6,0.023,0.39,0.034,0.33,Proceed to further inspection
+C000087,Kenya,Tea,20,21390,ZIM Integrated Shipping Services,337,0.8,0.049,0.17,0.035,0.391,Proceed to further inspection
+C000088,Hong Kong,Solvents,53,33855,PIL (Pacific International Lines),145,0.4,0.03,0.78,0.034,0.306,Proceed to further inspection
+C000089,South Korea,Electronics,53,33733,Roy Shipping Agency,267,0.6,0.028,0.28,0.079,0.319,Proceed to further inspection
+C000090,Ukraine,Wind Turbine Parts,48,32333,Res Trans-Logis,317,0.8,0.055,0.31,0.042,0.415,Proceed to further inspection
+C000091,Philippines,Food Products,45,28721,Sinokor Merchant Marine,329,0.8,0.043,0.16,0.036,0.387,Proceed to further inspection
+C000092,Norway,Wheat,48,32734,COSCO Shipping,84,0.07,0.02,0.17,0.032,0.066,Store to ship
+C000093,Taiwan,Iron Ore,53,33739,APL,261,0.6,0.032,0.64,0.031,0.371,Proceed to further inspection
+C000094,Norway,Vegetables,48,33010,ZIM Integrated Shipping Services,360,0.8,0.02,0.14,0.035,0.377,Proceed to further inspection
+C000095,Peru,Frozen Meat,53,34331,Crowley Maritime,331,0.8,0.041,0.24,0.033,0.399,Proceed to further inspection
+C000096,Italy,Sand,48,32499,K Line,151,0.4,0.026,0.42,0.029,0.249,Store to ship
+C000097,Taiwan,Wheat,45,29057,Res Trans-Logis,7,0.01,0.032,0.17,0.042,0.045,Store to ship
+C000098,Hong Kong,Chemicals,48,32479,Seaboard Marine,171,0.4,0.03,0.71,0.035,0.295,Store to ship
+C000099,Argentina,Marble,40,26532,Global Ocean Logistics,248,0.6,0.05,0.28,0.04,0.322,Proceed to further inspection
+C000100,Egypt,Solar Panels,45,28724,Unifeeder,326,0.8,0.044,0.24,0.034,0.4,Proceed to further inspection
+C000101,United States,Rice,48,32251,Iran Shipping Lines,399,0.8,0.028,0.38,0.07,0.42,Proceed to further inspection
+C000102,Qatar,Petroleum Products,20,21472,Grimaldi Lines,255,0.6,0.035,0.84,0.033,0.403,Proceed to further inspection
+C000103,Sri Lanka,Lithium Batteries,48,32304,Matson Navigation,346,0.8,0.075,0.82,0.028,0.499,Proceed to further inspection
+C000104,Norway,Scientific Instruments,40,26919,Wan Hai Lines,139,0.4,0.02,0.25,0.032,0.221,Store to ship
+C000105,Ukraine,Solar Panels,48,32758,X-Press Feeders,108,0.4,0.055,0.24,0.036,0.231,Store to ship
+C000106,Indonesia,Natural Gas Equipment,45,29017,Unifeeder,33,0.01,0.047,0.52,0.034,0.103,Store to ship
+C000107,Morocco,Iron Ore,20,21364,Black Sea Shipping,363,0.8,0.04,0.64,0.055,0.462,Proceed to further inspection
+C000108,Indonesia,Timber,40,26987,Maersk,207,0.6,0.047,0.29,0.025,0.321,Proceed to further inspection
+C000109,Norway,Granite,20,21744,Bahri,17,0.01,0.02,0.29,0.037,0.059,Store to ship
+C000110,Portugal,Glass,40,27028,Global Ocean Logistics,248,0.6,0.025,0.24,0.04,0.308,Proceed to further inspection
+C000111,Brazil,Garments,48,32998,Nippon Yusen Kaisha (NYK),348,0.8,0.052,0.17,0.029,0.391,Proceed to further inspection
+C000112,Philippines,Electrical Cables,20,21729,Hamburg Süd,2,0.01,0.043,0.27,0.03,0.063,Store to ship
+C000113,Pakistan,Solar Panels,48,32869,Iran Shipping Lines,219,0.6,0.06,0.24,0.07,0.322,Proceed to further inspection
+C000114,Kenya,Fruits,45,29357,Star Container Services,307,0.8,0.049,0.15,0.065,0.391,Proceed to further inspection
+C000115,United States,Glass,20,21642,Ocean Network Express (ONE),85,0.07,0.028,0.24,0.027,0.079,Store to ship
+C000116,Germany,Lubricants,53,34155,Crowley Maritime,155,0.4,0.022,0.37,0.033,0.24,Store to ship
+C000117,Malaysia,Semiconductors,48,32554,Sinokor Merchant Marine,96,0.07,0.073,0.32,0.036,0.106,Store to ship
+C000118,United Arab Emirates,Textiles,53,33713,Hapag-Lloyd,287,0.6,0.045,0.2,0.028,0.307,Proceed to further inspection
+C000119,Chile,Granite,45,28738,Unifeeder,312,0.8,0.039,0.29,0.034,0.406,Proceed to further inspection
+C000120,Pakistan,Wheat,53,34135,Seaboard Marine,135,0.4,0.06,0.17,0.035,0.222,Store to ship
+C000121,Oman,Lithium Batteries,53,34245,Black Sea Shipping,245,0.6,0.038,0.82,0.055,0.403,Proceed to further inspection
+C000122,Peru,Wind Turbine Parts,53,33742,Bahri,258,0.6,0.041,0.31,0.037,0.324,Proceed to further inspection
+C000123,United Arab Emirates,Paint,40,26948,OOCL,168,0.4,0.045,0.41,0.028,0.253,Store to ship
+C000124,Argentina,Sand,40,26562,Baltic Shipping Company,218,0.6,0.05,0.42,0.041,0.344,Proceed to further inspection
+C000125,Sweden,Semiconductors,40,26938,Star Container Services,158,0.4,0.02,0.32,0.065,0.235,Store to ship
+C000126,Denmark,Coal,48,33004,Iran Shipping Lines,354,0.8,0.02,0.53,0.07,0.44,Proceed to further inspection
+C000127,Chile,Dairy Products,40,26417,Mediterranean Shipping Company (MSC),363,0.8,0.039,0.2,0.026,0.391,Proceed to further inspection
+C000128,Russia,Iron Ore,40,26664,Global Ocean Logistics,116,0.4,0.058,0.64,0.04,0.294,Store to ship
+C000129,Argentina,Electrical Cables,53,33636,Iran Shipping Lines,364,0.8,0.05,0.27,0.07,0.41,Proceed to further inspection
+C000130,Italy,Mobile Phones,53,34393,Crowley Maritime,393,0.8,0.026,0.27,0.033,0.399,Proceed to further inspection
+C000131,Oman,Wind Turbine Parts,45,29143,Ocean Network Express (ONE),93,0.07,0.038,0.31,0.027,0.093,Store to ship
+C000132,Indonesia,Leather Goods,20,21364,Res Trans-Logis,363,0.8,0.047,0.22,0.042,0.399,Proceed to further inspection
+C000133,Italy,Coal,45,28991,Baltic Shipping Company,59,0.07,0.026,0.53,0.041,0.124,Store to ship
+C000134,Morocco,Sugar,48,32324,PIL (Pacific International Lines),326,0.8,0.04,0.18,0.034,0.389,Proceed to further inspection
+C000135,Portugal,Garments,48,32401,APL,249,0.6,0.025,0.17,0.031,0.296,Store to ship
+C000136,Chile,Copper,53,34174,Iran Shipping Lines,174,0.4,0.039,0.35,0.07,0.246,Store to ship
+C000137,Oman,Frozen Meat,53,34052,Evergreen Marine,52,0.07,0.038,0.24,0.029,0.082,Store to ship
+C000138,Germany,Timber,40,26978,X-Press Feeders,198,0.4,0.022,0.29,0.036,0.228,Store to ship
+C000139,South Korea,Fertilizer,48,32724,Bahri,74,0.07,0.028,0.46,0.037,0.114,Store to ship
+C000140,Turkey,Steel Coils,53,33616,Sinokor Merchant Marine,384,0.8,0.055,0.4,0.036,0.428,Proceed to further inspection
+C000141,South Africa,Solvents,53,34186,COSCO Shipping,186,0.4,0.046,0.78,0.032,0.311,Proceed to further inspection
+C000142,Portugal,Heavy Machinery,20,21633,Sinokor Merchant Marine,94,0.07,0.025,0.49,0.036,0.117,Store to ship
+C000143,New Zealand,Solar Panels,48,32975,Grimaldi Lines,325,0.8,0.021,0.24,0.033,0.392,Proceed to further inspection
+C000144,Ukraine,Fertilizer,40,26756,Bahri,24,0.01,0.055,0.46,0.037,0.096,Store to ship
+C000145,Germany,Tea,48,32463,Ocean Network Express (ONE),187,0.4,0.022,0.17,0.027,0.209,Store to ship
+C000146,South Africa,Tea,53,34208,K Line,208,0.6,0.046,0.17,0.029,0.303,Proceed to further inspection
+C000147,Qatar,Solvents,45,29375,Black Sea Shipping,325,0.8,0.035,0.78,0.055,0.482,Proceed to further inspection
+C000148,United Arab Emirates,Industrial Tools,48,32713,COSCO Shipping,63,0.07,0.045,0.3,0.032,0.094,Store to ship
+C000149,Belgium,Cotton,40,26696,Nippon Yusen Kaisha (NYK),84,0.07,0.023,0.18,0.029,0.068,Store to ship
+C000150,Taiwan,Solar Panels,48,32928,Black Sea Shipping,278,0.6,0.032,0.24,0.055,0.312,Proceed to further inspection
+C000151,South Africa,Cement,48,32285,Hapag-Lloyd,365,0.8,0.046,0.3,0.028,0.409,Proceed to further inspection
+C000152,Netherlands,Medical Equipment,48,32908,Wan Hai Lines,258,0.6,0.021,0.23,0.032,0.304,Proceed to further inspection
+C000153,United Kingdom,Steel Coils,20,22069,SITC International,342,0.8,0.025,0.4,0.038,0.419,Proceed to further inspection
+C000154,South Korea,Plastic Granules,48,32388,Black Sea Shipping,262,0.6,0.028,0.39,0.055,0.333,Proceed to further inspection
+C000155,United States,Computers,20,21821,Star Container Services,94,0.07,0.028,0.26,0.065,0.085,Store to ship
+C000156,Belgium,Marble,45,29330,Hamburg Süd,280,0.6,0.023,0.28,0.03,0.313,Proceed to further inspection
+C000157,Australia,Industrial Chemicals,53,33610,Matson Navigation,390,0.8,0.023,0.75,0.028,0.471,Proceed to further inspection
+C000158,Nigeria,Sugar,45,29212,Global Ocean Logistics,162,0.4,0.065,0.18,0.04,0.225,Store to ship
+C000159,Malaysia,Cement,40,27037,COSCO Shipping,257,0.6,0.073,0.3,0.032,0.332,Proceed to further inspection
+C000160,Spain,Steel Coils,40,27012,Res Trans-Logis,232,0.6,0.027,0.4,0.042,0.334,Proceed to further inspection
+C000161,Colombia,Scientific Instruments,20,21779,Ocean Network Express (ONE),52,0.07,0.043,0.25,0.027,0.085,Store to ship
+C000162,Qatar,Aluminum,48,32303,Bahri,347,0.8,0.035,0.33,0.037,0.411,Proceed to further inspection
+C000163,Spain,Furniture,45,29030,Hamburg Süd,20,0.01,0.027,0.21,0.03,0.048,Store to ship
+C000164,Egypt,Solvents,45,29212,COSCO Shipping,162,0.4,0.044,0.78,0.032,0.31,Proceed to further inspection
+C000165,Indonesia,Batteries,40,26885,Roy Shipping Agency,105,0.4,0.047,0.68,0.079,0.3,Proceed to further inspection
+C000166,Indonesia,Frozen Meat,53,33663,Black Sea Shipping,337,0.8,0.047,0.24,0.055,0.403,Proceed to further inspection
+C000167,Kenya,Solar Panels,20,21668,TS Lines,59,0.07,0.049,0.24,0.037,0.086,Store to ship
+C000168,Morocco,Petroleum Products,20,21553,Star Container Services,174,0.4,0.04,0.84,0.065,0.321,Proceed to further inspection
+C000169,Turkey,Computers,53,34086,Evergreen Marine,86,0.07,0.055,0.26,0.029,0.091,Store to ship
+C000170,Australia,Leather Goods,48,32403,Matson Navigation,247,0.6,0.023,0.22,0.028,0.303,Proceed to further inspection
+C000171,Denmark,Rice,40,26623,Hapag-Lloyd,157,0.4,0.02,0.38,0.028,0.24,Store to ship
+C000172,Colombia,Wheat,20,21803,Res Trans-Logis,76,0.07,0.043,0.17,0.042,0.074,Store to ship
+C000173,Canada,Paint,20,21769,Mitsui O.S.K. Lines (MOL),42,0.01,0.024,0.41,0.028,0.078,Store to ship
+C000174,France,Machinery,45,29013,Seaboard Marine,37,0.01,0.024,0.34,0.035,0.068,Store to ship
+C000175,Germany,Wind Turbine Parts,53,34029,SM Line,29,0.01,0.022,0.31,0.036,0.063,Store to ship
+C000176,Belgium,Fertilizer,48,33002,Wan Hai Lines,352,0.8,0.023,0.46,0.032,0.427,Proceed to further inspection
+C000177,Hong Kong,Fruits,40,27117,Sinokor Merchant Marine,337,0.8,0.03,0.15,0.036,0.382,Proceed to further inspection
+C000178,Saudi Arabia,Sand,40,26949,Mediterranean Shipping Company (MSC),169,0.4,0.05,0.42,0.026,0.256,Store to ship
+C000179,Oman,Marble,45,29213,Evergreen Marine,163,0.4,0.038,0.28,0.029,0.231,Store to ship
+C000180,Italy,Medical Equipment,40,26546,Hyundai Merchant Marine (HMM),234,0.6,0.026,0.23,0.03,0.306,Proceed to further inspection
+C000181,South Africa,Medical Equipment,40,27176,Crowley Maritime,396,0.8,0.046,0.23,0.033,0.399,Proceed to further inspection
+C000182,Vietnam,Textiles,40,26673,ZIM Integrated Shipping Services,107,0.4,0.048,0.2,0.035,0.222,Store to ship
+C000183,New Zealand,Fertilizer,20,22023,Mediterranean Shipping Company (MSC),296,0.6,0.021,0.46,0.026,0.339,Proceed to further inspection
+C000184,Netherlands,Vaccines,20,21845,Maersk,118,0.4,0.021,0.19,0.025,0.211,Store to ship
+C000185,Egypt,Vegetables,53,33616,Yang Ming Marine,384,0.8,0.044,0.14,0.031,0.384,Proceed to further inspection
+C000186,Poland,Ceramics,40,26932,COSCO Shipping,152,0.4,0.029,0.25,0.032,0.224,Store to ship
+C000187,Portugal,Copper,40,27149,Mitsui O.S.K. Lines (MOL),369,0.8,0.025,0.35,0.028,0.41,Proceed to further inspection
+C000188,Sri Lanka,Coal,40,26633,Safmarine,147,0.4,0.075,0.53,0.035,0.282,Store to ship
+C000189,Colombia,Fertilizer,53,33880,Nippon Yusen Kaisha (NYK),120,0.4,0.043,0.46,0.029,0.26,Store to ship
+C000190,Qatar,Frozen Meat,45,29042,Res Trans-Logis,8,0.01,0.035,0.24,0.042,0.056,Store to ship
+C000191,Egypt,Footwear,48,32754,Emirates Shipping Line,104,0.4,0.044,0.19,0.034,0.219,Store to ship
+C000192,Qatar,Cement,20,21574,Iran Shipping Lines,153,0.4,0.035,0.3,0.07,0.237,Store to ship
+C000193,South Korea,Computers,20,21836,Hapag-Lloyd,109,0.4,0.028,0.26,0.028,0.225,Store to ship
+C000194,India,Garments,45,29277,Seaboard Marine,227,0.6,0.04,0.17,0.035,0.302,Proceed to further inspection
+C000195,India,Pharmaceuticals,20,21638,SITC International,89,0.07,0.04,0.2,0.038,0.077,Store to ship
+C000196,Sri Lanka,Copper,20,21890,Yang Ming Marine,163,0.4,0.075,0.35,0.031,0.254,Store to ship
+C000197,United Kingdom,Frozen Meat,48,32873,Syrian Shipping Lines,223,0.6,0.025,0.24,0.075,0.311,Proceed to further inspection
+C000198,Saudi Arabia,Wheat,40,26978,Crowley Maritime,198,0.4,0.05,0.17,0.033,0.218,Store to ship
+C000199,Australia,Iron Ore,45,29308,Emirates Shipping Line,258,0.6,0.023,0.64,0.034,0.368,Proceed to further inspection
+C000200,Vietnam,Petroleum Products,48,32457,COSCO Shipping,193,0.4,0.048,0.84,0.032,0.321,Proceed to further inspection
+C000201,Qatar,Automobile Parts,48,32835,Hapag-Lloyd,185,0.4,0.035,0.31,0.028,0.234,Store to ship
+C000202,Taiwan,Timber,45,29221,COSCO Shipping,171,0.4,0.032,0.29,0.032,0.231,Store to ship
+C000203,Egypt,Chemicals,48,32322,SM Line,328,0.8,0.044,0.71,0.036,0.473,Proceed to further inspection
+C000204,France,Sand,53,33860,Maersk,140,0.4,0.024,0.42,0.025,0.248,Store to ship
+C000205,Peru,Lithium Batteries,45,29155,Global Ocean Logistics,105,0.4,0.041,0.82,0.04,0.316,Proceed to further inspection
+C000206,Kenya,Glass,20,21668,Maersk,59,0.07,0.049,0.24,0.025,0.085,Store to ship
+C000207,Malaysia,Solvents,48,32767,OOCL,117,0.4,0.073,0.78,0.028,0.319,Proceed to further inspection
+C000208,Hong Kong,Textiles,45,28989,K Line,61,0.07,0.03,0.2,0.029,0.073,Store to ship
+C000209,Philippines,Fruits,45,28739,Sinokor Merchant Marine,311,0.8,0.043,0.15,0.036,0.386,Proceed to further inspection
+C000210,Singapore,Solvents,53,33758,Evergreen Marine,242,0.6,0.02,0.78,0.029,0.389,Proceed to further inspection
+C000211,Japan,Garments,40,26388,Nippon Yusen Kaisha (NYK),392,0.8,0.025,0.17,0.029,0.383,Proceed to further inspection
+C000212,Belgium,Garments,53,33867,Nippon Yusen Kaisha (NYK),133,0.4,0.023,0.17,0.029,0.209,Store to ship
+C000213,Sweden,Food Products,53,33817,APL,183,0.4,0.02,0.16,0.031,0.207,Store to ship
+C000214,Egypt,Food Products,53,33668,Black Sea Shipping,332,0.8,0.044,0.16,0.055,0.39,Proceed to further inspection
+C000215,Vietnam,Vaccines,48,32933,X-Press Feeders,283,0.6,0.048,0.19,0.036,0.307,Proceed to further inspection
+C000216,Bangladesh,Tea,45,29190,PIL (Pacific International Lines),140,0.4,0.07,0.17,0.034,0.225,Store to ship
+C000217,South Korea,Paint,45,28784,Syrian Shipping Lines,266,0.6,0.028,0.41,0.075,0.338,Proceed to further inspection
+C000218,Norway,Batteries,45,28771,Unifeeder,279,0.6,0.02,0.68,0.034,0.374,Proceed to further inspection
+C000219,Saudi Arabia,Computers,48,32858,Emirates Shipping Line,208,0.6,0.05,0.26,0.034,0.319,Proceed to further inspection
+C000220,Canada,Corn,48,32814,Sinokor Merchant Marine,164,0.4,0.024,0.16,0.036,0.209,Store to ship
+C000221,Poland,Marble,45,29272,Iran Shipping Lines,222,0.6,0.029,0.28,0.07,0.318,Proceed to further inspection
+C000222,Belgium,Aluminum,48,32830,SITC International,180,0.4,0.023,0.33,0.038,0.235,Store to ship
+C000223,Australia,Iron Ore,53,33934,K Line,66,0.07,0.023,0.64,0.029,0.139,Store to ship
+C000224,United Kingdom,Wind Turbine Parts,40,26462,Hamburg Süd,318,0.8,0.025,0.31,0.03,0.404,Proceed to further inspection
+C000225,Turkey,Vehicles,53,33839,North Korea Shipping Corporation,161,0.4,0.055,0.36,0.085,0.254,Store to ship
+C000226,Denmark,Footwear,53,33851,APL,149,0.4,0.02,0.19,0.031,0.211,Store to ship
+C000227,Peru,Marble,45,29298,COSCO Shipping,248,0.6,0.041,0.28,0.032,0.319,Proceed to further inspection
+C000228,Kenya,Paper,45,28965,Hamburg Süd,85,0.07,0.049,0.21,0.03,0.081,Store to ship
+C000229,Japan,Fertilizer,53,33743,Hamburg Süd,257,0.6,0.025,0.46,0.03,0.341,Proceed to further inspection
+C000230,Hong Kong,Electronics,40,26725,North Korea Shipping Corporation,55,0.07,0.03,0.28,0.085,0.091,Store to ship
+C000231,Germany,Corn,40,26586,Baltic Shipping Company,194,0.4,0.022,0.16,0.041,0.208,Store to ship
+C000232,Denmark,Dairy Products,48,32716,APL,66,0.07,0.02,0.2,0.031,0.07,Store to ship
+C000233,United Kingdom,Paint,20,21363,Bahri,364,0.8,0.025,0.41,0.037,0.42,Proceed to further inspection
+C000234,United States,Natural Gas Equipment,48,32971,Maersk,321,0.8,0.028,0.52,0.025,0.437,Proceed to further inspection
+C000235,Mexico,Dairy Products,40,26530,Grimaldi Lines,250,0.6,0.036,0.2,0.033,0.305,Proceed to further inspection
+C000236,Colombia,Electrical Cables,45,28760,Evergreen Marine,290,0.6,0.043,0.27,0.029,0.317,Proceed to further inspection
+C000237,Saudi Arabia,Machinery,40,27070,Ocean Network Express (ONE),290,0.6,0.05,0.34,0.027,0.33,Proceed to further inspection
+C000238,Sri Lanka,Machinery,40,27178,Crowley Maritime,398,0.8,0.075,0.34,0.033,0.425,Proceed to further inspection
+C000239,New Zealand,Solar Panels,53,33856,Grimaldi Lines,144,0.4,0.021,0.24,0.033,0.22,Store to ship
+C000240,Argentina,Granite,45,29115,Iran Shipping Lines,65,0.07,0.05,0.29,0.07,0.098,Store to ship
+C000241,Russia,Pharmaceuticals,45,29363,COSCO Shipping,313,0.8,0.058,0.2,0.032,0.398,Proceed to further inspection
+C000242,United Kingdom,Paint,20,21461,Baltic Shipping Company,266,0.6,0.025,0.41,0.041,0.334,Proceed to further inspection
+C000243,Japan,Petroleum Products,20,21902,Nippon Yusen Kaisha (NYK),175,0.4,0.025,0.84,0.029,0.313,Proceed to further inspection
+C000244,Greece,Iron Ore,40,26764,Hyundai Merchant Marine (HMM),16,0.01,0.024,0.64,0.03,0.113,Store to ship
+C000245,Denmark,Cement,40,26873,Maersk,93,0.07,0.02,0.3,0.025,0.085,Store to ship
+C000246,United Arab Emirates,Leather Goods,53,34256,Bahri,256,0.6,0.045,0.22,0.037,0.311,Proceed to further inspection
+C000247,Peru,Glass,53,34364,Star Container Services,364,0.8,0.041,0.24,0.065,0.402,Proceed to further inspection
+C000248,Japan,Wind Turbine Parts,53,33878,Black Sea Shipping,122,0.4,0.025,0.31,0.055,0.234,Store to ship
+C000249,Australia,Vehicles,45,29185,Star Container Services,135,0.4,0.023,0.36,0.065,0.242,Store to ship
+C000250,Turkey,Furniture,20,21477,ZIM Integrated Shipping Services,250,0.6,0.055,0.21,0.035,0.313,Proceed to further inspection
+C000251,France,Iron Ore,45,29249,Global Ocean Logistics,199,0.4,0.024,0.64,0.04,0.283,Store to ship
+C000252,Denmark,Paper,20,21907,Res Trans-Logis,180,0.4,0.02,0.21,0.042,0.216,Store to ship
+C000253,Egypt,Electrical Cables,45,28962,Syrian Shipping Lines,88,0.07,0.044,0.27,0.075,0.093,Store to ship
+C000254,Denmark,Corn,40,26767,Yang Ming Marine,13,0.01,0.02,0.16,0.031,0.038,Store to ship
+C000255,Germany,Frozen Meat,45,28784,Bahri,266,0.6,0.022,0.24,0.037,0.307,Proceed to further inspection
+C000256,Indonesia,Leather Goods,53,34025,K Line,25,0.01,0.047,0.22,0.029,0.056,Store to ship
+C000257,Poland,Vehicles,45,28702,Global Ocean Logistics,348,0.8,0.029,0.36,0.04,0.414,Proceed to further inspection
+C000258,Argentina,Pharmaceuticals,20,21397,Roy Shipping Agency,330,0.8,0.05,0.2,0.079,0.4,Proceed to further inspection
+C000259,Brazil,Steel Coils,53,33621,Mitsui O.S.K. Lines (MOL),379,0.8,0.052,0.4,0.028,0.427,Proceed to further inspection
+C000260,Italy,Marble,20,22113,Hyundai Merchant Marine (HMM),386,0.8,0.026,0.28,0.03,0.4,Proceed to further inspection
+C000261,Indonesia,Steel Coils,45,29382,Global Ocean Logistics,332,0.8,0.047,0.4,0.04,0.426,Proceed to further inspection
+C000262,United States,Furniture,45,29351,APL,301,0.8,0.028,0.21,0.031,0.39,Proceed to further inspection
+C000263,Spain,Ceramics,45,28966,Safmarine,84,0.07,0.027,0.25,0.035,0.081,Store to ship
+C000264,Colombia,Sugar,48,32368,SM Line,282,0.6,0.043,0.18,0.036,0.304,Proceed to further inspection
+C000265,Vietnam,Furniture,40,26588,Sinokor Merchant Marine,192,0.4,0.048,0.21,0.036,0.224,Store to ship
+C000266,United Arab Emirates,Sand,45,28708,Mitsui O.S.K. Lines (MOL),342,0.8,0.045,0.42,0.028,0.427,Proceed to further inspection
+C000267,Colombia,Frozen Meat,53,33954,Evergreen Marine,46,0.01,0.043,0.24,0.029,0.058,Store to ship
+C000268,United Kingdom,Copper,45,29390,Seaboard Marine,340,0.8,0.025,0.35,0.035,0.411,Proceed to further inspection
+C000269,Oman,Semiconductors,48,32729,CMA CGM,79,0.07,0.038,0.32,0.027,0.094,Store to ship
+C000270,Australia,Electronics,45,28850,Hyundai Merchant Marine (HMM),200,0.4,0.023,0.28,0.03,0.226,Store to ship
+C000271,Denmark,Timber,45,29252,Seaboard Marine,202,0.6,0.02,0.29,0.035,0.314,Proceed to further inspection
+C000272,Bangladesh,Tea,40,26437,Hapag-Lloyd,343,0.8,0.07,0.17,0.028,0.397,Proceed to further inspection
+C000273,South Africa,Paper,45,29090,Grimaldi Lines,40,0.01,0.046,0.21,0.033,0.055,Store to ship
+C000274,Italy,Coffee,48,32975,Mitsui O.S.K. Lines (MOL),325,0.8,0.026,0.18,0.028,0.384,Proceed to further inspection
+C000275,Mexico,Electronics,45,28913,TS Lines,137,0.4,0.036,0.28,0.037,0.231,Store to ship
+C000276,Portugal,Ceramics,53,34283,K Line,283,0.6,0.025,0.25,0.029,0.309,Proceed to further inspection
+C000277,Portugal,Leather Goods,48,32250,Emirates Shipping Line,400,0.8,0.025,0.22,0.034,0.391,Proceed to further inspection
+C000278,Sweden,Garments,20,21843,Safmarine,116,0.4,0.02,0.17,0.035,0.209,Store to ship
+C000279,Pakistan,Lithium Batteries,53,33976,Mediterranean Shipping Company (MSC),24,0.01,0.06,0.82,0.026,0.152,Store to ship
+C000280,China,Electronics,20,21959,PIL (Pacific International Lines),232,0.6,0.073,0.28,0.034,0.329,Proceed to further inspection
+C000281,Denmark,Scientific Instruments,48,32348,Res Trans-Logis,302,0.8,0.02,0.25,0.042,0.395,Proceed to further inspection
+C000282,Chile,Fertilizer,40,26690,Global Ocean Logistics,90,0.07,0.039,0.46,0.04,0.117,Store to ship
+C000283,India,Rice,20,21554,Wan Hai Lines,173,0.4,0.04,0.38,0.032,0.247,Store to ship
+C000284,Oman,Natural Gas Equipment,20,21560,Mediterranean Shipping Company (MSC),167,0.4,0.038,0.52,0.026,0.268,Store to ship
+C000285,Indonesia,Coffee,53,34063,Wan Hai Lines,63,0.07,0.047,0.18,0.032,0.076,Store to ship
+C000286,Norway,Pharmaceuticals,48,32319,APL,331,0.8,0.02,0.2,0.031,0.386,Proceed to further inspection
+C000287,Taiwan,Batteries,40,26703,Res Trans-Logis,77,0.07,0.032,0.68,0.042,0.149,Store to ship
+C000288,Oman,Coal,45,28827,Emirates Shipping Line,223,0.6,0.038,0.53,0.034,0.356,Proceed to further inspection
+C000289,Malaysia,Wheat,48,32662,Grimaldi Lines,12,0.01,0.073,0.17,0.033,0.057,Store to ship
+C000290,Belgium,Copper,53,34366,Hapag-Lloyd,366,0.8,0.023,0.35,0.028,0.41,Proceed to further inspection
+C000291,Ukraine,Rubber,53,33704,Grimaldi Lines,296,0.6,0.055,0.27,0.033,0.322,Proceed to further inspection
+C000292,Taiwan,Paint,40,26451,Ocean Network Express (ONE),329,0.8,0.032,0.41,0.027,0.422,Proceed to further inspection
+C000293,Qatar,Vehicles,20,21892,Star Container Services,165,0.4,0.035,0.36,0.065,0.246,Store to ship
+C000294,Chile,Textiles,48,32675,Yang Ming Marine,25,0.01,0.039,0.2,0.031,0.051,Store to ship
+C000295,Mexico,Rubber,20,22075,SM Line,348,0.8,0.036,0.27,0.036,0.402,Proceed to further inspection
+C000296,Morocco,Vaccines,40,26524,COSCO Shipping,256,0.6,0.04,0.19,0.032,0.304,Proceed to further inspection
+C000297,Spain,Medical Equipment,53,33668,Yang Ming Marine,332,0.8,0.027,0.23,0.031,0.393,Proceed to further inspection
+C000298,Belgium,Steel Coils,48,32325,Evergreen Marine,325,0.8,0.023,0.4,0.029,0.417,Proceed to further inspection
+C000299,South Africa,Solar Panels,20,21417,Grimaldi Lines,310,0.8,0.046,0.24,0.033,0.401,Proceed to further inspection
+C000300,Belgium,Aluminum,20,21615,X-Press Feeders,112,0.4,0.023,0.33,0.036,0.234,Store to ship
+C000301,Australia,Fertilizer,53,33910,Mediterranean Shipping Company (MSC),90,0.07,0.023,0.46,0.026,0.111,Store to ship
+C000302,France,Natural Gas Equipment,53,34275,Roy Shipping Agency,275,0.6,0.024,0.52,0.079,0.354,Proceed to further inspection
+C000303,Turkey,Pharmaceuticals,20,22103,Seaboard Marine,376,0.8,0.055,0.2,0.035,0.397,Proceed to further inspection
+C000304,Colombia,Machinery,48,32459,K Line,191,0.4,0.043,0.34,0.029,0.242,Store to ship
+C000305,Egypt,Solar Panels,53,34058,Mediterranean Shipping Company (MSC),58,0.07,0.044,0.24,0.026,0.084,Store to ship
+C000306,Saudi Arabia,Coal,20,21342,Baltic Shipping Company,385,0.8,0.05,0.53,0.041,0.447,Proceed to further inspection
+C000307,Peru,Vehicles,45,29420,CMA CGM,370,0.8,0.041,0.36,0.027,0.417,Proceed to further inspection
+C000308,Bangladesh,Semiconductors,45,29447,Wan Hai Lines,397,0.8,0.07,0.32,0.032,0.42,Proceed to further inspection
+C000309,India,Wheat,53,33978,Hamburg Süd,22,0.01,0.04,0.17,0.03,0.046,Store to ship
+C000310,Germany,Wheat,20,21400,North Korea Shipping Corporation,327,0.8,0.022,0.17,0.085,0.387,Proceed to further inspection
+C000311,Mexico,Cotton,45,29440,Mediterranean Shipping Company (MSC),390,0.8,0.036,0.18,0.026,0.387,Proceed to further inspection
+C000312,Sri Lanka,Garments,48,32755,Mediterranean Shipping Company (MSC),105,0.4,0.075,0.17,0.026,0.226,Store to ship
+C000313,Philippines,Marble,48,32750,North Korea Shipping Corporation,100,0.07,0.043,0.28,0.085,0.095,Store to ship
+C000314,Italy,Sand,40,26825,K Line,45,0.01,0.026,0.42,0.029,0.08,Store to ship
+C000315,Brazil,Dairy Products,20,21757,Sinokor Merchant Marine,30,0.01,0.052,0.2,0.036,0.055,Store to ship
+C000316,Morocco,Marble,40,26757,Seaboard Marine,23,0.01,0.04,0.28,0.035,0.064,Store to ship
+C000317,United Arab Emirates,Solar Panels,20,21910,ZIM Integrated Shipping Services,183,0.4,0.045,0.24,0.035,0.228,Store to ship
+C000318,Turkey,Batteries,45,28663,PIL (Pacific International Lines),387,0.8,0.055,0.68,0.034,0.471,Proceed to further inspection
+C000319,South Africa,Batteries,53,34150,Sinokor Merchant Marine,150,0.4,0.046,0.68,0.036,0.296,Store to ship
+C000320,Greece,Batteries,48,32989,Mediterranean Shipping Company (MSC),339,0.8,0.024,0.68,0.026,0.461,Proceed to further inspection
+C000321,Spain,Garments,40,26569,Unifeeder,211,0.6,0.027,0.17,0.034,0.297,Store to ship
+C000322,Poland,Heavy Machinery,45,29339,APL,289,0.6,0.029,0.49,0.031,0.347,Proceed to further inspection
+C000323,Saudi Arabia,Wind Turbine Parts,20,22024,K Line,297,0.6,0.05,0.31,0.029,0.326,Proceed to further inspection
+C000324,Hong Kong,Vehicles,20,21989,Syrian Shipping Lines,262,0.6,0.03,0.36,0.075,0.331,Proceed to further inspection
+C000325,Portugal,Vegetables,20,22004,SM Line,277,0.6,0.025,0.14,0.036,0.292,Store to ship
+C000326,Singapore,Pharmaceuticals,40,26412,ZIM Integrated Shipping Services,368,0.8,0.02,0.2,0.035,0.386,Proceed to further inspection
+C000327,Portugal,Garments,40,26530,Seaboard Marine,250,0.6,0.025,0.17,0.035,0.297,Store to ship
+C000328,Vietnam,Coal,48,32431,Baltic Shipping Company,219,0.6,0.048,0.53,0.041,0.36,Proceed to further inspection
+C000329,New Zealand,Rice,48,32848,PIL (Pacific International Lines),198,0.4,0.021,0.38,0.034,0.241,Store to ship
+C000330,Portugal,Computers,45,29102,TS Lines,52,0.07,0.025,0.26,0.037,0.082,Store to ship
+C000331,Ukraine,Mobile Phones,20,22008,Baltic Shipping Company,281,0.6,0.055,0.27,0.041,0.322,Proceed to further inspection
+C000332,France,Semiconductors,20,21897,Seaboard Marine,170,0.4,0.024,0.32,0.035,0.233,Store to ship
+C000333,Norway,Footwear,40,26907,Hamburg Süd,127,0.4,0.02,0.19,0.03,0.211,Store to ship
+C000334,South Korea,Vehicles,53,34336,K Line,336,0.8,0.028,0.36,0.029,0.413,Proceed to further inspection
+C000335,Nigeria,Vaccines,45,29050,ZIM Integrated Shipping Services,0,0.01,0.065,0.19,0.035,0.058,Store to ship
+C000336,Taiwan,Lithium Batteries,40,27037,X-Press Feeders,257,0.6,0.032,0.82,0.036,0.399,Proceed to further inspection
+C000337,Colombia,Vehicles,48,32786,Global Ocean Logistics,136,0.4,0.043,0.36,0.04,0.246,Store to ship
+C000338,Norway,Vaccines,45,28983,ZIM Integrated Shipping Services,67,0.07,0.02,0.19,0.035,0.069,Store to ship
+C000339,Argentina,Fruits,45,29409,Wan Hai Lines,359,0.8,0.05,0.15,0.032,0.388,Proceed to further inspection
+C000340,Chile,Batteries,40,26777,Unifeeder,3,0.01,0.039,0.68,0.034,0.125,Store to ship
+C000341,Indonesia,Wind Turbine Parts,48,32488,CMA CGM,162,0.4,0.047,0.31,0.027,0.238,Store to ship
+C000342,India,Sugar,20,21687,Mitsui O.S.K. Lines (MOL),40,0.01,0.04,0.18,0.028,0.048,Store to ship
+C000343,Turkey,Batteries,20,21877,Seaboard Marine,150,0.4,0.055,0.68,0.035,0.299,Store to ship
+C000344,Morocco,Vegetables,40,26874,Matson Navigation,94,0.07,0.04,0.14,0.028,0.067,Store to ship
+C000345,India,Lithium Batteries,45,29344,Safmarine,294,0.6,0.04,0.82,0.035,0.402,Proceed to further inspection
+C000346,Nigeria,Footwear,53,34152,Maersk,152,0.4,0.065,0.19,0.025,0.225,Store to ship
+C000347,Indonesia,Sugar,45,28899,Evergreen Marine,151,0.4,0.047,0.18,0.029,0.218,Store to ship
+C000348,Mexico,Tea,53,34072,Nippon Yusen Kaisha (NYK),72,0.07,0.036,0.17,0.029,0.071,Store to ship
+C000349,Norway,Lubricants,53,33776,Sinokor Merchant Marine,224,0.6,0.02,0.37,0.036,0.326,Proceed to further inspection
+C000350,Nigeria,Solar Panels,20,21430,Yang Ming Marine,297,0.6,0.065,0.24,0.031,0.32,Proceed to further inspection
+C000351,Ukraine,Copper,40,26530,Hyundai Merchant Marine (HMM),250,0.6,0.055,0.35,0.03,0.334,Proceed to further inspection
+C000352,United States,Heavy Machinery,53,33610,Roy Shipping Agency,390,0.8,0.028,0.49,0.079,0.438,Proceed to further inspection
+C000353,China,Batteries,45,28772,ZIM Integrated Shipping Services,278,0.6,0.073,0.68,0.035,0.391,Proceed to further inspection
+C000354,Turkey,Wheat,20,21561,Nippon Yusen Kaisha (NYK),166,0.4,0.055,0.17,0.029,0.219,Store to ship
+C000355,Turkey,Industrial Tools,20,21396,Roy Shipping Agency,331,0.8,0.055,0.3,0.079,0.417,Proceed to further inspection
+C000356,Spain,Chemicals,48,32798,Black Sea Shipping,148,0.4,0.027,0.71,0.055,0.296,Store to ship
+C000357,United Kingdom,Wind Turbine Parts,20,21424,Yang Ming Marine,303,0.8,0.025,0.31,0.031,0.404,Proceed to further inspection
+C000358,Italy,Dairy Products,53,34345,Black Sea Shipping,345,0.8,0.026,0.2,0.055,0.39,Proceed to further inspection
+C000359,Egypt,Lubricants,45,29305,Nippon Yusen Kaisha (NYK),255,0.6,0.044,0.37,0.029,0.333,Proceed to further inspection
+C000360,Canada,Scientific Instruments,20,21818,Black Sea Shipping,91,0.07,0.024,0.25,0.055,0.082,Store to ship
+C000361,Oman,Sand,53,33983,Mediterranean Shipping Company (MSC),17,0.01,0.038,0.42,0.026,0.084,Store to ship
+C000362,Sweden,Scientific Instruments,48,32787,APL,137,0.4,0.02,0.25,0.031,0.221,Store to ship
+C000363,Poland,Corn,53,33709,ZIM Integrated Shipping Services,291,0.6,0.029,0.16,0.035,0.296,Store to ship
+C000364,Taiwan,Semiconductors,40,26759,Crowley Maritime,21,0.01,0.032,0.32,0.033,0.067,Store to ship
+C000365,New Zealand,Industrial Tools,40,26769,Evergreen Marine,11,0.01,0.021,0.3,0.029,0.06,Store to ship
+C000366,China,Automobile Parts,45,29298,Mediterranean Shipping Company (MSC),248,0.6,0.073,0.31,0.026,0.333,Proceed to further inspection
+C000367,France,Coffee,20,21934,Maersk,207,0.6,0.024,0.18,0.025,0.297,Store to ship
+C000368,Qatar,Scientific Instruments,53,34044,Matson Navigation,44,0.01,0.035,0.25,0.028,0.057,Store to ship
+C000369,Peru,Corn,45,29317,Syrian Shipping Lines,267,0.6,0.041,0.16,0.075,0.304,Proceed to further inspection
+C000370,Oman,Wheat,45,28927,Crowley Maritime,123,0.4,0.038,0.17,0.033,0.214,Store to ship
+C000371,India,Computers,48,32508,Emirates Shipping Line,142,0.4,0.04,0.26,0.034,0.229,Store to ship
+C000372,Morocco,Fertilizer,53,34235,Baltic Shipping Company,235,0.6,0.04,0.46,0.041,0.347,Proceed to further inspection
+C000373,New Zealand,Rice,53,33946,Mediterranean Shipping Company (MSC),54,0.07,0.021,0.38,0.026,0.098,Store to ship
+C000374,Brazil,Furniture,48,32766,Emirates Shipping Line,116,0.4,0.052,0.21,0.034,0.225,Store to ship
+C000375,Peru,Industrial Chemicals,20,21484,CMA CGM,243,0.6,0.041,0.75,0.027,0.391,Proceed to further inspection
+C000376,Philippines,Natural Gas Equipment,53,33656,Baltic Shipping Company,344,0.8,0.043,0.52,0.041,0.443,Proceed to further inspection
+C000377,South Africa,Vaccines,40,26640,Emirates Shipping Line,140,0.4,0.046,0.19,0.034,0.22,Store to ship
+C000378,Saudi Arabia,Petroleum Products,20,21695,Global Ocean Logistics,32,0.01,0.05,0.84,0.04,0.154,Store to ship
+C000379,Denmark,Sand,40,27020,Emirates Shipping Line,240,0.6,0.02,0.42,0.034,0.334,Proceed to further inspection
+C000380,Egypt,Coffee,40,26692,Bahri,88,0.07,0.044,0.18,0.037,0.076,Store to ship
+C000381,Brazil,Heavy Machinery,45,28878,Res Trans-Logis,172,0.4,0.052,0.49,0.042,0.269,Store to ship
+C000382,Sri Lanka,Aluminum,40,26793,Evergreen Marine,13,0.01,0.075,0.33,0.029,0.082,Store to ship
+C000383,Bangladesh,Plastic Granules,53,33965,Maersk,35,0.01,0.07,0.39,0.025,0.089,Store to ship
+C000384,Bangladesh,Industrial Chemicals,20,21927,Hyundai Merchant Marine (HMM),200,0.4,0.07,0.75,0.03,0.314,Proceed to further inspection
+C000385,Netherlands,Tea,40,26421,Bahri,359,0.8,0.021,0.17,0.037,0.382,Proceed to further inspection
+C000386,Hong Kong,Chemicals,45,28791,Nippon Yusen Kaisha (NYK),259,0.6,0.03,0.71,0.029,0.381,Proceed to further inspection
+C000387,Oman,Wheat,48,32809,Res Trans-Logis,159,0.4,0.038,0.17,0.042,0.215,Store to ship
+C000388,Thailand,Mobile Phones,53,34237,SM Line,237,0.6,0.042,0.27,0.036,0.318,Proceed to further inspection
+C000389,Belgium,Seafood,40,26667,Nippon Yusen Kaisha (NYK),113,0.4,0.023,0.22,0.029,0.217,Store to ship
+C000390,Germany,Medical Equipment,53,33881,Maersk,119,0.4,0.022,0.23,0.025,0.218,Store to ship
+C000391,China,Rubber,45,29099,Safmarine,49,0.01,0.073,0.27,0.035,0.073,Store to ship
+C000392,Sweden,Food Products,53,34195,Sinokor Merchant Marine,195,0.4,0.02,0.16,0.036,0.207,Store to ship
+C000393,Mexico,Electronics,48,32663,X-Press Feeders,13,0.01,0.036,0.28,0.036,0.062,Store to ship
+C000394,New Zealand,Pharmaceuticals,20,21604,X-Press Feeders,123,0.4,0.021,0.2,0.036,0.214,Store to ship
+C000395,Spain,Electronics,40,26456,Mediterranean Shipping Company (MSC),324,0.8,0.027,0.28,0.026,0.4,Proceed to further inspection
+C000396,Japan,Mobile Phones,45,29100,North Korea Shipping Corporation,50,0.01,0.025,0.27,0.085,0.062,Store to ship
+C000397,Mexico,Seafood,45,28848,OOCL,202,0.6,0.036,0.22,0.028,0.307,Proceed to further inspection
+C000398,Mexico,Footwear,53,33982,CMA CGM,18,0.01,0.036,0.19,0.027,0.048,Store to ship
+C000399,Vietnam,Steel Coils,48,32904,Safmarine,254,0.6,0.048,0.4,0.035,0.34,Proceed to further inspection
+C000400,Kenya,Fruits,40,26443,Crowley Maritime,337,0.8,0.049,0.15,0.033,0.388,Proceed to further inspection
+C000401,Argentina,Automobile Parts,45,29325,Roy Shipping Agency,275,0.6,0.05,0.31,0.079,0.33,Proceed to further inspection
+C000402,France,Solvents,48,32690,COSCO Shipping,40,0.01,0.024,0.78,0.032,0.135,Store to ship
+C000403,China,Machinery,45,28689,Black Sea Shipping,361,0.8,0.073,0.34,0.055,0.427,Proceed to further inspection
+C000404,Colombia,Leather Goods,48,32555,Iran Shipping Lines,95,0.07,0.043,0.22,0.07,0.084,Store to ship
+C000405,Egypt,Chemicals,45,28701,Maersk,349,0.8,0.044,0.71,0.025,0.472,Proceed to further inspection
+C000406,Nigeria,Furniture,53,33985,Wan Hai Lines,15,0.01,0.065,0.21,0.032,0.061,Store to ship
+C000407,Belgium,Wind Turbine Parts,53,34324,COSCO Shipping,324,0.8,0.023,0.31,0.032,0.404,Proceed to further inspection
+C000408,Colombia,Garments,20,22122,X-Press Feeders,395,0.8,0.043,0.17,0.036,0.389,Proceed to further inspection
+C000409,Thailand,Ceramics,40,26974,Unifeeder,194,0.4,0.042,0.25,0.034,0.228,Store to ship
+C000410,Spain,Computers,20,21956,Hapag-Lloyd,229,0.6,0.027,0.26,0.028,0.311,Proceed to further inspection
+C000411,Argentina,Solvents,53,33720,Res Trans-Logis,280,0.6,0.05,0.78,0.042,0.399,Proceed to further inspection
+C000412,United Arab Emirates,Chemicals,20,21682,Black Sea Shipping,45,0.01,0.045,0.71,0.055,0.133,Store to ship
+C000413,United Kingdom,Pharmaceuticals,48,33045,Crowley Maritime,395,0.8,0.025,0.2,0.033,0.388,Proceed to further inspection
+C000414,Taiwan,Batteries,53,34136,Global Ocean Logistics,136,0.4,0.032,0.68,0.04,0.292,Store to ship
+C000415,Vietnam,Solvents,40,26843,Wan Hai Lines,63,0.07,0.048,0.78,0.032,0.169,Store to ship
+C000416,Kenya,Wind Turbine Parts,20,22123,Global Ocean Logistics,396,0.8,0.049,0.31,0.04,0.413,Proceed to further inspection
+C000417,Nigeria,Batteries,20,21826,Mitsui O.S.K. Lines (MOL),99,0.07,0.065,0.68,0.028,0.159,Store to ship
+C000418,Poland,Machinery,53,33642,Baltic Shipping Company,358,0.8,0.029,0.34,0.041,0.411,Proceed to further inspection
+C000419,Portugal,Natural Gas Equipment,53,33709,Global Ocean Logistics,291,0.6,0.025,0.52,0.04,0.351,Proceed to further inspection
+C000420,United States,Wind Turbine Parts,40,26564,Hapag-Lloyd,216,0.6,0.028,0.31,0.028,0.319,Proceed to further inspection
+C000421,Belgium,Scientific Instruments,45,28846,Safmarine,204,0.6,0.023,0.25,0.035,0.308,Proceed to further inspection
+C000422,South Korea,Copper,40,26624,SM Line,156,0.4,0.028,0.35,0.036,0.239,Store to ship
+C000423,Netherlands,Solvents,45,29418,Hamburg Süd,368,0.8,0.021,0.78,0.03,0.475,Proceed to further inspection
+C000424,Hong Kong,Steel Coils,48,32627,Mitsui O.S.K. Lines (MOL),23,0.01,0.03,0.4,0.028,0.078,Store to ship
+C000425,India,Batteries,20,21498,North Korea Shipping Corporation,229,0.6,0.04,0.68,0.085,0.385,Proceed to further inspection
+C000426,Australia,Timber,53,34084,Star Container Services,84,0.07,0.023,0.29,0.065,0.088,Store to ship
+C000427,Kenya,Dairy Products,53,34089,Mitsui O.S.K. Lines (MOL),89,0.07,0.049,0.2,0.028,0.079,Store to ship
+C000428,Taiwan,Fertilizer,48,32888,Hamburg Süd,238,0.6,0.032,0.46,0.03,0.343,Proceed to further inspection
+C000429,Hong Kong,Cotton,40,26472,Yang Ming Marine,308,0.8,0.03,0.18,0.031,0.386,Proceed to further inspection
+C000430,Saudi Arabia,Cotton,48,32532,Iran Shipping Lines,118,0.4,0.05,0.18,0.07,0.223,Store to ship
+C000431,Spain,Fertilizer,48,33038,Evergreen Marine,388,0.8,0.027,0.46,0.029,0.428,Proceed to further inspection
+C000432,Singapore,Batteries,45,29267,Star Container Services,217,0.6,0.02,0.68,0.065,0.377,Proceed to further inspection
+C000433,Egypt,Vehicles,20,21502,Evergreen Marine,225,0.6,0.044,0.36,0.029,0.332,Proceed to further inspection
+C000434,Indonesia,Steel Coils,40,26897,Yang Ming Marine,117,0.4,0.047,0.4,0.031,0.252,Store to ship
+C000435,Oman,Scientific Instruments,45,29155,Matson Navigation,105,0.4,0.038,0.25,0.028,0.226,Store to ship
+C000436,Canada,Corn,45,29276,Evergreen Marine,226,0.6,0.024,0.16,0.029,0.294,Store to ship
+C000437,Australia,Industrial Chemicals,20,21594,COSCO Shipping,133,0.4,0.023,0.75,0.032,0.299,Store to ship
+C000438,Bangladesh,Wheat,53,34390,APL,390,0.8,0.07,0.17,0.031,0.397,Proceed to further inspection
+C000439,United States,Fruits,20,22007,Hapag-Lloyd,280,0.6,0.028,0.15,0.028,0.294,Store to ship
+C000440,Denmark,Lithium Batteries,48,32912,Mediterranean Shipping Company (MSC),262,0.6,0.02,0.82,0.026,0.395,Proceed to further inspection
+C000441,Sweden,Fertilizer,45,29262,North Korea Shipping Corporation,212,0.6,0.02,0.46,0.085,0.344,Proceed to further inspection
+C000442,France,Sugar,48,32563,Res Trans-Logis,87,0.07,0.024,0.18,0.042,0.07,Store to ship
+C000443,Australia,Corn,45,28786,Matson Navigation,264,0.6,0.023,0.16,0.028,0.294,Store to ship
+C000444,Morocco,Vaccines,20,22022,Unifeeder,295,0.6,0.04,0.19,0.034,0.305,Proceed to further inspection
+C000445,Singapore,Ceramics,20,21989,OOCL,262,0.6,0.02,0.25,0.028,0.307,Proceed to further inspection
+C000446,Singapore,Fruits,53,33638,SITC International,362,0.8,0.02,0.15,0.038,0.379,Proceed to further inspection
+C000447,Chile,Cotton,53,34169,OOCL,169,0.4,0.039,0.18,0.028,0.216,Store to ship
+C000448,Mexico,Solvents,45,28786,Nippon Yusen Kaisha (NYK),264,0.6,0.036,0.78,0.029,0.394,Proceed to further inspection
+C000449,Norway,Batteries,20,21665,COSCO Shipping,62,0.07,0.02,0.68,0.032,0.144,Store to ship
+C000450,Australia,Aluminum,20,21788,APL,61,0.07,0.023,0.33,0.031,0.091,Store to ship
+C000451,Portugal,Textiles,20,21553,COSCO Shipping,174,0.4,0.025,0.2,0.032,0.215,Store to ship
+C000452,Chile,Lithium Batteries,48,32438,Evergreen Marine,212,0.6,0.039,0.82,0.029,0.401,Proceed to further inspection
+C000453,South Africa,Tea,53,33871,Hapag-Lloyd,129,0.4,0.046,0.17,0.028,0.216,Store to ship
+C000454,United Kingdom,Electrical Cables,40,26436,K Line,344,0.8,0.025,0.27,0.029,0.398,Proceed to further inspection
+C000455,Qatar,Ceramics,48,32636,PIL (Pacific International Lines),14,0.01,0.035,0.25,0.034,0.057,Store to ship
+C000456,Argentina,Timber,40,27016,Nippon Yusen Kaisha (NYK),236,0.6,0.05,0.29,0.029,0.323,Proceed to further inspection
+C000457,Poland,Fertilizer,48,32612,Evergreen Marine,38,0.01,0.029,0.46,0.029,0.087,Store to ship
+C000458,Denmark,Vehicles,48,32576,Mediterranean Shipping Company (MSC),74,0.07,0.02,0.36,0.026,0.095,Store to ship
+C000459,Chile,Chemicals,20,21553,Mitsui O.S.K. Lines (MOL),174,0.4,0.039,0.71,0.028,0.297,Store to ship
+C000460,Greece,Cotton,20,21456,Global Ocean Logistics,271,0.6,0.024,0.18,0.04,0.298,Store to ship
+C000461,Pakistan,Solvents,40,26907,TS Lines,127,0.4,0.06,0.78,0.037,0.316,Proceed to further inspection
+C000462,Netherlands,Glass,48,32290,Matson Navigation,360,0.8,0.021,0.24,0.028,0.392,Proceed to further inspection
+C000463,Chile,Industrial Tools,20,21540,PIL (Pacific International Lines),187,0.4,0.039,0.3,0.034,0.235,Store to ship
+C000464,Mexico,Ceramics,40,26994,Hyundai Merchant Marine (HMM),214,0.6,0.036,0.25,0.03,0.312,Proceed to further inspection
+C000465,Germany,Vehicles,45,29406,Global Ocean Logistics,356,0.8,0.022,0.36,0.04,0.412,Proceed to further inspection
+C000466,Portugal,Vehicles,45,29154,Unifeeder,104,0.4,0.025,0.36,0.034,0.24,Store to ship
+C000467,India,Frozen Meat,48,32788,Syrian Shipping Lines,138,0.4,0.04,0.24,0.075,0.23,Store to ship
+C000468,Ukraine,Computers,40,26526,K Line,254,0.6,0.055,0.26,0.029,0.32,Proceed to further inspection
+C000469,Italy,Electronics,20,21901,APL,174,0.4,0.026,0.28,0.031,0.227,Store to ship
+C000470,Vietnam,Vegetables,53,34138,Mediterranean Shipping Company (MSC),138,0.4,0.048,0.14,0.026,0.212,Store to ship
+C000471,Singapore,Steel Coils,20,21365,Hapag-Lloyd,362,0.8,0.02,0.4,0.028,0.416,Proceed to further inspection
+C000472,Sri Lanka,Frozen Meat,20,21678,Grimaldi Lines,49,0.01,0.075,0.24,0.033,0.068,Store to ship
+C000473,France,Ceramics,53,33655,Roy Shipping Agency,345,0.8,0.024,0.25,0.079,0.399,Proceed to further inspection
+C000474,Pakistan,Cement,40,27093,Emirates Shipping Line,313,0.8,0.06,0.3,0.034,0.414,Proceed to further inspection
+C000475,Oman,Rice,48,32530,Evergreen Marine,120,0.4,0.038,0.38,0.029,0.246,Store to ship
+C000476,Japan,Footwear,45,28884,Bahri,166,0.4,0.025,0.19,0.037,0.214,Store to ship
+C000477,Pakistan,Electrical Cables,53,34092,Evergreen Marine,92,0.07,0.06,0.27,0.029,0.094,Store to ship
+C000478,United Arab Emirates,Vegetables,40,26547,Emirates Shipping Line,233,0.6,0.045,0.14,0.034,0.298,Store to ship
+C000479,Brazil,Plastic Granules,40,27173,Evergreen Marine,393,0.8,0.052,0.39,0.029,0.425,Proceed to further inspection
+C000480,Mexico,Electrical Cables,20,21906,Res Trans-Logis,179,0.4,0.036,0.27,0.042,0.23,Store to ship
+C000481,Germany,Furniture,40,26577,Res Trans-Logis,203,0.6,0.022,0.21,0.042,0.303,Proceed to further inspection
+C000482,Sri Lanka,Sand,48,32581,Mediterranean Shipping Company (MSC),69,0.07,0.075,0.42,0.026,0.121,Store to ship
+C000483,Mexico,Dairy Products,20,21391,Ocean Network Express (ONE),336,0.8,0.036,0.2,0.027,0.391,Proceed to further inspection
+C000484,Colombia,Glass,53,34030,Black Sea Shipping,30,0.01,0.043,0.24,0.055,0.06,Store to ship
+C000485,Thailand,Industrial Tools,40,27107,Roy Shipping Agency,327,0.8,0.042,0.3,0.079,0.413,Proceed to further inspection
+C000486,Colombia,Industrial Tools,48,32744,COSCO Shipping,94,0.07,0.043,0.3,0.032,0.093,Store to ship
+C000487,Malaysia,Scientific Instruments,20,21549,Syrian Shipping Lines,178,0.4,0.073,0.25,0.075,0.242,Store to ship
+C000488,Colombia,Footwear,53,34148,Black Sea Shipping,148,0.4,0.043,0.19,0.055,0.221,Store to ship
+C000489,Malaysia,Timber,53,33769,ZIM Integrated Shipping Services,231,0.6,0.073,0.29,0.035,0.331,Proceed to further inspection
+C000490,Italy,Medical Equipment,40,26771,SITC International,9,0.01,0.026,0.23,0.038,0.052,Store to ship
+C000491,Greece,Tea,40,27153,X-Press Feeders,373,0.8,0.024,0.17,0.036,0.383,Proceed to further inspection
+C000492,Ukraine,Scientific Instruments,48,32411,Seaboard Marine,239,0.6,0.055,0.25,0.035,0.319,Proceed to further inspection
+C000493,Greece,Ceramics,45,29045,Emirates Shipping Line,5,0.01,0.024,0.25,0.034,0.054,Store to ship
+C000494,United Kingdom,Mobile Phones,53,34040,SM Line,40,0.01,0.025,0.27,0.036,0.057,Store to ship
+C000495,Brazil,Coffee,48,32814,Baltic Shipping Company,164,0.4,0.052,0.18,0.041,0.221,Store to ship
+C000496,Hong Kong,Steel Coils,53,34323,ZIM Integrated Shipping Services,323,0.8,0.03,0.4,0.035,0.42,Proceed to further inspection
+C000497,Hong Kong,Solar Panels,40,27021,Unifeeder,241,0.6,0.03,0.24,0.034,0.309,Proceed to further inspection
+C000498,Germany,Petroleum Products,48,33044,Mitsui O.S.K. Lines (MOL),394,0.8,0.022,0.84,0.028,0.485,Proceed to further inspection
+C000499,United Arab Emirates,Fruits,48,32649,K Line,1,0.01,0.045,0.15,0.029,0.045,Store to ship
+C000500,Russia,Timber,20,21491,Unifeeder,236,0.6,0.058,0.29,0.034,0.326,Proceed to further inspection
+C000501,Indonesia,Fertilizer,48,32387,Wan Hai Lines,263,0.6,0.047,0.46,0.032,0.348,Proceed to further inspection
+C000502,Nigeria,Electrical Cables,40,26969,Evergreen Marine,189,0.4,0.065,0.27,0.029,0.238,Store to ship
+C000503,France,Industrial Tools,45,29165,ZIM Integrated Shipping Services,115,0.4,0.024,0.3,0.035,0.23,Store to ship
+C000504,United Arab Emirates,Fruits,48,33032,Bahri,382,0.8,0.045,0.15,0.037,0.387,Proceed to further inspection
+C000505,South Korea,Pharmaceuticals,48,32576,Mediterranean Shipping Company (MSC),74,0.07,0.028,0.2,0.026,0.072,Store to ship
+C000506,United Kingdom,Seafood,53,33984,Nippon Yusen Kaisha (NYK),16,0.01,0.025,0.22,0.029,0.049,Store to ship
+C000507,Pakistan,Pharmaceuticals,40,26497,COSCO Shipping,283,0.6,0.06,0.2,0.032,0.312,Proceed to further inspection
+C000508,South Africa,Footwear,48,32871,Roy Shipping Agency,221,0.6,0.046,0.19,0.079,0.311,Proceed to further inspection
+C000509,United Kingdom,Paper,45,28845,PIL (Pacific International Lines),205,0.6,0.025,0.21,0.034,0.303,Proceed to further inspection
+C000510,Chile,Vegetables,40,26533,Star Container Services,247,0.6,0.039,0.14,0.065,0.299,Store to ship
+C000511,Canada,Cement,20,22090,SITC International,363,0.8,0.024,0.3,0.038,0.403,Proceed to further inspection
+C000512,Kenya,Solar Panels,40,27050,SM Line,270,0.6,0.049,0.24,0.036,0.315,Proceed to further inspection
+C000513,South Africa,Lithium Batteries,40,26814,TS Lines,34,0.01,0.046,0.82,0.037,0.149,Store to ship
+C000514,Canada,Mobile Phones,20,21519,Mitsui O.S.K. Lines (MOL),208,0.6,0.024,0.27,0.028,0.311,Proceed to further inspection
+C000515,Taiwan,Garments,53,34169,Wan Hai Lines,169,0.4,0.032,0.17,0.032,0.212,Store to ship
+C000516,Spain,Vaccines,40,26761,Seaboard Marine,19,0.01,0.027,0.19,0.035,0.046,Store to ship
+C000517,Spain,Rice,20,21638,Hapag-Lloyd,89,0.07,0.027,0.38,0.028,0.1,Store to ship
+C000518,Norway,Furniture,40,27023,Baltic Shipping Company,243,0.6,0.02,0.21,0.041,0.302,Proceed to further inspection
+C000519,Ukraine,Mobile Phones,48,32935,TS Lines,285,0.6,0.055,0.27,0.037,0.322,Proceed to further inspection
+C000520,Germany,Tea,53,34126,North Korea Shipping Corporation,126,0.4,0.022,0.17,0.085,0.214,Store to ship
+C000521,Netherlands,Industrial Tools,20,21478,Ocean Network Express (ONE),249,0.6,0.021,0.3,0.027,0.315,Proceed to further inspection
+C000522,Denmark,Chemicals,40,27096,Star Container Services,316,0.8,0.02,0.71,0.065,0.468,Proceed to further inspection
+C000523,Netherlands,Solar Panels,48,32455,CMA CGM,195,0.4,0.021,0.24,0.027,0.219,Store to ship
+C000524,Thailand,Fertilizer,40,26991,Sinokor Merchant Marine,211,0.6,0.042,0.46,0.036,0.347,Proceed to further inspection
+C000525,Belgium,Pharmaceuticals,48,32561,Unifeeder,89,0.07,0.023,0.2,0.034,0.072,Store to ship
+C000526,Russia,Plastic Granules,53,34101,OOCL,101,0.4,0.058,0.39,0.028,0.254,Store to ship
+C000527,Vietnam,Sand,53,34308,ZIM Integrated Shipping Services,308,0.8,0.048,0.42,0.035,0.429,Proceed to further inspection
+C000528,Brazil,Furniture,20,21615,COSCO Shipping,112,0.4,0.052,0.21,0.032,0.225,Store to ship
+C000529,Pakistan,Semiconductors,40,26868,Hyundai Merchant Marine (HMM),88,0.07,0.06,0.32,0.03,0.102,Store to ship
+C000530,India,Mobile Phones,40,26504,COSCO Shipping,276,0.6,0.04,0.27,0.032,0.317,Proceed to further inspection
+C000531,Indonesia,Vehicles,20,21474,COSCO Shipping,253,0.6,0.047,0.36,0.032,0.333,Proceed to further inspection
+C000532,Turkey,Cotton,45,29144,Star Container Services,94,0.07,0.055,0.18,0.065,0.082,Store to ship
+C000533,Sweden,Seafood,20,22085,Global Ocean Logistics,358,0.8,0.02,0.22,0.04,0.39,Proceed to further inspection
+C000534,United Kingdom,Furniture,45,28768,Emirates Shipping Line,282,0.6,0.025,0.21,0.034,0.303,Proceed to further inspection
+C000535,Italy,Medical Equipment,20,21331,Ocean Network Express (ONE),396,0.8,0.026,0.23,0.027,0.392,Proceed to further inspection
+C000536,Denmark,Food Products,45,29417,TS Lines,367,0.8,0.02,0.16,0.037,0.38,Proceed to further inspection
+C000537,France,Food Products,45,29332,APL,282,0.6,0.024,0.16,0.031,0.295,Store to ship
+C000538,Philippines,Cement,20,21980,Iran Shipping Lines,253,0.6,0.043,0.3,0.07,0.326,Proceed to further inspection
+C000539,Poland,Seafood,20,21576,Global Ocean Logistics,151,0.4,0.029,0.22,0.04,0.22,Store to ship
+C000540,Argentina,Marble,20,21759,ZIM Integrated Shipping Services,32,0.01,0.05,0.28,0.035,0.067,Store to ship
+C000541,Chile,Rubber,20,21351,Mediterranean Shipping Company (MSC),376,0.8,0.039,0.27,0.026,0.402,Proceed to further inspection
+C000542,New Zealand,Steel Coils,20,21854,PIL (Pacific International Lines),127,0.4,0.021,0.4,0.034,0.244,Store to ship
+C000543,Germany,Electronics,48,32515,Hyundai Merchant Marine (HMM),135,0.4,0.022,0.28,0.03,0.226,Store to ship
+C000544,Belgium,Paint,48,32341,SITC International,309,0.8,0.023,0.41,0.038,0.42,Proceed to further inspection
+C000545,United Arab Emirates,Food Products,45,29311,Grimaldi Lines,261,0.6,0.045,0.16,0.033,0.301,Proceed to further inspection
+C000546,Philippines,Copper,45,28821,Sinokor Merchant Marine,229,0.6,0.043,0.35,0.036,0.33,Proceed to further inspection
+C000547,China,Solvents,20,21505,Hyundai Merchant Marine (HMM),222,0.6,0.073,0.78,0.03,0.406,Proceed to further inspection
+C000548,Peru,Granite,20,21370,Bahri,357,0.8,0.041,0.29,0.037,0.407,Proceed to further inspection
+C000549,Denmark,Lubricants,20,21916,Safmarine,189,0.4,0.02,0.37,0.035,0.24,Store to ship
+C000550,Argentina,Marble,48,32322,OOCL,328,0.8,0.05,0.28,0.028,0.408,Proceed to further inspection
+C000551,Peru,Footwear,48,32923,Yang Ming Marine,273,0.6,0.041,0.19,0.031,0.305,Proceed to further inspection
+C000552,Japan,Marble,53,33948,Yang Ming Marine,52,0.07,0.025,0.28,0.031,0.084,Store to ship
+C000553,Japan,Batteries,48,33032,Mitsui O.S.K. Lines (MOL),382,0.8,0.025,0.68,0.028,0.461,Proceed to further inspection
+C000554,Taiwan,Paint,53,33759,Mediterranean Shipping Company (MSC),241,0.6,0.032,0.41,0.026,0.335,Proceed to further inspection
+C000555,Norway,Vehicles,40,26958,Nippon Yusen Kaisha (NYK),178,0.4,0.02,0.36,0.029,0.237,Store to ship
+C000556,Thailand,Sand,53,33959,Seaboard Marine,41,0.01,0.042,0.42,0.035,0.086,Store to ship
+C000557,Peru,Rubber,48,32826,ZIM Integrated Shipping Services,176,0.4,0.041,0.27,0.035,0.231,Store to ship
+C000558,Greece,Cotton,48,32402,Iran Shipping Lines,248,0.6,0.024,0.18,0.07,0.301,Proceed to further inspection
+C000559,Indonesia,Timber,20,21565,Star Container Services,162,0.4,0.047,0.29,0.065,0.239,Store to ship
+C000560,Thailand,Lithium Batteries,48,32841,Hamburg Süd,191,0.4,0.042,0.82,0.03,0.316,Proceed to further inspection
+C000561,Australia,Ceramics,48,32459,APL,191,0.4,0.023,0.25,0.031,0.222,Store to ship
+C000562,India,Steel Coils,40,26839,Mitsui O.S.K. Lines (MOL),59,0.07,0.04,0.4,0.028,0.107,Store to ship
+C000563,China,Granite,53,34140,Syrian Shipping Lines,140,0.4,0.073,0.29,0.075,0.248,Store to ship
+C000564,Spain,Plastic Granules,45,28663,Res Trans-Logis,387,0.8,0.027,0.39,0.042,0.418,Proceed to further inspection
+C000565,United States,Heavy Machinery,48,32489,Safmarine,161,0.4,0.028,0.49,0.035,0.261,Store to ship
+C000566,Oman,Wind Turbine Parts,48,33025,Emirates Shipping Line,375,0.8,0.038,0.31,0.034,0.409,Proceed to further inspection
+C000567,United States,Medical Equipment,48,32637,Hapag-Lloyd,13,0.01,0.028,0.23,0.028,0.051,Store to ship
+C000568,Norway,Paint,40,27027,Maersk,247,0.6,0.02,0.41,0.025,0.331,Proceed to further inspection
+C000569,Mexico,Textiles,20,21626,Syrian Shipping Lines,101,0.4,0.036,0.2,0.075,0.222,Store to ship
+C000570,Peru,Heavy Machinery,40,26543,Seaboard Marine,237,0.6,0.041,0.49,0.035,0.351,Proceed to further inspection
+C000571,Colombia,Solar Panels,40,26475,Ocean Network Express (ONE),305,0.8,0.043,0.24,0.027,0.399,Proceed to further inspection
+C000572,Pakistan,Frozen Meat,48,32954,APL,304,0.8,0.06,0.24,0.031,0.405,Proceed to further inspection
+C000573,Russia,Wheat,40,26752,Hamburg Süd,28,0.01,0.058,0.17,0.03,0.052,Store to ship
+C000574,Greece,Paint,40,26446,North Korea Shipping Corporation,334,0.8,0.024,0.41,0.085,0.424,Proceed to further inspection
+C000575,New Zealand,Granite,53,34195,Seaboard Marine,195,0.4,0.021,0.29,0.035,0.228,Store to ship
+C000576,Saudi Arabia,Semiconductors,53,33771,K Line,229,0.6,0.05,0.32,0.029,0.327,Proceed to further inspection
+C000577,Sweden,Fertilizer,20,21596,Hamburg Süd,131,0.4,0.02,0.46,0.03,0.253,Store to ship
+C000578,Germany,Pharmaceuticals,48,32376,Syrian Shipping Lines,274,0.6,0.022,0.2,0.075,0.304,Proceed to further inspection
+C000579,Egypt,Rice,48,32385,Res Trans-Logis,265,0.6,0.044,0.38,0.042,0.336,Proceed to further inspection
+C000580,South Korea,Granite,45,28672,Mitsui O.S.K. Lines (MOL),378,0.8,0.028,0.29,0.028,0.402,Proceed to further inspection
+C000581,Ukraine,Solvents,40,26391,Safmarine,389,0.8,0.055,0.78,0.035,0.487,Proceed to further inspection
+C000582,Ukraine,Iron Ore,45,28739,Hapag-Lloyd,311,0.8,0.055,0.64,0.028,0.465,Proceed to further inspection
+C000583,Russia,Vehicles,20,21776,K Line,49,0.01,0.058,0.36,0.029,0.081,Store to ship
+C000584,South Korea,Frozen Meat,53,33641,Maersk,359,0.8,0.028,0.24,0.025,0.394,Proceed to further inspection
+C000585,Poland,Granite,53,33758,Hapag-Lloyd,242,0.6,0.029,0.29,0.028,0.316,Proceed to further inspection
+C000586,Kenya,Paper,53,33869,Black Sea Shipping,131,0.4,0.049,0.21,0.055,0.226,Store to ship
+C000587,Spain,Paper,53,33809,Star Container Services,191,0.4,0.027,0.21,0.065,0.22,Store to ship
+C000588,Thailand,Ceramics,53,34025,Global Ocean Logistics,25,0.01,0.042,0.25,0.04,0.06,Store to ship
+C000589,United States,Corn,20,22021,Seaboard Marine,294,0.6,0.028,0.16,0.035,0.296,Store to ship
+C000590,Spain,Vegetables,40,26749,Hamburg Süd,31,0.01,0.027,0.14,0.03,0.037,Store to ship
+C000591,Saudi Arabia,Industrial Tools,53,33821,Seaboard Marine,179,0.4,0.05,0.3,0.035,0.238,Store to ship
+C000592,Chile,Heavy Machinery,45,28866,Roy Shipping Agency,184,0.4,0.039,0.49,0.079,0.268,Store to ship
+C000593,Argentina,Aluminum,20,21518,Emirates Shipping Line,209,0.6,0.05,0.33,0.034,0.329,Proceed to further inspection
+C000594,Nigeria,Solvents,48,32907,TS Lines,257,0.6,0.065,0.78,0.037,0.404,Proceed to further inspection
+C000595,Chile,Copper,48,32942,PIL (Pacific International Lines),292,0.6,0.039,0.35,0.034,0.329,Proceed to further inspection
+C000596,Colombia,Lithium Batteries,20,21598,Mediterranean Shipping Company (MSC),129,0.4,0.043,0.82,0.026,0.315,Proceed to further inspection
+C000597,Mexico,Vegetables,48,32377,Wan Hai Lines,273,0.6,0.036,0.14,0.032,0.295,Store to ship
+C000598,Belgium,Copper,45,29185,K Line,135,0.4,0.023,0.35,0.029,0.237,Store to ship
+C000599,United Kingdom,Sugar,20,21420,TS Lines,307,0.8,0.025,0.18,0.037,0.385,Proceed to further inspection
+C000600,South Korea,Pharmaceuticals,48,32529,Roy Shipping Agency,121,0.4,0.028,0.2,0.079,0.22,Store to ship
+C000601,Qatar,Iron Ore,45,29261,X-Press Feeders,211,0.6,0.035,0.64,0.036,0.373,Proceed to further inspection
+C000602,United States,Leather Goods,20,21715,Safmarine,12,0.01,0.028,0.22,0.035,0.05,Store to ship
+C000603,Chile,Cement,20,22041,Matson Navigation,314,0.8,0.039,0.3,0.028,0.407,Proceed to further inspection
+C000604,Peru,Wind Turbine Parts,40,27009,Unifeeder,229,0.6,0.041,0.31,0.034,0.323,Proceed to further inspection
+C000605,Vietnam,Medical Equipment,20,21827,Bahri,100,0.07,0.048,0.23,0.037,0.085,Store to ship
+C000606,Nigeria,Iron Ore,40,26442,Safmarine,338,0.8,0.065,0.64,0.035,0.468,Proceed to further inspection
+C000607,Egypt,Lubricants,45,29051,OOCL,1,0.01,0.044,0.37,0.028,0.078,Store to ship
+C000608,Hong Kong,Automobile Parts,20,21928,Matson Navigation,201,0.6,0.03,0.31,0.028,0.319,Proceed to further inspection
+C000609,Argentina,Sugar,20,21728,Hapag-Lloyd,1,0.01,0.05,0.18,0.028,0.051,Store to ship
+C000610,Kenya,Rice,20,21980,Yang Ming Marine,253,0.6,0.049,0.38,0.031,0.336,Proceed to further inspection
+C000611,New Zealand,Automobile Parts,53,34397,OOCL,397,0.8,0.021,0.31,0.028,0.403,Proceed to further inspection
+C000612,Morocco,Glass,40,26740,Wan Hai Lines,40,0.01,0.04,0.24,0.032,0.057,Store to ship
+C000613,Bangladesh,Chemicals,20,21464,Iran Shipping Lines,263,0.6,0.07,0.71,0.07,0.398,Proceed to further inspection
+C000614,Indonesia,Textiles,20,21817,Mediterranean Shipping Company (MSC),90,0.07,0.047,0.2,0.026,0.079,Store to ship
+C000615,Philippines,Coal,48,32845,Baltic Shipping Company,195,0.4,0.043,0.53,0.041,0.272,Store to ship
+C000616,Poland,Lubricants,45,29087,Emirates Shipping Line,37,0.01,0.029,0.37,0.034,0.074,Store to ship
+C000617,Japan,Machinery,20,22040,Safmarine,313,0.8,0.025,0.34,0.035,0.409,Proceed to further inspection
+C000618,Colombia,Automobile Parts,40,27071,North Korea Shipping Corporation,291,0.6,0.043,0.31,0.085,0.329,Proceed to further inspection
+C000619,United Kingdom,Paper,48,32523,North Korea Shipping Corporation,127,0.4,0.025,0.21,0.085,0.221,Store to ship
+C000620,Greece,Sugar,53,33860,TS Lines,140,0.4,0.024,0.18,0.037,0.212,Store to ship
+C000621,Thailand,Rice,20,21560,Safmarine,167,0.4,0.042,0.38,0.035,0.248,Store to ship
+C000622,Colombia,Footwear,45,29034,Sinokor Merchant Marine,16,0.01,0.043,0.19,0.036,0.051,Store to ship
+C000623,Sri Lanka,Industrial Chemicals,40,26432,Star Container Services,348,0.8,0.075,0.75,0.065,0.491,Proceed to further inspection
+C000624,South Africa,Scientific Instruments,53,34208,ZIM Integrated Shipping Services,208,0.6,0.046,0.25,0.035,0.316,Proceed to further inspection
+C000625,Peru,Cement,20,21768,Ocean Network Express (ONE),41,0.01,0.041,0.3,0.027,0.066,Store to ship
+C000626,Peru,Food Products,45,29240,PIL (Pacific International Lines),190,0.4,0.041,0.16,0.034,0.214,Store to ship
+C000627,India,Marble,40,27156,Global Ocean Logistics,376,0.8,0.04,0.28,0.04,0.405,Proceed to further inspection
+C000628,Indonesia,Food Products,48,32884,Mediterranean Shipping Company (MSC),234,0.6,0.047,0.16,0.026,0.301,Proceed to further inspection
+C000629,Malaysia,Petroleum Products,45,29163,Hapag-Lloyd,113,0.4,0.073,0.84,0.028,0.328,Proceed to further inspection
+C000630,South Africa,Industrial Tools,53,34321,TS Lines,321,0.8,0.046,0.3,0.037,0.41,Proceed to further inspection
+C000631,Peru,Seafood,20,21507,Yang Ming Marine,220,0.6,0.041,0.22,0.031,0.309,Proceed to further inspection
+C000632,Belgium,Food Products,53,34371,Nippon Yusen Kaisha (NYK),371,0.8,0.023,0.16,0.029,0.38,Proceed to further inspection
+C000633,Spain,Vaccines,40,26442,Star Container Services,338,0.8,0.027,0.19,0.065,0.39,Proceed to further inspection
+C000634,Colombia,Aluminum,40,26440,K Line,340,0.8,0.043,0.33,0.029,0.413,Proceed to further inspection
+C000635,Japan,Seafood,48,32750,CMA CGM,100,0.07,0.025,0.22,0.027,0.075,Store to ship
+C000636,Japan,Rubber,53,33707,Grimaldi Lines,293,0.6,0.025,0.27,0.033,0.312,Proceed to further inspection
+C000637,Russia,Natural Gas Equipment,20,22078,COSCO Shipping,351,0.8,0.058,0.52,0.032,0.447,Proceed to further inspection
+C000638,South Korea,Leather Goods,40,26435,OOCL,345,0.8,0.028,0.22,0.028,0.391,Proceed to further inspection
+C000639,Netherlands,Rubber,48,32651,North Korea Shipping Corporation,1,0.01,0.021,0.27,0.085,0.061,Store to ship
+C000640,New Zealand,Wind Turbine Parts,45,29447,Sinokor Merchant Marine,397,0.8,0.021,0.31,0.036,0.404,Proceed to further inspection
+C000641,Indonesia,Cotton,40,27132,Roy Shipping Agency,352,0.8,0.047,0.18,0.079,0.396,Proceed to further inspection
+C000642,Bangladesh,Paper,45,28918,Crowley Maritime,132,0.4,0.07,0.21,0.033,0.231,Store to ship
+C000643,Colombia,Cement,48,32521,Hamburg Süd,129,0.4,0.043,0.3,0.03,0.236,Store to ship
+C000644,Sweden,Aluminum,53,34208,Syrian Shipping Lines,208,0.6,0.02,0.33,0.075,0.324,Proceed to further inspection
+C000645,United States,Medical Equipment,20,22060,Sinokor Merchant Marine,333,0.8,0.028,0.23,0.036,0.393,Proceed to further inspection
+C000646,Morocco,Automobile Parts,20,21423,Roy Shipping Agency,304,0.8,0.04,0.31,0.079,0.414,Proceed to further inspection
+C000647,Philippines,Semiconductors,45,29030,Seaboard Marine,20,0.01,0.043,0.32,0.035,0.071,Store to ship
+C000648,Sweden,Vegetables,40,26851,Roy Shipping Agency,71,0.07,0.02,0.14,0.079,0.066,Store to ship
+C000649,Australia,Automobile Parts,53,34332,ZIM Integrated Shipping Services,332,0.8,0.023,0.31,0.035,0.404,Proceed to further inspection
+C000650,South Korea,Corn,45,29415,TS Lines,365,0.8,0.028,0.16,0.037,0.383,Proceed to further inspection
+C000651,Sri Lanka,Rice,40,26558,K Line,222,0.6,0.075,0.38,0.029,0.345,Proceed to further inspection
+C000652,Hong Kong,Pharmaceuticals,40,27005,PIL (Pacific International Lines),225,0.6,0.03,0.2,0.034,0.303,Proceed to further inspection
+C000653,Egypt,Leather Goods,45,29225,CMA CGM,175,0.4,0.044,0.22,0.027,0.223,Store to ship
+C000654,Kenya,Fruits,53,34226,Safmarine,226,0.6,0.049,0.15,0.035,0.301,Proceed to further inspection
+C000655,India,Medical Equipment,48,32737,Baltic Shipping Company,87,0.07,0.04,0.23,0.041,0.082,Store to ship
+C000656,Egypt,Fruits,48,32747,Roy Shipping Agency,97,0.07,0.044,0.15,0.079,0.075,Store to ship
+C000657,Egypt,Wheat,48,32687,OOCL,37,0.01,0.044,0.17,0.028,0.047,Store to ship
+C000658,Oman,Electrical Cables,20,21995,Safmarine,268,0.6,0.038,0.27,0.035,0.316,Proceed to further inspection
+C000659,Greece,Coal,20,21579,X-Press Feeders,148,0.4,0.024,0.53,0.036,0.266,Store to ship
+C000660,New Zealand,Solvents,48,32922,Unifeeder,272,0.6,0.021,0.78,0.034,0.389,Proceed to further inspection
+C000661,Kenya,Semiconductors,40,26525,Hapag-Lloyd,255,0.6,0.049,0.32,0.028,0.327,Proceed to further inspection
+C000662,India,Chemicals,48,32521,North Korea Shipping Corporation,129,0.4,0.04,0.71,0.085,0.303,Proceed to further inspection
+C000663,Denmark,Marble,45,29379,TS Lines,329,0.8,0.02,0.28,0.037,0.399,Proceed to further inspection
+C000664,Argentina,Vaccines,40,26750,PIL (Pacific International Lines),30,0.01,0.05,0.19,0.034,0.053,Store to ship
+C000665,Russia,Industrial Tools,53,34180,Ocean Network Express (ONE),180,0.4,0.058,0.3,0.027,0.24,Store to ship
+C000666,Kenya,Sand,20,21504,Res Trans-Logis,223,0.6,0.049,0.42,0.042,0.344,Proceed to further inspection
+C000667,Brazil,Frozen Meat,20,21721,Maersk,6,0.01,0.052,0.24,0.025,0.06,Store to ship
+C000668,Italy,Industrial Chemicals,45,28993,Crowley Maritime,57,0.07,0.026,0.75,0.033,0.157,Store to ship
+C000669,Argentina,Copper,48,32468,OOCL,182,0.4,0.05,0.35,0.028,0.245,Store to ship
+C000670,Netherlands,Rubber,45,28801,Baltic Shipping Company,249,0.6,0.021,0.27,0.041,0.311,Proceed to further inspection
+C000671,Taiwan,Solvents,48,33007,Nippon Yusen Kaisha (NYK),357,0.8,0.032,0.78,0.029,0.479,Proceed to further inspection
+C000672,Germany,Rice,48,32933,Evergreen Marine,283,0.6,0.022,0.38,0.029,0.328,Proceed to further inspection
+C000673,Brazil,Fruits,40,26824,Safmarine,44,0.01,0.052,0.15,0.035,0.047,Store to ship
+C000674,Greece,Granite,40,27173,Iran Shipping Lines,393,0.8,0.024,0.29,0.07,0.405,Proceed to further inspection
+C000675,Colombia,Petroleum Products,20,21847,Sinokor Merchant Marine,120,0.4,0.043,0.84,0.036,0.32,Proceed to further inspection
+C000676,Norway,Copper,40,26987,SM Line,207,0.6,0.02,0.35,0.036,0.323,Proceed to further inspection
+C000677,United States,Wheat,45,29403,OOCL,353,0.8,0.028,0.17,0.028,0.383,Proceed to further inspection
+C000678,Egypt,Garments,48,32605,Mediterranean Shipping Company (MSC),45,0.01,0.044,0.17,0.026,0.047,Store to ship
+C000679,China,Paint,40,26933,Roy Shipping Agency,153,0.4,0.073,0.41,0.079,0.267,Store to ship
+C000680,United Arab Emirates,Garments,48,32799,Syrian Shipping Lines,149,0.4,0.045,0.17,0.075,0.22,Store to ship
+C000681,Pakistan,Steel Coils,53,33873,Nippon Yusen Kaisha (NYK),127,0.4,0.06,0.4,0.029,0.256,Store to ship
+C000682,Australia,Ceramics,53,33780,ZIM Integrated Shipping Services,220,0.6,0.023,0.25,0.035,0.308,Proceed to further inspection
+C000683,Chile,Plastic Granules,48,32810,SITC International,160,0.4,0.039,0.39,0.038,0.249,Store to ship
+C000684,Portugal,Coal,45,29399,Iran Shipping Lines,349,0.8,0.025,0.53,0.07,0.442,Proceed to further inspection
+C000685,Philippines,Automobile Parts,40,26972,Mediterranean Shipping Company (MSC),192,0.4,0.043,0.31,0.026,0.237,Store to ship
+C000686,Argentina,Glass,40,27092,Unifeeder,312,0.8,0.05,0.24,0.034,0.402,Proceed to further inspection
+C000687,Denmark,Granite,48,32902,COSCO Shipping,252,0.6,0.02,0.29,0.032,0.313,Proceed to further inspection
+C000688,United States,Rubber,40,26647,Yang Ming Marine,133,0.4,0.028,0.27,0.031,0.226,Store to ship
+C000689,Nigeria,Food Products,45,28875,North Korea Shipping Corporation,175,0.4,0.065,0.16,0.085,0.226,Store to ship
+C000690,Ukraine,Corn,48,32835,Hamburg Süd,185,0.4,0.055,0.16,0.03,0.218,Store to ship
+C000691,Oman,Tea,48,32842,Mitsui O.S.K. Lines (MOL),192,0.4,0.038,0.17,0.028,0.214,Store to ship
+C000692,Italy,Wind Turbine Parts,48,32462,ZIM Integrated Shipping Services,188,0.4,0.026,0.31,0.035,0.232,Store to ship
+C000693,Russia,Chemicals,40,27034,Bahri,254,0.6,0.058,0.71,0.037,0.391,Proceed to further inspection
+C000694,Mexico,Vegetables,53,33631,OOCL,369,0.8,0.036,0.14,0.028,0.381,Proceed to further inspection
+C000695,Ukraine,Pharmaceuticals,45,29254,Seaboard Marine,204,0.6,0.055,0.2,0.035,0.311,Proceed to further inspection
+C000696,Oman,Vegetables,20,21327,Safmarine,400,0.8,0.038,0.14,0.035,0.383,Proceed to further inspection
+C000697,Brazil,Frozen Meat,20,21821,Seaboard Marine,94,0.07,0.052,0.24,0.035,0.087,Store to ship
+C000698,Germany,Granite,40,26512,APL,268,0.6,0.022,0.29,0.031,0.314,Proceed to further inspection
+C000699,Russia,Corn,20,21402,TS Lines,325,0.8,0.058,0.16,0.037,0.392,Proceed to further inspection
+C000700,Belgium,Tea,40,26905,Global Ocean Logistics,125,0.4,0.023,0.17,0.04,0.21,Store to ship
+C000701,Norway,Coal,48,32878,Syrian Shipping Lines,228,0.6,0.02,0.53,0.075,0.354,Proceed to further inspection
+C000702,Colombia,Copper,20,21873,ZIM Integrated Shipping Services,146,0.4,0.043,0.35,0.035,0.244,Store to ship
+C000703,China,Rice,45,29406,Safmarine,356,0.8,0.073,0.38,0.035,0.431,Proceed to further inspection
+C000704,Taiwan,Furniture,40,27149,SM Line,369,0.8,0.032,0.21,0.036,0.392,Proceed to further inspection
+C000705,Portugal,Vegetables,53,34211,Unifeeder,211,0.6,0.025,0.14,0.034,0.292,Store to ship
+C000706,China,Electrical Cables,45,29404,Bahri,354,0.8,0.073,0.27,0.037,0.414,Proceed to further inspection
+C000707,Sweden,Chemicals,20,21529,X-Press Feeders,198,0.4,0.02,0.71,0.036,0.292,Store to ship
+C000708,Japan,Pharmaceuticals,45,29063,TS Lines,13,0.01,0.025,0.2,0.037,0.047,Store to ship
+C000709,South Korea,Paint,20,21500,X-Press Feeders,227,0.6,0.028,0.41,0.036,0.335,Proceed to further inspection
+C000710,Malaysia,Coffee,53,33699,PIL (Pacific International Lines),301,0.8,0.073,0.18,0.034,0.4,Proceed to further inspection
+C000711,Bangladesh,Wheat,40,26594,TS Lines,186,0.4,0.07,0.17,0.037,0.225,Store to ship
+C000712,United Kingdom,Plastic Granules,53,34166,Safmarine,166,0.4,0.025,0.39,0.035,0.244,Store to ship
+C000713,Spain,Leather Goods,20,21794,COSCO Shipping,67,0.07,0.027,0.22,0.032,0.076,Store to ship
+C000714,Poland,Pharmaceuticals,48,32844,CMA CGM,194,0.4,0.029,0.2,0.027,0.215,Store to ship
+C000715,Egypt,Industrial Tools,40,26729,Black Sea Shipping,51,0.07,0.044,0.3,0.055,0.096,Store to ship
+C000716,Saudi Arabia,Rice,40,27004,North Korea Shipping Corporation,224,0.6,0.05,0.38,0.085,0.342,Proceed to further inspection
+C000717,Philippines,Food Products,40,27161,Roy Shipping Agency,381,0.8,0.043,0.16,0.079,0.391,Proceed to further inspection
+C000718,Thailand,Corn,53,34387,Matson Navigation,387,0.8,0.042,0.16,0.028,0.386,Proceed to further inspection
+C000719,Turkey,Scientific Instruments,20,21459,TS Lines,268,0.6,0.055,0.25,0.037,0.319,Proceed to further inspection
+C000720,Philippines,Dairy Products,20,21948,Yang Ming Marine,221,0.6,0.043,0.2,0.031,0.307,Proceed to further inspection
+C000721,Sri Lanka,Paint,48,32968,Emirates Shipping Line,318,0.8,0.075,0.41,0.034,0.436,Proceed to further inspection
+C000722,Bangladesh,Solvents,53,34191,Nippon Yusen Kaisha (NYK),191,0.4,0.07,0.78,0.029,0.318,Proceed to further inspection
+C000723,Sweden,Marble,40,26444,Iran Shipping Lines,336,0.8,0.02,0.28,0.07,0.402,Proceed to further inspection
+C000724,Kenya,Fertilizer,40,26963,COSCO Shipping,183,0.4,0.049,0.46,0.032,0.262,Store to ship
+C000725,France,Textiles,40,27050,PIL (Pacific International Lines),270,0.6,0.024,0.2,0.034,0.301,Proceed to further inspection
+C000726,Qatar,Rice,20,22089,SM Line,362,0.8,0.035,0.38,0.036,0.419,Proceed to further inspection
+C000727,Singapore,Copper,53,33796,X-Press Feeders,204,0.6,0.02,0.35,0.036,0.323,Proceed to further inspection
+C000728,Thailand,Textiles,48,32447,K Line,203,0.6,0.042,0.2,0.029,0.306,Proceed to further inspection
+C000729,Thailand,Fertilizer,20,21763,CMA CGM,36,0.01,0.042,0.46,0.027,0.091,Store to ship
+C000730,Denmark,Industrial Chemicals,48,32596,ZIM Integrated Shipping Services,54,0.07,0.02,0.75,0.035,0.156,Store to ship
+C000731,Chile,Solvents,20,21488,Roy Shipping Agency,239,0.6,0.039,0.78,0.079,0.399,Proceed to further inspection
+C000732,Vietnam,Vehicles,20,21977,K Line,250,0.6,0.048,0.36,0.029,0.333,Proceed to further inspection
+C000733,Saudi Arabia,Cement,20,22051,Safmarine,324,0.8,0.05,0.3,0.035,0.411,Proceed to further inspection
+C000734,Vietnam,Batteries,20,21389,Black Sea Shipping,338,0.8,0.048,0.68,0.055,0.471,Proceed to further inspection
+C000735,Portugal,Computers,20,22088,SITC International,361,0.8,0.025,0.26,0.038,0.397,Proceed to further inspection
+C000736,Poland,Machinery,45,28897,TS Lines,153,0.4,0.029,0.34,0.037,0.238,Store to ship
+C000737,Philippines,Scientific Instruments,40,26405,Mediterranean Shipping Company (MSC),375,0.8,0.043,0.25,0.026,0.4,Proceed to further inspection
+C000738,Thailand,Fertilizer,48,32273,Baltic Shipping Company,377,0.8,0.042,0.46,0.041,0.434,Proceed to further inspection
+C000739,Hong Kong,Timber,48,32302,Evergreen Marine,348,0.8,0.03,0.29,0.029,0.403,Proceed to further inspection
+C000740,Singapore,Plastic Granules,20,21339,Crowley Maritime,388,0.8,0.02,0.39,0.033,0.415,Proceed to further inspection
+C000741,New Zealand,Timber,45,28730,Nippon Yusen Kaisha (NYK),320,0.8,0.021,0.29,0.029,0.4,Proceed to further inspection
+C000742,Ukraine,Paint,20,21452,X-Press Feeders,275,0.6,0.055,0.41,0.036,0.343,Proceed to further inspection
+C000743,Chile,Vehicles,20,21847,Hamburg Süd,120,0.4,0.039,0.36,0.03,0.244,Store to ship
+C000744,Qatar,Wheat,20,21637,TS Lines,90,0.07,0.035,0.17,0.037,0.071,Store to ship
+C000745,France,Frozen Meat,20,21942,Baltic Shipping Company,215,0.6,0.024,0.24,0.041,0.308,Proceed to further inspection
+C000746,Greece,Plastic Granules,53,34331,Maersk,331,0.8,0.024,0.39,0.025,0.416,Proceed to further inspection
+C000747,Colombia,Dairy Products,48,32849,ZIM Integrated Shipping Services,199,0.4,0.043,0.2,0.035,0.221,Store to ship
+C000748,Ukraine,Frozen Meat,40,26413,Grimaldi Lines,367,0.8,0.055,0.24,0.033,0.403,Proceed to further inspection
+C000749,Australia,Seafood,53,34085,Hyundai Merchant Marine (HMM),85,0.07,0.023,0.22,0.03,0.074,Store to ship
+C000750,Sri Lanka,Frozen Meat,45,29318,Star Container Services,268,0.6,0.075,0.24,0.065,0.326,Proceed to further inspection
+C000751,Mexico,Industrial Chemicals,40,26492,Res Trans-Logis,288,0.6,0.036,0.75,0.042,0.39,Proceed to further inspection
+C000752,Brazil,Rice,48,32338,Seaboard Marine,312,0.8,0.052,0.38,0.035,0.424,Proceed to further inspection
+C000753,Poland,Rice,20,21785,Maersk,58,0.07,0.029,0.38,0.025,0.1,Store to ship
+C000754,Poland,Electrical Cables,45,29129,Hamburg Süd,79,0.07,0.029,0.27,0.03,0.084,Store to ship
+C000755,Mexico,Ceramics,20,22071,Bahri,344,0.8,0.036,0.25,0.037,0.399,Proceed to further inspection
+C000756,Kenya,Heavy Machinery,45,29154,K Line,104,0.4,0.049,0.49,0.029,0.267,Store to ship
+C000757,New Zealand,Medical Equipment,40,26553,OOCL,227,0.6,0.021,0.23,0.028,0.304,Proceed to further inspection
+C000758,Oman,Coffee,20,21571,Unifeeder,156,0.4,0.038,0.18,0.034,0.216,Store to ship
+C000759,Peru,Vaccines,40,26591,Seaboard Marine,189,0.4,0.041,0.19,0.035,0.219,Store to ship
+C000760,Morocco,Steel Coils,40,26742,Wan Hai Lines,38,0.01,0.04,0.4,0.032,0.082,Store to ship
+C000761,Saudi Arabia,Wheat,40,27162,North Korea Shipping Corporation,382,0.8,0.05,0.17,0.085,0.396,Proceed to further inspection
+C000762,Chile,Natural Gas Equipment,45,29056,Seaboard Marine,6,0.01,0.039,0.52,0.035,0.1,Store to ship
+C000763,Mexico,Footwear,45,28910,X-Press Feeders,140,0.4,0.036,0.19,0.036,0.217,Store to ship
+C000764,United Arab Emirates,Petroleum Products,20,21508,Grimaldi Lines,219,0.6,0.045,0.84,0.033,0.406,Proceed to further inspection
+C000765,Egypt,Wind Turbine Parts,48,32292,Nippon Yusen Kaisha (NYK),358,0.8,0.044,0.31,0.029,0.41,Proceed to further inspection
+C000766,Taiwan,Fruits,48,32588,Ocean Network Express (ONE),62,0.07,0.032,0.15,0.027,0.066,Store to ship
+C000767,France,Solvents,48,32724,Baltic Shipping Company,74,0.07,0.024,0.78,0.041,0.162,Store to ship
+C000768,Chile,Petroleum Products,48,32650,OOCL,0,0.01,0.039,0.84,0.028,0.149,Store to ship
+C000769,Chile,Aluminum,48,32963,Bahri,313,0.8,0.039,0.33,0.037,0.413,Proceed to further inspection
+C000770,Argentina,Semiconductors,48,32445,Bahri,205,0.6,0.05,0.32,0.037,0.328,Proceed to further inspection
+C000771,Chile,Textiles,48,32664,Bahri,14,0.01,0.039,0.2,0.037,0.051,Store to ship
+C000772,Singapore,Vegetables,40,26798,Syrian Shipping Lines,18,0.01,0.02,0.14,0.075,0.039,Store to ship
+C000773,Turkey,Furniture,20,21707,Mitsui O.S.K. Lines (MOL),20,0.01,0.055,0.21,0.028,0.057,Store to ship
+C000774,Bangladesh,Electronics,45,29258,APL,208,0.6,0.07,0.28,0.031,0.328,Proceed to further inspection
+C000775,Argentina,Industrial Chemicals,48,32646,Unifeeder,4,0.01,0.05,0.75,0.034,0.139,Store to ship
+C000776,Sri Lanka,Steel Coils,20,22092,Syrian Shipping Lines,365,0.8,0.075,0.4,0.075,0.438,Proceed to further inspection
+C000777,South Africa,Automobile Parts,48,32357,Seaboard Marine,293,0.6,0.046,0.31,0.035,0.325,Proceed to further inspection
+C000778,Singapore,Rice,20,21795,Maersk,68,0.07,0.02,0.38,0.025,0.098,Store to ship
+C000779,New Zealand,Mobile Phones,40,27011,Bahri,231,0.6,0.021,0.27,0.037,0.311,Proceed to further inspection
+C000780,Morocco,Paper,53,34191,Mediterranean Shipping Company (MSC),191,0.4,0.04,0.21,0.026,0.22,Store to ship
+C000781,United Arab Emirates,Copper,40,26841,Hapag-Lloyd,61,0.07,0.045,0.35,0.028,0.101,Store to ship
+C000782,Pakistan,Leather Goods,53,34299,APL,299,0.6,0.06,0.22,0.031,0.315,Proceed to further inspection
+C000783,India,Aluminum,48,32670,Wan Hai Lines,20,0.01,0.04,0.33,0.032,0.071,Store to ship
+C000784,Netherlands,Mobile Phones,45,29135,Sinokor Merchant Marine,85,0.07,0.021,0.27,0.036,0.082,Store to ship
+C000785,Denmark,Rubber,40,26588,X-Press Feeders,192,0.4,0.02,0.27,0.036,0.224,Store to ship
+C000786,Japan,Timber,53,34334,Sinokor Merchant Marine,334,0.8,0.025,0.29,0.036,0.402,Proceed to further inspection
+C000787,Turkey,Vehicles,20,21951,Roy Shipping Agency,224,0.6,0.055,0.36,0.079,0.34,Proceed to further inspection
+C000788,India,Lubricants,53,33682,ZIM Integrated Shipping Services,318,0.8,0.04,0.37,0.035,0.419,Proceed to further inspection
+C000789,Sweden,Automobile Parts,20,21362,Crowley Maritime,365,0.8,0.02,0.31,0.033,0.403,Proceed to further inspection
+C000790,Canada,Petroleum Products,48,32784,Grimaldi Lines,134,0.4,0.024,0.84,0.033,0.313,Proceed to further inspection
+C000791,Italy,Coffee,20,21407,Bahri,320,0.8,0.026,0.18,0.037,0.385,Proceed to further inspection
+C000792,Philippines,Ceramics,48,32976,ZIM Integrated Shipping Services,326,0.8,0.043,0.25,0.035,0.401,Proceed to further inspection
+C000793,Germany,Aluminum,45,29177,Unifeeder,127,0.4,0.022,0.33,0.034,0.234,Store to ship
+C000794,Thailand,Electrical Cables,48,32577,X-Press Feeders,73,0.07,0.042,0.27,0.036,0.089,Store to ship
+C000795,Germany,Iron Ore,48,32786,Black Sea Shipping,136,0.4,0.022,0.64,0.055,0.284,Store to ship
+C000796,Egypt,Solar Panels,45,29315,Syrian Shipping Lines,265,0.6,0.044,0.24,0.075,0.317,Proceed to further inspection
+C000797,Germany,Footwear,45,28691,ZIM Integrated Shipping Services,359,0.8,0.022,0.19,0.035,0.385,Proceed to further inspection
+C000798,Canada,Fertilizer,20,21707,PIL (Pacific International Lines),20,0.01,0.024,0.46,0.034,0.086,Store to ship
+C000799,Canada,Medical Equipment,20,21569,Mediterranean Shipping Company (MSC),158,0.4,0.024,0.23,0.026,0.218,Store to ship
+C000800,Mexico,Electronics,53,33998,Sinokor Merchant Marine,2,0.01,0.036,0.28,0.036,0.062,Store to ship
+C000801,Ukraine,Coffee,20,22117,Crowley Maritime,390,0.8,0.055,0.18,0.033,0.394,Proceed to further inspection
+C000802,Bangladesh,Solvents,48,32324,Wan Hai Lines,326,0.8,0.07,0.78,0.032,0.491,Proceed to further inspection
+C000803,Egypt,Coffee,53,33877,Emirates Shipping Line,123,0.4,0.044,0.18,0.034,0.218,Store to ship
+C000804,Argentina,Lithium Batteries,40,26757,Res Trans-Logis,23,0.01,0.05,0.82,0.042,0.151,Store to ship
+C000805,Sri Lanka,Computers,20,21923,SITC International,196,0.4,0.075,0.26,0.038,0.241,Store to ship
+C000806,Denmark,Industrial Tools,20,21779,North Korea Shipping Corporation,52,0.07,0.02,0.3,0.085,0.091,Store to ship
+C000807,Colombia,Electrical Cables,45,29079,Seaboard Marine,29,0.01,0.043,0.27,0.035,0.063,Store to ship
+C000808,Sweden,Dairy Products,45,29349,SITC International,299,0.6,0.02,0.2,0.038,0.3,Proceed to further inspection
+C000809,Ukraine,Lithium Batteries,40,27109,Seaboard Marine,329,0.8,0.055,0.82,0.035,0.493,Proceed to further inspection
+C000810,Singapore,Machinery,48,32960,PIL (Pacific International Lines),310,0.8,0.02,0.34,0.034,0.408,Proceed to further inspection
+C000811,Russia,Natural Gas Equipment,48,32853,X-Press Feeders,203,0.6,0.058,0.52,0.036,0.361,Proceed to further inspection
+C000812,Canada,Cement,48,32351,Res Trans-Logis,299,0.6,0.024,0.3,0.042,0.317,Proceed to further inspection
+C000813,Vietnam,Natural Gas Equipment,40,26616,Star Container Services,164,0.4,0.048,0.52,0.065,0.274,Store to ship
+C000814,Sweden,Fruits,53,34172,North Korea Shipping Corporation,172,0.4,0.02,0.15,0.085,0.21,Store to ship
+C000815,Italy,Automobile Parts,48,32494,Emirates Shipping Line,156,0.4,0.026,0.31,0.034,0.232,Store to ship
+C000816,Thailand,Sugar,48,32400,Hapag-Lloyd,250,0.6,0.042,0.18,0.028,0.303,Proceed to further inspection
+C000817,South Africa,Vehicles,20,21657,Ocean Network Express (ONE),70,0.07,0.046,0.36,0.027,0.103,Store to ship
+C000818,Italy,Ceramics,53,34109,PIL (Pacific International Lines),109,0.4,0.026,0.25,0.034,0.223,Store to ship
+C000819,Vietnam,Petroleum Products,53,34002,Roy Shipping Agency,2,0.01,0.048,0.84,0.079,0.157,Store to ship
+C000820,Thailand,Industrial Chemicals,20,21457,SITC International,270,0.6,0.042,0.75,0.038,0.392,Proceed to further inspection
+C000821,Ukraine,Fruits,45,28813,Crowley Maritime,237,0.6,0.055,0.15,0.033,0.303,Proceed to further inspection
+C000822,Sweden,Computers,20,21390,APL,337,0.8,0.02,0.26,0.031,0.395,Proceed to further inspection
+C000823,Qatar,Petroleum Products,53,34200,SITC International,200,0.4,0.035,0.84,0.038,0.317,Proceed to further inspection
+C000824,Sweden,Coal,40,26648,ZIM Integrated Shipping Services,132,0.4,0.02,0.53,0.035,0.264,Store to ship
+C000825,Russia,Leather Goods,53,33708,CMA CGM,292,0.6,0.058,0.22,0.027,0.314,Proceed to further inspection
+C000826,Mexico,Rubber,20,21531,APL,196,0.4,0.036,0.27,0.031,0.229,Store to ship
+C000827,South Korea,Vegetables,48,32522,Yang Ming Marine,128,0.4,0.028,0.14,0.031,0.206,Store to ship
+C000828,Nigeria,Vaccines,45,28793,Hyundai Merchant Marine (HMM),257,0.6,0.065,0.19,0.03,0.312,Proceed to further inspection
+C000829,Russia,Medical Equipment,53,34363,Global Ocean Logistics,363,0.8,0.058,0.23,0.04,0.403,Proceed to further inspection
+C000830,Japan,Paper,53,33872,K Line,128,0.4,0.025,0.21,0.029,0.216,Store to ship
+C000831,Kenya,Frozen Meat,40,26885,CMA CGM,105,0.4,0.049,0.24,0.027,0.228,Store to ship
+C000832,Singapore,Frozen Meat,48,32944,CMA CGM,294,0.6,0.02,0.24,0.027,0.305,Proceed to further inspection
+C000833,Mexico,Food Products,53,33631,TS Lines,369,0.8,0.036,0.16,0.037,0.385,Proceed to further inspection
+C000834,Nigeria,Rubber,20,21596,Emirates Shipping Line,131,0.4,0.065,0.27,0.034,0.238,Store to ship
+C000835,United Kingdom,Sand,40,26704,SM Line,76,0.07,0.025,0.42,0.036,0.106,Store to ship
+C000836,Japan,Batteries,48,32891,Matson Navigation,241,0.6,0.025,0.68,0.028,0.375,Proceed to further inspection
+C000837,Morocco,Steel Coils,20,21689,Hamburg Süd,38,0.01,0.04,0.4,0.03,0.082,Store to ship
+C000838,United Arab Emirates,Solvents,45,29373,Hapag-Lloyd,323,0.8,0.045,0.78,0.028,0.483,Proceed to further inspection
+C000839,Mexico,Food Products,53,33704,Nippon Yusen Kaisha (NYK),296,0.6,0.036,0.16,0.029,0.298,Store to ship
+C000840,New Zealand,Mobile Phones,48,32522,Safmarine,128,0.4,0.021,0.27,0.035,0.224,Store to ship
+C000841,Russia,Heavy Machinery,53,33844,Iran Shipping Lines,156,0.4,0.058,0.49,0.07,0.274,Store to ship
+C000842,Norway,Cement,20,21526,Emirates Shipping Line,201,0.6,0.02,0.3,0.034,0.315,Proceed to further inspection
+C000843,Turkey,Industrial Chemicals,20,22103,Grimaldi Lines,376,0.8,0.055,0.75,0.033,0.482,Proceed to further inspection
+C000844,France,Heavy Machinery,53,34064,TS Lines,64,0.07,0.024,0.49,0.037,0.117,Store to ship
+C000845,Hong Kong,Rice,45,28759,APL,291,0.6,0.03,0.38,0.031,0.33,Proceed to further inspection
+C000846,Egypt,Vaccines,53,33886,Hamburg Süd,114,0.4,0.044,0.19,0.03,0.219,Store to ship
+C000847,Taiwan,Garments,45,29294,Black Sea Shipping,244,0.6,0.032,0.17,0.055,0.301,Proceed to further inspection
+C000848,Spain,Wheat,45,29269,K Line,219,0.6,0.027,0.17,0.029,0.297,Store to ship
+C000849,Poland,Tea,45,28766,CMA CGM,284,0.6,0.029,0.17,0.027,0.297,Store to ship
+C000850,Australia,Coal,20,21555,TS Lines,172,0.4,0.023,0.53,0.037,0.265,Store to ship
+C000851,United Kingdom,Garments,40,26865,Nippon Yusen Kaisha (NYK),85,0.07,0.025,0.17,0.029,0.067,Store to ship
+C000852,Vietnam,Dairy Products,40,27123,Emirates Shipping Line,343,0.8,0.048,0.2,0.034,0.395,Proceed to further inspection
+C000853,Norway,Vegetables,20,21514,Emirates Shipping Line,213,0.6,0.02,0.14,0.034,0.29,Store to ship
+C000854,Spain,Chemicals,40,27000,SITC International,220,0.6,0.027,0.71,0.038,0.381,Proceed to further inspection
+C000855,Oman,Vehicles,40,27078,ZIM Integrated Shipping Services,298,0.6,0.038,0.36,0.035,0.33,Proceed to further inspection
+C000856,Indonesia,Wheat,45,29307,Mitsui O.S.K. Lines (MOL),257,0.6,0.047,0.17,0.028,0.303,Proceed to further inspection
+C000857,Indonesia,Computers,48,32691,PIL (Pacific International Lines),41,0.01,0.047,0.26,0.034,0.063,Store to ship
+C000858,Germany,Petroleum Products,53,34371,Seaboard Marine,371,0.8,0.022,0.84,0.035,0.486,Proceed to further inspection
+C000859,France,Machinery,45,29232,Hyundai Merchant Marine (HMM),182,0.4,0.024,0.34,0.03,0.236,Store to ship
+C000860,Mexico,Garments,20,21650,Ocean Network Express (ONE),77,0.07,0.036,0.17,0.027,0.071,Store to ship
+C000861,Egypt,Batteries,45,29099,COSCO Shipping,49,0.01,0.044,0.68,0.032,0.126,Store to ship
+C000862,Indonesia,Petroleum Products,48,32550,TS Lines,100,0.07,0.047,0.84,0.037,0.178,Store to ship
+C000863,India,Solvents,48,32427,Baltic Shipping Company,223,0.6,0.04,0.78,0.041,0.396,Proceed to further inspection
+C000864,Australia,Scientific Instruments,53,33717,Grimaldi Lines,283,0.6,0.023,0.25,0.033,0.308,Proceed to further inspection
+C000865,Morocco,Lithium Batteries,48,32655,Emirates Shipping Line,5,0.01,0.04,0.82,0.034,0.147,Store to ship
+C000866,United Arab Emirates,Computers,48,32289,SM Line,361,0.8,0.045,0.26,0.036,0.404,Proceed to further inspection
+C000867,Mexico,Batteries,40,26756,Hapag-Lloyd,24,0.01,0.036,0.68,0.028,0.123,Store to ship
+C000868,Russia,Sand,48,32690,SM Line,40,0.01,0.058,0.42,0.036,0.091,Store to ship
+C000869,Vietnam,Wind Turbine Parts,48,32617,Emirates Shipping Line,33,0.01,0.048,0.31,0.034,0.071,Store to ship
+C000870,Chile,Computers,20,21646,Yang Ming Marine,81,0.07,0.039,0.26,0.031,0.086,Store to ship
+C000871,Qatar,Leather Goods,45,29387,North Korea Shipping Corporation,337,0.8,0.035,0.22,0.085,0.399,Proceed to further inspection
+C000872,Portugal,Ceramics,48,32478,Wan Hai Lines,172,0.4,0.025,0.25,0.032,0.222,Store to ship
+C000873,Kenya,Paper,45,28959,North Korea Shipping Corporation,91,0.07,0.049,0.21,0.085,0.086,Store to ship
+C000874,Netherlands,Paper,48,32277,Safmarine,373,0.8,0.021,0.21,0.035,0.388,Proceed to further inspection
+C000875,Sri Lanka,Glass,48,32577,Maersk,73,0.07,0.075,0.24,0.025,0.094,Store to ship
+C000876,Peru,Timber,20,21518,Safmarine,209,0.6,0.041,0.29,0.035,0.32,Proceed to further inspection
+C000877,Portugal,Coffee,20,21474,Syrian Shipping Lines,253,0.6,0.025,0.18,0.075,0.302,Proceed to further inspection
+C000878,Bangladesh,Batteries,20,21723,COSCO Shipping,4,0.01,0.07,0.68,0.032,0.134,Store to ship
+C000879,Spain,Vegetables,48,32418,OOCL,232,0.6,0.027,0.14,0.028,0.292,Store to ship
+C000880,Spain,Glass,53,34329,Evergreen Marine,329,0.8,0.027,0.24,0.029,0.394,Proceed to further inspection
+C000881,Italy,Automobile Parts,45,29183,TS Lines,133,0.4,0.026,0.31,0.037,0.232,Store to ship
+C000882,Turkey,Furniture,20,21686,Syrian Shipping Lines,41,0.01,0.055,0.21,0.075,0.061,Store to ship
+C000883,Kenya,Iron Ore,20,21710,North Korea Shipping Corporation,17,0.01,0.049,0.64,0.085,0.127,Store to ship
+C000884,Philippines,Frozen Meat,20,21970,Syrian Shipping Lines,243,0.6,0.043,0.24,0.075,0.317,Proceed to further inspection
+C000885,Italy,Scientific Instruments,53,34303,COSCO Shipping,303,0.8,0.026,0.25,0.032,0.396,Proceed to further inspection
+C000886,Denmark,Vaccines,48,32965,Hamburg Süd,315,0.8,0.02,0.19,0.03,0.384,Proceed to further inspection
+C000887,Brazil,Textiles,45,29040,North Korea Shipping Corporation,10,0.01,0.052,0.2,0.085,0.06,Store to ship
+C000888,Norway,Coal,45,29402,TS Lines,352,0.8,0.02,0.53,0.037,0.437,Proceed to further inspection
+C000889,Indonesia,Vegetables,45,29198,X-Press Feeders,148,0.4,0.047,0.14,0.036,0.213,Store to ship
+C000890,Netherlands,Cotton,20,21418,Syrian Shipping Lines,309,0.8,0.021,0.18,0.075,0.387,Proceed to further inspection
+C000891,Russia,Electrical Cables,40,26788,SITC International,8,0.01,0.058,0.27,0.038,0.068,Store to ship
+C000892,Colombia,Mobile Phones,45,28913,X-Press Feeders,137,0.4,0.043,0.27,0.036,0.232,Store to ship
+C000893,France,Lithium Batteries,40,26560,Mitsui O.S.K. Lines (MOL),220,0.6,0.024,0.82,0.028,0.396,Proceed to further inspection
+C000894,Vietnam,Computers,45,29357,ZIM Integrated Shipping Services,307,0.8,0.048,0.26,0.035,0.404,Proceed to further inspection
+C000895,Turkey,Garments,48,32497,ZIM Integrated Shipping Services,153,0.4,0.055,0.17,0.035,0.22,Store to ship
+C000896,United States,Garments,48,32983,Evergreen Marine,333,0.8,0.028,0.17,0.029,0.384,Proceed to further inspection
+C000897,Brazil,Mobile Phones,20,21382,Star Container Services,345,0.8,0.052,0.27,0.065,0.41,Proceed to further inspection
+C000898,Ukraine,Timber,20,21898,Mediterranean Shipping Company (MSC),171,0.4,0.055,0.29,0.026,0.238,Store to ship
+C000899,United Arab Emirates,Automobile Parts,45,28686,CMA CGM,364,0.8,0.045,0.31,0.027,0.41,Proceed to further inspection
+C000900,Netherlands,Tea,40,26562,Bahri,218,0.6,0.021,0.17,0.037,0.296,Store to ship
+C000901,Russia,Semiconductors,20,21829,Safmarine,102,0.4,0.058,0.32,0.035,0.244,Store to ship
+C000902,Greece,Cotton,48,32805,Baltic Shipping Company,155,0.4,0.024,0.18,0.041,0.212,Store to ship
+C000903,Kenya,Copper,45,29298,Syrian Shipping Lines,248,0.6,0.049,0.35,0.075,0.336,Proceed to further inspection
+C000904,Russia,Granite,53,34296,TS Lines,296,0.6,0.058,0.29,0.037,0.326,Proceed to further inspection
+C000905,Japan,Paper,40,26789,Iran Shipping Lines,9,0.01,0.025,0.21,0.07,0.051,Store to ship
+C000906,Italy,Industrial Chemicals,53,33840,CMA CGM,160,0.4,0.026,0.75,0.027,0.299,Store to ship
+C000907,Spain,Wheat,53,34220,OOCL,220,0.6,0.027,0.17,0.028,0.297,Store to ship
+C000908,Australia,Solar Panels,40,26737,TS Lines,43,0.01,0.023,0.24,0.037,0.052,Store to ship
+C000909,Denmark,Coffee,53,34219,Sinokor Merchant Marine,219,0.6,0.02,0.18,0.036,0.297,Store to ship
+C000910,Mexico,Seafood,40,27141,Nippon Yusen Kaisha (NYK),361,0.8,0.036,0.22,0.029,0.394,Proceed to further inspection
+C000911,Hong Kong,Glass,20,21425,PIL (Pacific International Lines),302,0.8,0.03,0.24,0.034,0.395,Proceed to further inspection
+C000912,Philippines,Ceramics,53,33898,Roy Shipping Agency,102,0.4,0.043,0.25,0.079,0.233,Store to ship
+C000913,Argentina,Vaccines,40,26765,Sinokor Merchant Marine,15,0.01,0.05,0.19,0.036,0.053,Store to ship
+C000914,United States,Coffee,48,32256,Ocean Network Express (ONE),394,0.8,0.028,0.18,0.027,0.385,Proceed to further inspection
+C000915,Taiwan,Heavy Machinery,48,32764,Baltic Shipping Company,114,0.4,0.032,0.49,0.041,0.262,Store to ship
+C000916,Thailand,Electrical Cables,48,32629,TS Lines,21,0.01,0.042,0.27,0.037,0.063,Store to ship
+C000917,Germany,Rubber,48,32261,Baltic Shipping Company,389,0.8,0.022,0.27,0.041,0.398,Proceed to further inspection
+C000918,New Zealand,Batteries,53,33724,Mediterranean Shipping Company (MSC),276,0.6,0.021,0.68,0.026,0.373,Proceed to further inspection
+C000919,Spain,Medical Equipment,48,32976,Bahri,326,0.8,0.027,0.23,0.037,0.393,Proceed to further inspection
+C000920,Spain,Electrical Cables,48,32718,Syrian Shipping Lines,68,0.07,0.027,0.27,0.075,0.088,Store to ship
+C000921,Turkey,Seafood,40,26659,K Line,121,0.4,0.055,0.22,0.029,0.227,Store to ship
+C000922,Malaysia,Wheat,20,21409,Black Sea Shipping,318,0.8,0.073,0.17,0.055,0.4,Proceed to further inspection
+C000923,France,Mobile Phones,53,34393,Mediterranean Shipping Company (MSC),393,0.8,0.024,0.27,0.026,0.397,Proceed to further inspection
+C000924,Denmark,Frozen Meat,20,22089,Star Container Services,362,0.8,0.02,0.24,0.065,0.395,Proceed to further inspection
+C000925,Peru,Rubber,45,29174,TS Lines,124,0.4,0.041,0.27,0.037,0.231,Store to ship
+C000926,Poland,Electrical Cables,45,29143,TS Lines,93,0.07,0.029,0.27,0.037,0.085,Store to ship
+C000927,Hong Kong,Garments,45,29245,ZIM Integrated Shipping Services,195,0.4,0.03,0.17,0.035,0.212,Store to ship
+C000928,Turkey,Lithium Batteries,45,29213,North Korea Shipping Corporation,163,0.4,0.055,0.82,0.085,0.325,Proceed to further inspection
+C000929,South Africa,Mobile Phones,40,26670,Unifeeder,110,0.4,0.046,0.27,0.034,0.232,Store to ship
+C000930,Sri Lanka,Granite,40,26397,OOCL,383,0.8,0.075,0.29,0.028,0.417,Proceed to further inspection
+C000931,Spain,Food Products,53,33684,K Line,316,0.8,0.027,0.16,0.029,0.382,Proceed to further inspection
+C000932,Norway,Lubricants,45,29018,Safmarine,32,0.01,0.02,0.37,0.035,0.071,Store to ship
+C000933,United States,Copper,45,28699,CMA CGM,351,0.8,0.028,0.35,0.027,0.411,Proceed to further inspection
+C000934,Bangladesh,Footwear,45,29284,PIL (Pacific International Lines),234,0.6,0.07,0.19,0.034,0.314,Proceed to further inspection
+C000935,Singapore,Aluminum,48,32492,Ocean Network Express (ONE),158,0.4,0.02,0.33,0.027,0.233,Store to ship
+C000936,Argentina,Solar Panels,45,29215,Res Trans-Logis,165,0.4,0.05,0.24,0.042,0.23,Store to ship
+C000937,Hong Kong,Semiconductors,48,33029,Hamburg Süd,379,0.8,0.03,0.32,0.03,0.407,Proceed to further inspection
+C000938,Germany,Paper,48,32348,Unifeeder,302,0.8,0.022,0.21,0.034,0.388,Proceed to further inspection
+C000939,Sri Lanka,Natural Gas Equipment,20,21797,Global Ocean Logistics,70,0.07,0.075,0.52,0.04,0.138,Store to ship
+C000940,South Africa,Marble,45,28738,Seaboard Marine,312,0.8,0.046,0.28,0.035,0.407,Proceed to further inspection
+C000941,Singapore,Automobile Parts,20,21844,COSCO Shipping,117,0.4,0.02,0.31,0.032,0.23,Store to ship
+C000942,United States,Furniture,48,33022,Star Container Services,372,0.8,0.028,0.21,0.065,0.393,Proceed to further inspection
+C000943,France,Industrial Tools,48,32594,TS Lines,56,0.07,0.024,0.3,0.037,0.088,Store to ship
+C000944,Bangladesh,Electrical Cables,40,27168,Yang Ming Marine,388,0.8,0.07,0.27,0.031,0.412,Proceed to further inspection
+C000945,Denmark,Plastic Granules,45,28654,Sinokor Merchant Marine,396,0.8,0.02,0.39,0.036,0.416,Proceed to further inspection
+C000946,Sweden,Machinery,45,29066,Matson Navigation,16,0.01,0.02,0.34,0.028,0.066,Store to ship
+C000947,Chile,Coal,20,21433,Res Trans-Logis,294,0.6,0.039,0.53,0.042,0.357,Proceed to further inspection
+C000948,Poland,Medical Equipment,20,21984,K Line,257,0.6,0.029,0.23,0.029,0.307,Proceed to further inspection
+C000949,Brazil,Lubricants,45,28748,SM Line,302,0.8,0.052,0.37,0.036,0.423,Proceed to further inspection
+C000950,Sweden,Mobile Phones,45,29106,Roy Shipping Agency,56,0.07,0.02,0.27,0.079,0.086,Store to ship
+C000951,Oman,Copper,48,32441,Nippon Yusen Kaisha (NYK),209,0.6,0.038,0.35,0.029,0.328,Proceed to further inspection
+C000952,Sweden,Heavy Machinery,48,32963,Black Sea Shipping,313,0.8,0.02,0.49,0.055,0.433,Proceed to further inspection
+C000953,Philippines,Dairy Products,45,29281,Bahri,231,0.6,0.043,0.2,0.037,0.307,Proceed to further inspection
+C000954,Germany,Tea,40,26834,Mediterranean Shipping Company (MSC),54,0.07,0.022,0.17,0.026,0.066,Store to ship
+C000955,Ukraine,Computers,45,29422,Mediterranean Shipping Company (MSC),372,0.8,0.055,0.26,0.026,0.406,Proceed to further inspection
+C000956,Sweden,Electrical Cables,40,27015,Baltic Shipping Company,235,0.6,0.02,0.27,0.041,0.311,Proceed to further inspection
+C000957,Philippines,Sugar,53,34055,Crowley Maritime,55,0.07,0.043,0.18,0.033,0.075,Store to ship
+C000958,Kenya,Plastic Granules,53,33705,Bahri,295,0.6,0.049,0.39,0.037,0.339,Proceed to further inspection
+C000959,Vietnam,Batteries,20,22060,Evergreen Marine,333,0.8,0.048,0.68,0.029,0.469,Proceed to further inspection
+C000960,Hong Kong,Chemicals,48,32501,Syrian Shipping Lines,149,0.4,0.03,0.71,0.075,0.299,Store to ship
+C000961,Ukraine,Scientific Instruments,20,21816,SITC International,89,0.07,0.055,0.25,0.038,0.09,Store to ship
+C000962,Sri Lanka,Leather Goods,20,21450,Seaboard Marine,277,0.6,0.075,0.22,0.035,0.321,Proceed to further inspection
+C000963,United Kingdom,Industrial Chemicals,40,26555,Mediterranean Shipping Company (MSC),225,0.6,0.025,0.75,0.026,0.385,Proceed to further inspection
+C000964,Denmark,Computers,20,21965,Syrian Shipping Lines,238,0.6,0.02,0.26,0.075,0.313,Proceed to further inspection
+C000965,Germany,Marble,53,33801,OOCL,199,0.4,0.022,0.28,0.028,0.226,Store to ship
+C000966,Turkey,Lithium Batteries,45,28941,SM Line,109,0.4,0.055,0.82,0.036,0.32,Proceed to further inspection
+C000967,Denmark,Computers,45,29137,APL,87,0.07,0.02,0.26,0.031,0.08,Store to ship
+C000968,Vietnam,Wheat,45,29071,X-Press Feeders,21,0.01,0.048,0.17,0.036,0.049,Store to ship
+C000969,Portugal,Industrial Tools,48,32394,Crowley Maritime,256,0.6,0.025,0.3,0.033,0.317,Proceed to further inspection
+C000970,Thailand,Semiconductors,45,29170,Matson Navigation,120,0.4,0.042,0.32,0.028,0.238,Store to ship
+C000971,Nigeria,Lubricants,48,32806,Emirates Shipping Line,156,0.4,0.065,0.37,0.034,0.254,Store to ship
+C000972,Canada,Solar Panels,40,26501,Hamburg Süd,279,0.6,0.024,0.24,0.03,0.307,Proceed to further inspection
+C000973,Portugal,Vehicles,48,32663,Mediterranean Shipping Company (MSC),13,0.01,0.025,0.36,0.026,0.07,Store to ship
+C000974,Italy,Industrial Chemicals,40,26385,Yang Ming Marine,395,0.8,0.026,0.75,0.031,0.473,Proceed to further inspection
+C000975,United States,Vegetables,53,33980,Emirates Shipping Line,20,0.01,0.028,0.14,0.034,0.038,Store to ship
+C000976,United Arab Emirates,Electronics,48,33007,Evergreen Marine,357,0.8,0.045,0.28,0.029,0.406,Proceed to further inspection
+C000977,South Africa,Vegetables,53,33901,Unifeeder,99,0.07,0.046,0.14,0.034,0.07,Store to ship
+C000978,Vietnam,Petroleum Products,53,33679,Bahri,321,0.8,0.048,0.84,0.037,0.494,Proceed to further inspection
+C000979,Hong Kong,Natural Gas Equipment,48,32526,Evergreen Marine,124,0.4,0.03,0.52,0.029,0.265,Store to ship
+C000980,France,Industrial Chemicals,48,32426,North Korea Shipping Corporation,224,0.6,0.024,0.75,0.085,0.39,Proceed to further inspection
+C000981,Sri Lanka,Tea,20,21683,Safmarine,44,0.01,0.075,0.17,0.035,0.058,Store to ship
+C000982,Netherlands,Footwear,48,32423,X-Press Feeders,227,0.6,0.021,0.19,0.036,0.299,Store to ship
+C000983,Spain,Lithium Batteries,53,34214,PIL (Pacific International Lines),214,0.6,0.027,0.82,0.034,0.398,Proceed to further inspection
+C000984,Belgium,Solvents,45,29232,APL,182,0.4,0.023,0.78,0.031,0.303,Proceed to further inspection
+C000985,Vietnam,Corn,40,26880,Matson Navigation,100,0.07,0.048,0.16,0.028,0.073,Store to ship
+C000986,South Africa,Vaccines,20,21420,Sinokor Merchant Marine,307,0.8,0.046,0.19,0.036,0.393,Proceed to further inspection
+C000987,United States,Granite,53,33629,Black Sea Shipping,371,0.8,0.028,0.29,0.055,0.404,Proceed to further inspection
+C000988,Pakistan,Solvents,20,22113,Unifeeder,386,0.8,0.06,0.78,0.034,0.488,Proceed to further inspection
+C000989,Greece,Natural Gas Equipment,53,33812,Res Trans-Logis,188,0.4,0.024,0.52,0.042,0.265,Store to ship
+C000990,Canada,Ceramics,53,34329,Matson Navigation,329,0.8,0.024,0.25,0.028,0.395,Proceed to further inspection
+C000991,Denmark,Wheat,53,33854,X-Press Feeders,146,0.4,0.02,0.17,0.036,0.209,Store to ship
+C000992,Poland,Machinery,48,32822,SITC International,172,0.4,0.029,0.34,0.038,0.238,Store to ship
+C000993,Poland,Granite,20,21741,Hyundai Merchant Marine (HMM),14,0.01,0.029,0.29,0.03,0.061,Store to ship
+C000994,Taiwan,Garments,20,22058,Yang Ming Marine,331,0.8,0.032,0.17,0.031,0.385,Proceed to further inspection
+C000995,Malaysia,Sand,20,21746,Safmarine,19,0.01,0.073,0.42,0.035,0.096,Store to ship
+C000996,Mexico,Automobile Parts,48,32363,Hyundai Merchant Marine (HMM),287,0.6,0.036,0.31,0.03,0.321,Proceed to further inspection
+C000997,Bangladesh,Timber,20,21977,Maersk,250,0.6,0.07,0.29,0.025,0.329,Proceed to further inspection
+C000998,Poland,Machinery,53,34248,Star Container Services,248,0.6,0.029,0.34,0.065,0.327,Proceed to further inspection
+C000999,Malaysia,Food Products,48,32312,Bahri,338,0.8,0.073,0.16,0.037,0.397,Proceed to further inspection
+C001000,South Africa,Industrial Tools,53,34035,Global Ocean Logistics,35,0.01,0.046,0.3,0.04,0.069,Store to ship
