@@ -1,0 +1,1001 @@
+Container_ID,Destination,Goods,Container_Length,Actual_Weight,Shipping_Company
+C000001,Denmark,Ceramics,40,27009,SM Line
+C000002,Denmark,Garments,40,26637,X-Press Feeders
+C000003,Taiwan,Fertilizer,53,34284,Emirates Shipping Line
+C000004,Colombia,Tea,53,34024,Hyundai Merchant Marine (HMM)
+C000005,Poland,Frozen Meat,45,28654,K Line
+C000006,United Arab Emirates,Solar Panels,20,21950,Matson Navigation
+C000007,Russia,Rubber,48,32899,CMA CGM
+C000008,Oman,Rice,20,22021,Unifeeder
+C000009,Norway,Semiconductors,53,34010,Mediterranean Shipping Company (MSC)
+C000010,Vietnam,Cement,20,21767,COSCO Shipping
+C000011,Netherlands,Lithium Batteries,20,21681,Unifeeder
+C000012,South Africa,Rice,45,28823,Unifeeder
+C000013,Saudi Arabia,Granite,40,27001,Grimaldi Lines
+C000014,France,Corn,20,22101,Safmarine
+C000015,Spain,Cement,45,29208,Baltic Shipping Company
+C000016,South Africa,Garments,48,32383,Iran Shipping Lines
+C000017,Netherlands,Semiconductors,45,28857,PIL (Pacific International Lines)
+C000018,Germany,Electronics,40,27087,Mediterranean Shipping Company (MSC)
+C000019,Argentina,Sugar,20,22012,Maersk
+C000020,Ukraine,Food Products,53,34028,North Korea Shipping Corporation
+C000021,Saudi Arabia,Paper,48,32990,Mitsui O.S.K. Lines (MOL)
+C000022,Turkey,Cement,40,26482,Hapag-Lloyd
+C000023,Indonesia,Chemicals,20,21708,Grimaldi Lines
+C000024,China,Electronics,45,29081,Hapag-Lloyd
+C000025,United Kingdom,Electrical Cables,53,34093,ZIM Integrated Shipping Services
+C000026,Norway,Solvents,53,33739,Nippon Yusen Kaisha (NYK)
+C000027,Italy,Vaccines,53,34328,Maersk
+C000028,Malaysia,Plastic Granules,48,32459,Maersk
+C000029,Greece,Lubricants,20,21681,Hyundai Merchant Marine (HMM)
+C000030,Egypt,Tea,40,26637,Maersk
+C000031,Belgium,Glass,40,26450,Wan Hai Lines
+C000032,Vietnam,Marble,40,27100,Seaboard Marine
+C000033,Australia,Vehicles,48,32407,Evergreen Marine
+C000034,Chile,Lubricants,20,21660,Yang Ming Marine
+C000035,Portugal,Vegetables,53,33757,Maersk
+C000036,Philippines,Automobile Parts,48,32777,TS Lines
+C000037,Indonesia,Electronics,48,32627,Evergreen Marine
+C000038,Portugal,Vehicles,48,32390,Res Trans-Logis
+C000039,Greece,Textiles,40,26684,Bahri
+C000040,Italy,Vehicles,40,26878,Emirates Shipping Line
+C000041,Thailand,Solvents,20,21475,Sinokor Merchant Marine
+C000042,Brazil,Petroleum Products,45,28933,Black Sea Shipping
+C000043,South Africa,Garments,40,27164,Hapag-Lloyd
+C000044,Spain,Heavy Machinery,40,27140,Roy Shipping Agency
+C000045,United Arab Emirates,Scientific Instruments,45,29055,Hapag-Lloyd
+C000046,Poland,Automobile Parts,40,26564,Mediterranean Shipping Company (MSC)
+C000047,Belgium,Seafood,53,33788,K Line
+C000048,Colombia,Industrial Chemicals,53,33629,Iran Shipping Lines
+C000049,Peru,Rice,40,27163,Roy Shipping Agency
+C000050,Italy,Mobile Phones,48,32658,Hyundai Merchant Marine (HMM)
+C000051,Saudi Arabia,Copper,20,21828,Mediterranean Shipping Company (MSC)
+C000052,Argentina,Furniture,53,33808,Baltic Shipping Company
+C000053,Germany,Steel Coils,45,29400,K Line
+C000054,Turkey,Coal,45,28896,Hyundai Merchant Marine (HMM)
+C000055,Greece,Scientific Instruments,40,27040,Hapag-Lloyd
+C000056,Thailand,Sand,48,32396,Yang Ming Marine
+C000057,Norway,Medical Equipment,40,26614,Hyundai Merchant Marine (HMM)
+C000058,Ukraine,Footwear,40,26397,Hamburg Süd
+C000059,India,Semiconductors,53,33932,Mitsui O.S.K. Lines (MOL)
+C000060,Brazil,Scientific Instruments,48,32559,Bahri
+C000061,Japan,Cotton,40,26582,Crowley Maritime
+C000062,Ukraine,Semiconductors,53,33781,Baltic Shipping Company
+C000063,South Africa,Automobile Parts,53,33980,Yang Ming Marine
+C000064,United Arab Emirates,Petroleum Products,53,33721,ZIM Integrated Shipping Services
+C000065,Sweden,Petroleum Products,45,29191,Syrian Shipping Lines
+C000066,Indonesia,Scientific Instruments,20,21729,Maersk
+C000067,Greece,Paper,40,26632,Matson Navigation
+C000068,Russia,Ceramics,20,21860,Evergreen Marine
+C000069,Pakistan,Solvents,53,34355,Syrian Shipping Lines
+C000070,United Arab Emirates,Food Products,20,21814,Mitsui O.S.K. Lines (MOL)
+C000071,Egypt,Industrial Tools,40,26595,North Korea Shipping Corporation
+C000072,Poland,Copper,48,32448,APL
+C000073,Argentina,Copper,48,32907,Nippon Yusen Kaisha (NYK)
+C000074,Belgium,Coal,45,28912,PIL (Pacific International Lines)
+C000075,Japan,Natural Gas Equipment,20,21760,Hamburg Süd
+C000076,Qatar,Sand,45,28826,Nippon Yusen Kaisha (NYK)
+C000077,United Arab Emirates,Chemicals,45,28813,Baltic Shipping Company
+C000078,United Kingdom,Coal,48,32481,X-Press Feeders
+C000079,Morocco,Industrial Chemicals,48,32637,Seaboard Marine
+C000080,Australia,Computers,53,34085,Mediterranean Shipping Company (MSC)
+C000081,New Zealand,Timber,40,26823,CMA CGM
+C000082,Norway,Scientific Instruments,20,21444,Grimaldi Lines
+C000083,China,Coffee,40,26533,Sinokor Merchant Marine
+C000084,New Zealand,Rubber,45,28818,Nippon Yusen Kaisha (NYK)
+C000085,New Zealand,Coal,40,26797,CMA CGM
+C000086,Belgium,Plastic Granules,48,32895,Unifeeder
+C000087,Kenya,Tea,20,21390,ZIM Integrated Shipping Services
+C000088,Hong Kong,Solvents,53,33855,PIL (Pacific International Lines)
+C000089,South Korea,Electronics,53,33733,Roy Shipping Agency
+C000090,Ukraine,Wind Turbine Parts,48,32333,Res Trans-Logis
+C000091,Philippines,Food Products,45,28721,Sinokor Merchant Marine
+C000092,Norway,Wheat,48,32734,COSCO Shipping
+C000093,Taiwan,Iron Ore,53,33739,APL
+C000094,Norway,Vegetables,48,33010,ZIM Integrated Shipping Services
+C000095,Peru,Frozen Meat,53,34331,Crowley Maritime
+C000096,Italy,Sand,48,32499,K Line
+C000097,Taiwan,Wheat,45,29057,Res Trans-Logis
+C000098,Hong Kong,Chemicals,48,32479,Seaboard Marine
+C000099,Argentina,Marble,40,26532,Global Ocean Logistics
+C000100,Egypt,Solar Panels,45,28724,Unifeeder
+C000101,United States,Rice,48,32251,Iran Shipping Lines
+C000102,Qatar,Petroleum Products,20,21472,Grimaldi Lines
+C000103,Sri Lanka,Lithium Batteries,48,32304,Matson Navigation
+C000104,Norway,Scientific Instruments,40,26919,Wan Hai Lines
+C000105,Ukraine,Solar Panels,48,32758,X-Press Feeders
+C000106,Indonesia,Natural Gas Equipment,45,29017,Unifeeder
+C000107,Morocco,Iron Ore,20,21364,Black Sea Shipping
+C000108,Indonesia,Timber,40,26987,Maersk
+C000109,Norway,Granite,20,21744,Bahri
+C000110,Portugal,Glass,40,27028,Global Ocean Logistics
+C000111,Brazil,Garments,48,32998,Nippon Yusen Kaisha (NYK)
+C000112,Philippines,Electrical Cables,20,21729,Hamburg Süd
+C000113,Pakistan,Solar Panels,48,32869,Iran Shipping Lines
+C000114,Kenya,Fruits,45,29357,Star Container Services
+C000115,United States,Glass,20,21642,Ocean Network Express (ONE)
+C000116,Germany,Lubricants,53,34155,Crowley Maritime
+C000117,Malaysia,Semiconductors,48,32554,Sinokor Merchant Marine
+C000118,United Arab Emirates,Textiles,53,33713,Hapag-Lloyd
+C000119,Chile,Granite,45,28738,Unifeeder
+C000120,Pakistan,Wheat,53,34135,Seaboard Marine
+C000121,Oman,Lithium Batteries,53,34245,Black Sea Shipping
+C000122,Peru,Wind Turbine Parts,53,33742,Bahri
+C000123,United Arab Emirates,Paint,40,26948,OOCL
+C000124,Argentina,Sand,40,26562,Baltic Shipping Company
+C000125,Sweden,Semiconductors,40,26938,Star Container Services
+C000126,Denmark,Coal,48,33004,Iran Shipping Lines
+C000127,Chile,Dairy Products,40,26417,Mediterranean Shipping Company (MSC)
+C000128,Russia,Iron Ore,40,26664,Global Ocean Logistics
+C000129,Argentina,Electrical Cables,53,33636,Iran Shipping Lines
+C000130,Italy,Mobile Phones,53,34393,Crowley Maritime
+C000131,Oman,Wind Turbine Parts,45,29143,Ocean Network Express (ONE)
+C000132,Indonesia,Leather Goods,20,21364,Res Trans-Logis
+C000133,Italy,Coal,45,28991,Baltic Shipping Company
+C000134,Morocco,Sugar,48,32324,PIL (Pacific International Lines)
+C000135,Portugal,Garments,48,32401,APL
+C000136,Chile,Copper,53,34174,Iran Shipping Lines
+C000137,Oman,Frozen Meat,53,34052,Evergreen Marine
+C000138,Germany,Timber,40,26978,X-Press Feeders
+C000139,South Korea,Fertilizer,48,32724,Bahri
+C000140,Turkey,Steel Coils,53,33616,Sinokor Merchant Marine
+C000141,South Africa,Solvents,53,34186,COSCO Shipping
+C000142,Portugal,Heavy Machinery,20,21633,Sinokor Merchant Marine
+C000143,New Zealand,Solar Panels,48,32975,Grimaldi Lines
+C000144,Ukraine,Fertilizer,40,26756,Bahri
+C000145,Germany,Tea,48,32463,Ocean Network Express (ONE)
+C000146,South Africa,Tea,53,34208,K Line
+C000147,Qatar,Solvents,45,29375,Black Sea Shipping
+C000148,United Arab Emirates,Industrial Tools,48,32713,COSCO Shipping
+C000149,Belgium,Cotton,40,26696,Nippon Yusen Kaisha (NYK)
+C000150,Taiwan,Solar Panels,48,32928,Black Sea Shipping
+C000151,South Africa,Cement,48,32285,Hapag-Lloyd
+C000152,Netherlands,Medical Equipment,48,32908,Wan Hai Lines
+C000153,United Kingdom,Steel Coils,20,22069,SITC International
+C000154,South Korea,Plastic Granules,48,32388,Black Sea Shipping
+C000155,United States,Computers,20,21821,Star Container Services
+C000156,Belgium,Marble,45,29330,Hamburg Süd
+C000157,Australia,Industrial Chemicals,53,33610,Matson Navigation
+C000158,Nigeria,Sugar,45,29212,Global Ocean Logistics
+C000159,Malaysia,Cement,40,27037,COSCO Shipping
+C000160,Spain,Steel Coils,40,27012,Res Trans-Logis
+C000161,Colombia,Scientific Instruments,20,21779,Ocean Network Express (ONE)
+C000162,Qatar,Aluminum,48,32303,Bahri
+C000163,Spain,Furniture,45,29030,Hamburg Süd
+C000164,Egypt,Solvents,45,29212,COSCO Shipping
+C000165,Indonesia,Batteries,40,26885,Roy Shipping Agency
+C000166,Indonesia,Frozen Meat,53,33663,Black Sea Shipping
+C000167,Kenya,Solar Panels,20,21668,TS Lines
+C000168,Morocco,Petroleum Products,20,21553,Star Container Services
+C000169,Turkey,Computers,53,34086,Evergreen Marine
+C000170,Australia,Leather Goods,48,32403,Matson Navigation
+C000171,Denmark,Rice,40,26623,Hapag-Lloyd
+C000172,Colombia,Wheat,20,21803,Res Trans-Logis
+C000173,Canada,Paint,20,21769,Mitsui O.S.K. Lines (MOL)
+C000174,France,Machinery,45,29013,Seaboard Marine
+C000175,Germany,Wind Turbine Parts,53,34029,SM Line
+C000176,Belgium,Fertilizer,48,33002,Wan Hai Lines
+C000177,Hong Kong,Fruits,40,27117,Sinokor Merchant Marine
+C000178,Saudi Arabia,Sand,40,26949,Mediterranean Shipping Company (MSC)
+C000179,Oman,Marble,45,29213,Evergreen Marine
+C000180,Italy,Medical Equipment,40,26546,Hyundai Merchant Marine (HMM)
+C000181,South Africa,Medical Equipment,40,27176,Crowley Maritime
+C000182,Vietnam,Textiles,40,26673,ZIM Integrated Shipping Services
+C000183,New Zealand,Fertilizer,20,22023,Mediterranean Shipping Company (MSC)
+C000184,Netherlands,Vaccines,20,21845,Maersk
+C000185,Egypt,Vegetables,53,33616,Yang Ming Marine
+C000186,Poland,Ceramics,40,26932,COSCO Shipping
+C000187,Portugal,Copper,40,27149,Mitsui O.S.K. Lines (MOL)
+C000188,Sri Lanka,Coal,40,26633,Safmarine
+C000189,Colombia,Fertilizer,53,33880,Nippon Yusen Kaisha (NYK)
+C000190,Qatar,Frozen Meat,45,29042,Res Trans-Logis
+C000191,Egypt,Footwear,48,32754,Emirates Shipping Line
+C000192,Qatar,Cement,20,21574,Iran Shipping Lines
+C000193,South Korea,Computers,20,21836,Hapag-Lloyd
+C000194,India,Garments,45,29277,Seaboard Marine
+C000195,India,Pharmaceuticals,20,21638,SITC International
+C000196,Sri Lanka,Copper,20,21890,Yang Ming Marine
+C000197,United Kingdom,Frozen Meat,48,32873,Syrian Shipping Lines
+C000198,Saudi Arabia,Wheat,40,26978,Crowley Maritime
+C000199,Australia,Iron Ore,45,29308,Emirates Shipping Line
+C000200,Vietnam,Petroleum Products,48,32457,COSCO Shipping
+C000201,Qatar,Automobile Parts,48,32835,Hapag-Lloyd
+C000202,Taiwan,Timber,45,29221,COSCO Shipping
+C000203,Egypt,Chemicals,48,32322,SM Line
+C000204,France,Sand,53,33860,Maersk
+C000205,Peru,Lithium Batteries,45,29155,Global Ocean Logistics
+C000206,Kenya,Glass,20,21668,Maersk
+C000207,Malaysia,Solvents,48,32767,OOCL
+C000208,Hong Kong,Textiles,45,28989,K Line
+C000209,Philippines,Fruits,45,28739,Sinokor Merchant Marine
+C000210,Singapore,Solvents,53,33758,Evergreen Marine
+C000211,Japan,Garments,40,26388,Nippon Yusen Kaisha (NYK)
+C000212,Belgium,Garments,53,33867,Nippon Yusen Kaisha (NYK)
+C000213,Sweden,Food Products,53,33817,APL
+C000214,Egypt,Food Products,53,33668,Black Sea Shipping
+C000215,Vietnam,Vaccines,48,32933,X-Press Feeders
+C000216,Bangladesh,Tea,45,29190,PIL (Pacific International Lines)
+C000217,South Korea,Paint,45,28784,Syrian Shipping Lines
+C000218,Norway,Batteries,45,28771,Unifeeder
+C000219,Saudi Arabia,Computers,48,32858,Emirates Shipping Line
+C000220,Canada,Corn,48,32814,Sinokor Merchant Marine
+C000221,Poland,Marble,45,29272,Iran Shipping Lines
+C000222,Belgium,Aluminum,48,32830,SITC International
+C000223,Australia,Iron Ore,53,33934,K Line
+C000224,United Kingdom,Wind Turbine Parts,40,26462,Hamburg Süd
+C000225,Turkey,Vehicles,53,33839,North Korea Shipping Corporation
+C000226,Denmark,Footwear,53,33851,APL
+C000227,Peru,Marble,45,29298,COSCO Shipping
+C000228,Kenya,Paper,45,28965,Hamburg Süd
+C000229,Japan,Fertilizer,53,33743,Hamburg Süd
+C000230,Hong Kong,Electronics,40,26725,North Korea Shipping Corporation
+C000231,Germany,Corn,40,26586,Baltic Shipping Company
+C000232,Denmark,Dairy Products,48,32716,APL
+C000233,United Kingdom,Paint,20,21363,Bahri
+C000234,United States,Natural Gas Equipment,48,32971,Maersk
+C000235,Mexico,Dairy Products,40,26530,Grimaldi Lines
+C000236,Colombia,Electrical Cables,45,28760,Evergreen Marine
+C000237,Saudi Arabia,Machinery,40,27070,Ocean Network Express (ONE)
+C000238,Sri Lanka,Machinery,40,27178,Crowley Maritime
+C000239,New Zealand,Solar Panels,53,33856,Grimaldi Lines
+C000240,Argentina,Granite,45,29115,Iran Shipping Lines
+C000241,Russia,Pharmaceuticals,45,29363,COSCO Shipping
+C000242,United Kingdom,Paint,20,21461,Baltic Shipping Company
+C000243,Japan,Petroleum Products,20,21902,Nippon Yusen Kaisha (NYK)
+C000244,Greece,Iron Ore,40,26764,Hyundai Merchant Marine (HMM)
+C000245,Denmark,Cement,40,26873,Maersk
+C000246,United Arab Emirates,Leather Goods,53,34256,Bahri
+C000247,Peru,Glass,53,34364,Star Container Services
+C000248,Japan,Wind Turbine Parts,53,33878,Black Sea Shipping
+C000249,Australia,Vehicles,45,29185,Star Container Services
+C000250,Turkey,Furniture,20,21477,ZIM Integrated Shipping Services
+C000251,France,Iron Ore,45,29249,Global Ocean Logistics
+C000252,Denmark,Paper,20,21907,Res Trans-Logis
+C000253,Egypt,Electrical Cables,45,28962,Syrian Shipping Lines
+C000254,Denmark,Corn,40,26767,Yang Ming Marine
+C000255,Germany,Frozen Meat,45,28784,Bahri
+C000256,Indonesia,Leather Goods,53,34025,K Line
+C000257,Poland,Vehicles,45,28702,Global Ocean Logistics
+C000258,Argentina,Pharmaceuticals,20,21397,Roy Shipping Agency
+C000259,Brazil,Steel Coils,53,33621,Mitsui O.S.K. Lines (MOL)
+C000260,Italy,Marble,20,22113,Hyundai Merchant Marine (HMM)
+C000261,Indonesia,Steel Coils,45,29382,Global Ocean Logistics
+C000262,United States,Furniture,45,29351,APL
+C000263,Spain,Ceramics,45,28966,Safmarine
+C000264,Colombia,Sugar,48,32368,SM Line
+C000265,Vietnam,Furniture,40,26588,Sinokor Merchant Marine
+C000266,United Arab Emirates,Sand,45,28708,Mitsui O.S.K. Lines (MOL)
+C000267,Colombia,Frozen Meat,53,33954,Evergreen Marine
+C000268,United Kingdom,Copper,45,29390,Seaboard Marine
+C000269,Oman,Semiconductors,48,32729,CMA CGM
+C000270,Australia,Electronics,45,28850,Hyundai Merchant Marine (HMM)
+C000271,Denmark,Timber,45,29252,Seaboard Marine
+C000272,Bangladesh,Tea,40,26437,Hapag-Lloyd
+C000273,South Africa,Paper,45,29090,Grimaldi Lines
+C000274,Italy,Coffee,48,32975,Mitsui O.S.K. Lines (MOL)
+C000275,Mexico,Electronics,45,28913,TS Lines
+C000276,Portugal,Ceramics,53,34283,K Line
+C000277,Portugal,Leather Goods,48,32250,Emirates Shipping Line
+C000278,Sweden,Garments,20,21843,Safmarine
+C000279,Pakistan,Lithium Batteries,53,33976,Mediterranean Shipping Company (MSC)
+C000280,China,Electronics,20,21959,PIL (Pacific International Lines)
+C000281,Denmark,Scientific Instruments,48,32348,Res Trans-Logis
+C000282,Chile,Fertilizer,40,26690,Global Ocean Logistics
+C000283,India,Rice,20,21554,Wan Hai Lines
+C000284,Oman,Natural Gas Equipment,20,21560,Mediterranean Shipping Company (MSC)
+C000285,Indonesia,Coffee,53,34063,Wan Hai Lines
+C000286,Norway,Pharmaceuticals,48,32319,APL
+C000287,Taiwan,Batteries,40,26703,Res Trans-Logis
+C000288,Oman,Coal,45,28827,Emirates Shipping Line
+C000289,Malaysia,Wheat,48,32662,Grimaldi Lines
+C000290,Belgium,Copper,53,34366,Hapag-Lloyd
+C000291,Ukraine,Rubber,53,33704,Grimaldi Lines
+C000292,Taiwan,Paint,40,26451,Ocean Network Express (ONE)
+C000293,Qatar,Vehicles,20,21892,Star Container Services
+C000294,Chile,Textiles,48,32675,Yang Ming Marine
+C000295,Mexico,Rubber,20,22075,SM Line
+C000296,Morocco,Vaccines,40,26524,COSCO Shipping
+C000297,Spain,Medical Equipment,53,33668,Yang Ming Marine
+C000298,Belgium,Steel Coils,48,32325,Evergreen Marine
+C000299,South Africa,Solar Panels,20,21417,Grimaldi Lines
+C000300,Belgium,Aluminum,20,21615,X-Press Feeders
+C000301,Australia,Fertilizer,53,33910,Mediterranean Shipping Company (MSC)
+C000302,France,Natural Gas Equipment,53,34275,Roy Shipping Agency
+C000303,Turkey,Pharmaceuticals,20,22103,Seaboard Marine
+C000304,Colombia,Machinery,48,32459,K Line
+C000305,Egypt,Solar Panels,53,34058,Mediterranean Shipping Company (MSC)
+C000306,Saudi Arabia,Coal,20,21342,Baltic Shipping Company
+C000307,Peru,Vehicles,45,29420,CMA CGM
+C000308,Bangladesh,Semiconductors,45,29447,Wan Hai Lines
+C000309,India,Wheat,53,33978,Hamburg Süd
+C000310,Germany,Wheat,20,21400,North Korea Shipping Corporation
+C000311,Mexico,Cotton,45,29440,Mediterranean Shipping Company (MSC)
+C000312,Sri Lanka,Garments,48,32755,Mediterranean Shipping Company (MSC)
+C000313,Philippines,Marble,48,32750,North Korea Shipping Corporation
+C000314,Italy,Sand,40,26825,K Line
+C000315,Brazil,Dairy Products,20,21757,Sinokor Merchant Marine
+C000316,Morocco,Marble,40,26757,Seaboard Marine
+C000317,United Arab Emirates,Solar Panels,20,21910,ZIM Integrated Shipping Services
+C000318,Turkey,Batteries,45,28663,PIL (Pacific International Lines)
+C000319,South Africa,Batteries,53,34150,Sinokor Merchant Marine
+C000320,Greece,Batteries,48,32989,Mediterranean Shipping Company (MSC)
+C000321,Spain,Garments,40,26569,Unifeeder
+C000322,Poland,Heavy Machinery,45,29339,APL
+C000323,Saudi Arabia,Wind Turbine Parts,20,22024,K Line
+C000324,Hong Kong,Vehicles,20,21989,Syrian Shipping Lines
+C000325,Portugal,Vegetables,20,22004,SM Line
+C000326,Singapore,Pharmaceuticals,40,26412,ZIM Integrated Shipping Services
+C000327,Portugal,Garments,40,26530,Seaboard Marine
+C000328,Vietnam,Coal,48,32431,Baltic Shipping Company
+C000329,New Zealand,Rice,48,32848,PIL (Pacific International Lines)
+C000330,Portugal,Computers,45,29102,TS Lines
+C000331,Ukraine,Mobile Phones,20,22008,Baltic Shipping Company
+C000332,France,Semiconductors,20,21897,Seaboard Marine
+C000333,Norway,Footwear,40,26907,Hamburg Süd
+C000334,South Korea,Vehicles,53,34336,K Line
+C000335,Nigeria,Vaccines,45,29050,ZIM Integrated Shipping Services
+C000336,Taiwan,Lithium Batteries,40,27037,X-Press Feeders
+C000337,Colombia,Vehicles,48,32786,Global Ocean Logistics
+C000338,Norway,Vaccines,45,28983,ZIM Integrated Shipping Services
+C000339,Argentina,Fruits,45,29409,Wan Hai Lines
+C000340,Chile,Batteries,40,26777,Unifeeder
+C000341,Indonesia,Wind Turbine Parts,48,32488,CMA CGM
+C000342,India,Sugar,20,21687,Mitsui O.S.K. Lines (MOL)
+C000343,Turkey,Batteries,20,21877,Seaboard Marine
+C000344,Morocco,Vegetables,40,26874,Matson Navigation
+C000345,India,Lithium Batteries,45,29344,Safmarine
+C000346,Nigeria,Footwear,53,34152,Maersk
+C000347,Indonesia,Sugar,45,28899,Evergreen Marine
+C000348,Mexico,Tea,53,34072,Nippon Yusen Kaisha (NYK)
+C000349,Norway,Lubricants,53,33776,Sinokor Merchant Marine
+C000350,Nigeria,Solar Panels,20,21430,Yang Ming Marine
+C000351,Ukraine,Copper,40,26530,Hyundai Merchant Marine (HMM)
+C000352,United States,Heavy Machinery,53,33610,Roy Shipping Agency
+C000353,China,Batteries,45,28772,ZIM Integrated Shipping Services
+C000354,Turkey,Wheat,20,21561,Nippon Yusen Kaisha (NYK)
+C000355,Turkey,Industrial Tools,20,21396,Roy Shipping Agency
+C000356,Spain,Chemicals,48,32798,Black Sea Shipping
+C000357,United Kingdom,Wind Turbine Parts,20,21424,Yang Ming Marine
+C000358,Italy,Dairy Products,53,34345,Black Sea Shipping
+C000359,Egypt,Lubricants,45,29305,Nippon Yusen Kaisha (NYK)
+C000360,Canada,Scientific Instruments,20,21818,Black Sea Shipping
+C000361,Oman,Sand,53,33983,Mediterranean Shipping Company (MSC)
+C000362,Sweden,Scientific Instruments,48,32787,APL
+C000363,Poland,Corn,53,33709,ZIM Integrated Shipping Services
+C000364,Taiwan,Semiconductors,40,26759,Crowley Maritime
+C000365,New Zealand,Industrial Tools,40,26769,Evergreen Marine
+C000366,China,Automobile Parts,45,29298,Mediterranean Shipping Company (MSC)
+C000367,France,Coffee,20,21934,Maersk
+C000368,Qatar,Scientific Instruments,53,34044,Matson Navigation
+C000369,Peru,Corn,45,29317,Syrian Shipping Lines
+C000370,Oman,Wheat,45,28927,Crowley Maritime
+C000371,India,Computers,48,32508,Emirates Shipping Line
+C000372,Morocco,Fertilizer,53,34235,Baltic Shipping Company
+C000373,New Zealand,Rice,53,33946,Mediterranean Shipping Company (MSC)
+C000374,Brazil,Furniture,48,32766,Emirates Shipping Line
+C000375,Peru,Industrial Chemicals,20,21484,CMA CGM
+C000376,Philippines,Natural Gas Equipment,53,33656,Baltic Shipping Company
+C000377,South Africa,Vaccines,40,26640,Emirates Shipping Line
+C000378,Saudi Arabia,Petroleum Products,20,21695,Global Ocean Logistics
+C000379,Denmark,Sand,40,27020,Emirates Shipping Line
+C000380,Egypt,Coffee,40,26692,Bahri
+C000381,Brazil,Heavy Machinery,45,28878,Res Trans-Logis
+C000382,Sri Lanka,Aluminum,40,26793,Evergreen Marine
+C000383,Bangladesh,Plastic Granules,53,33965,Maersk
+C000384,Bangladesh,Industrial Chemicals,20,21927,Hyundai Merchant Marine (HMM)
+C000385,Netherlands,Tea,40,26421,Bahri
+C000386,Hong Kong,Chemicals,45,28791,Nippon Yusen Kaisha (NYK)
+C000387,Oman,Wheat,48,32809,Res Trans-Logis
+C000388,Thailand,Mobile Phones,53,34237,SM Line
+C000389,Belgium,Seafood,40,26667,Nippon Yusen Kaisha (NYK)
+C000390,Germany,Medical Equipment,53,33881,Maersk
+C000391,China,Rubber,45,29099,Safmarine
+C000392,Sweden,Food Products,53,34195,Sinokor Merchant Marine
+C000393,Mexico,Electronics,48,32663,X-Press Feeders
+C000394,New Zealand,Pharmaceuticals,20,21604,X-Press Feeders
+C000395,Spain,Electronics,40,26456,Mediterranean Shipping Company (MSC)
+C000396,Japan,Mobile Phones,45,29100,North Korea Shipping Corporation
+C000397,Mexico,Seafood,45,28848,OOCL
+C000398,Mexico,Footwear,53,33982,CMA CGM
+C000399,Vietnam,Steel Coils,48,32904,Safmarine
+C000400,Kenya,Fruits,40,26443,Crowley Maritime
+C000401,Argentina,Automobile Parts,45,29325,Roy Shipping Agency
+C000402,France,Solvents,48,32690,COSCO Shipping
+C000403,China,Machinery,45,28689,Black Sea Shipping
+C000404,Colombia,Leather Goods,48,32555,Iran Shipping Lines
+C000405,Egypt,Chemicals,45,28701,Maersk
+C000406,Nigeria,Furniture,53,33985,Wan Hai Lines
+C000407,Belgium,Wind Turbine Parts,53,34324,COSCO Shipping
+C000408,Colombia,Garments,20,22122,X-Press Feeders
+C000409,Thailand,Ceramics,40,26974,Unifeeder
+C000410,Spain,Computers,20,21956,Hapag-Lloyd
+C000411,Argentina,Solvents,53,33720,Res Trans-Logis
+C000412,United Arab Emirates,Chemicals,20,21682,Black Sea Shipping
+C000413,United Kingdom,Pharmaceuticals,48,33045,Crowley Maritime
+C000414,Taiwan,Batteries,53,34136,Global Ocean Logistics
+C000415,Vietnam,Solvents,40,26843,Wan Hai Lines
+C000416,Kenya,Wind Turbine Parts,20,22123,Global Ocean Logistics
+C000417,Nigeria,Batteries,20,21826,Mitsui O.S.K. Lines (MOL)
+C000418,Poland,Machinery,53,33642,Baltic Shipping Company
+C000419,Portugal,Natural Gas Equipment,53,33709,Global Ocean Logistics
+C000420,United States,Wind Turbine Parts,40,26564,Hapag-Lloyd
+C000421,Belgium,Scientific Instruments,45,28846,Safmarine
+C000422,South Korea,Copper,40,26624,SM Line
+C000423,Netherlands,Solvents,45,29418,Hamburg Süd
+C000424,Hong Kong,Steel Coils,48,32627,Mitsui O.S.K. Lines (MOL)
+C000425,India,Batteries,20,21498,North Korea Shipping Corporation
+C000426,Australia,Timber,53,34084,Star Container Services
+C000427,Kenya,Dairy Products,53,34089,Mitsui O.S.K. Lines (MOL)
+C000428,Taiwan,Fertilizer,48,32888,Hamburg Süd
+C000429,Hong Kong,Cotton,40,26472,Yang Ming Marine
+C000430,Saudi Arabia,Cotton,48,32532,Iran Shipping Lines
+C000431,Spain,Fertilizer,48,33038,Evergreen Marine
+C000432,Singapore,Batteries,45,29267,Star Container Services
+C000433,Egypt,Vehicles,20,21502,Evergreen Marine
+C000434,Indonesia,Steel Coils,40,26897,Yang Ming Marine
+C000435,Oman,Scientific Instruments,45,29155,Matson Navigation
+C000436,Canada,Corn,45,29276,Evergreen Marine
+C000437,Australia,Industrial Chemicals,20,21594,COSCO Shipping
+C000438,Bangladesh,Wheat,53,34390,APL
+C000439,United States,Fruits,20,22007,Hapag-Lloyd
+C000440,Denmark,Lithium Batteries,48,32912,Mediterranean Shipping Company (MSC)
+C000441,Sweden,Fertilizer,45,29262,North Korea Shipping Corporation
+C000442,France,Sugar,48,32563,Res Trans-Logis
+C000443,Australia,Corn,45,28786,Matson Navigation
+C000444,Morocco,Vaccines,20,22022,Unifeeder
+C000445,Singapore,Ceramics,20,21989,OOCL
+C000446,Singapore,Fruits,53,33638,SITC International
+C000447,Chile,Cotton,53,34169,OOCL
+C000448,Mexico,Solvents,45,28786,Nippon Yusen Kaisha (NYK)
+C000449,Norway,Batteries,20,21665,COSCO Shipping
+C000450,Australia,Aluminum,20,21788,APL
+C000451,Portugal,Textiles,20,21553,COSCO Shipping
+C000452,Chile,Lithium Batteries,48,32438,Evergreen Marine
+C000453,South Africa,Tea,53,33871,Hapag-Lloyd
+C000454,United Kingdom,Electrical Cables,40,26436,K Line
+C000455,Qatar,Ceramics,48,32636,PIL (Pacific International Lines)
+C000456,Argentina,Timber,40,27016,Nippon Yusen Kaisha (NYK)
+C000457,Poland,Fertilizer,48,32612,Evergreen Marine
+C000458,Denmark,Vehicles,48,32576,Mediterranean Shipping Company (MSC)
+C000459,Chile,Chemicals,20,21553,Mitsui O.S.K. Lines (MOL)
+C000460,Greece,Cotton,20,21456,Global Ocean Logistics
+C000461,Pakistan,Solvents,40,26907,TS Lines
+C000462,Netherlands,Glass,48,32290,Matson Navigation
+C000463,Chile,Industrial Tools,20,21540,PIL (Pacific International Lines)
+C000464,Mexico,Ceramics,40,26994,Hyundai Merchant Marine (HMM)
+C000465,Germany,Vehicles,45,29406,Global Ocean Logistics
+C000466,Portugal,Vehicles,45,29154,Unifeeder
+C000467,India,Frozen Meat,48,32788,Syrian Shipping Lines
+C000468,Ukraine,Computers,40,26526,K Line
+C000469,Italy,Electronics,20,21901,APL
+C000470,Vietnam,Vegetables,53,34138,Mediterranean Shipping Company (MSC)
+C000471,Singapore,Steel Coils,20,21365,Hapag-Lloyd
+C000472,Sri Lanka,Frozen Meat,20,21678,Grimaldi Lines
+C000473,France,Ceramics,53,33655,Roy Shipping Agency
+C000474,Pakistan,Cement,40,27093,Emirates Shipping Line
+C000475,Oman,Rice,48,32530,Evergreen Marine
+C000476,Japan,Footwear,45,28884,Bahri
+C000477,Pakistan,Electrical Cables,53,34092,Evergreen Marine
+C000478,United Arab Emirates,Vegetables,40,26547,Emirates Shipping Line
+C000479,Brazil,Plastic Granules,40,27173,Evergreen Marine
+C000480,Mexico,Electrical Cables,20,21906,Res Trans-Logis
+C000481,Germany,Furniture,40,26577,Res Trans-Logis
+C000482,Sri Lanka,Sand,48,32581,Mediterranean Shipping Company (MSC)
+C000483,Mexico,Dairy Products,20,21391,Ocean Network Express (ONE)
+C000484,Colombia,Glass,53,34030,Black Sea Shipping
+C000485,Thailand,Industrial Tools,40,27107,Roy Shipping Agency
+C000486,Colombia,Industrial Tools,48,32744,COSCO Shipping
+C000487,Malaysia,Scientific Instruments,20,21549,Syrian Shipping Lines
+C000488,Colombia,Footwear,53,34148,Black Sea Shipping
+C000489,Malaysia,Timber,53,33769,ZIM Integrated Shipping Services
+C000490,Italy,Medical Equipment,40,26771,SITC International
+C000491,Greece,Tea,40,27153,X-Press Feeders
+C000492,Ukraine,Scientific Instruments,48,32411,Seaboard Marine
+C000493,Greece,Ceramics,45,29045,Emirates Shipping Line
+C000494,United Kingdom,Mobile Phones,53,34040,SM Line
+C000495,Brazil,Coffee,48,32814,Baltic Shipping Company
+C000496,Hong Kong,Steel Coils,53,34323,ZIM Integrated Shipping Services
+C000497,Hong Kong,Solar Panels,40,27021,Unifeeder
+C000498,Germany,Petroleum Products,48,33044,Mitsui O.S.K. Lines (MOL)
+C000499,United Arab Emirates,Fruits,48,32649,K Line
+C000500,Russia,Timber,20,21491,Unifeeder
+C000501,Indonesia,Fertilizer,48,32387,Wan Hai Lines
+C000502,Nigeria,Electrical Cables,40,26969,Evergreen Marine
+C000503,France,Industrial Tools,45,29165,ZIM Integrated Shipping Services
+C000504,United Arab Emirates,Fruits,48,33032,Bahri
+C000505,South Korea,Pharmaceuticals,48,32576,Mediterranean Shipping Company (MSC)
+C000506,United Kingdom,Seafood,53,33984,Nippon Yusen Kaisha (NYK)
+C000507,Pakistan,Pharmaceuticals,40,26497,COSCO Shipping
+C000508,South Africa,Footwear,48,32871,Roy Shipping Agency
+C000509,United Kingdom,Paper,45,28845,PIL (Pacific International Lines)
+C000510,Chile,Vegetables,40,26533,Star Container Services
+C000511,Canada,Cement,20,22090,SITC International
+C000512,Kenya,Solar Panels,40,27050,SM Line
+C000513,South Africa,Lithium Batteries,40,26814,TS Lines
+C000514,Canada,Mobile Phones,20,21519,Mitsui O.S.K. Lines (MOL)
+C000515,Taiwan,Garments,53,34169,Wan Hai Lines
+C000516,Spain,Vaccines,40,26761,Seaboard Marine
+C000517,Spain,Rice,20,21638,Hapag-Lloyd
+C000518,Norway,Furniture,40,27023,Baltic Shipping Company
+C000519,Ukraine,Mobile Phones,48,32935,TS Lines
+C000520,Germany,Tea,53,34126,North Korea Shipping Corporation
+C000521,Netherlands,Industrial Tools,20,21478,Ocean Network Express (ONE)
+C000522,Denmark,Chemicals,40,27096,Star Container Services
+C000523,Netherlands,Solar Panels,48,32455,CMA CGM
+C000524,Thailand,Fertilizer,40,26991,Sinokor Merchant Marine
+C000525,Belgium,Pharmaceuticals,48,32561,Unifeeder
+C000526,Russia,Plastic Granules,53,34101,OOCL
+C000527,Vietnam,Sand,53,34308,ZIM Integrated Shipping Services
+C000528,Brazil,Furniture,20,21615,COSCO Shipping
+C000529,Pakistan,Semiconductors,40,26868,Hyundai Merchant Marine (HMM)
+C000530,India,Mobile Phones,40,26504,COSCO Shipping
+C000531,Indonesia,Vehicles,20,21474,COSCO Shipping
+C000532,Turkey,Cotton,45,29144,Star Container Services
+C000533,Sweden,Seafood,20,22085,Global Ocean Logistics
+C000534,United Kingdom,Furniture,45,28768,Emirates Shipping Line
+C000535,Italy,Medical Equipment,20,21331,Ocean Network Express (ONE)
+C000536,Denmark,Food Products,45,29417,TS Lines
+C000537,France,Food Products,45,29332,APL
+C000538,Philippines,Cement,20,21980,Iran Shipping Lines
+C000539,Poland,Seafood,20,21576,Global Ocean Logistics
+C000540,Argentina,Marble,20,21759,ZIM Integrated Shipping Services
+C000541,Chile,Rubber,20,21351,Mediterranean Shipping Company (MSC)
+C000542,New Zealand,Steel Coils,20,21854,PIL (Pacific International Lines)
+C000543,Germany,Electronics,48,32515,Hyundai Merchant Marine (HMM)
+C000544,Belgium,Paint,48,32341,SITC International
+C000545,United Arab Emirates,Food Products,45,29311,Grimaldi Lines
+C000546,Philippines,Copper,45,28821,Sinokor Merchant Marine
+C000547,China,Solvents,20,21505,Hyundai Merchant Marine (HMM)
+C000548,Peru,Granite,20,21370,Bahri
+C000549,Denmark,Lubricants,20,21916,Safmarine
+C000550,Argentina,Marble,48,32322,OOCL
+C000551,Peru,Footwear,48,32923,Yang Ming Marine
+C000552,Japan,Marble,53,33948,Yang Ming Marine
+C000553,Japan,Batteries,48,33032,Mitsui O.S.K. Lines (MOL)
+C000554,Taiwan,Paint,53,33759,Mediterranean Shipping Company (MSC)
+C000555,Norway,Vehicles,40,26958,Nippon Yusen Kaisha (NYK)
+C000556,Thailand,Sand,53,33959,Seaboard Marine
+C000557,Peru,Rubber,48,32826,ZIM Integrated Shipping Services
+C000558,Greece,Cotton,48,32402,Iran Shipping Lines
+C000559,Indonesia,Timber,20,21565,Star Container Services
+C000560,Thailand,Lithium Batteries,48,32841,Hamburg Süd
+C000561,Australia,Ceramics,48,32459,APL
+C000562,India,Steel Coils,40,26839,Mitsui O.S.K. Lines (MOL)
+C000563,China,Granite,53,34140,Syrian Shipping Lines
+C000564,Spain,Plastic Granules,45,28663,Res Trans-Logis
+C000565,United States,Heavy Machinery,48,32489,Safmarine
+C000566,Oman,Wind Turbine Parts,48,33025,Emirates Shipping Line
+C000567,United States,Medical Equipment,48,32637,Hapag-Lloyd
+C000568,Norway,Paint,40,27027,Maersk
+C000569,Mexico,Textiles,20,21626,Syrian Shipping Lines
+C000570,Peru,Heavy Machinery,40,26543,Seaboard Marine
+C000571,Colombia,Solar Panels,40,26475,Ocean Network Express (ONE)
+C000572,Pakistan,Frozen Meat,48,32954,APL
+C000573,Russia,Wheat,40,26752,Hamburg Süd
+C000574,Greece,Paint,40,26446,North Korea Shipping Corporation
+C000575,New Zealand,Granite,53,34195,Seaboard Marine
+C000576,Saudi Arabia,Semiconductors,53,33771,K Line
+C000577,Sweden,Fertilizer,20,21596,Hamburg Süd
+C000578,Germany,Pharmaceuticals,48,32376,Syrian Shipping Lines
+C000579,Egypt,Rice,48,32385,Res Trans-Logis
+C000580,South Korea,Granite,45,28672,Mitsui O.S.K. Lines (MOL)
+C000581,Ukraine,Solvents,40,26391,Safmarine
+C000582,Ukraine,Iron Ore,45,28739,Hapag-Lloyd
+C000583,Russia,Vehicles,20,21776,K Line
+C000584,South Korea,Frozen Meat,53,33641,Maersk
+C000585,Poland,Granite,53,33758,Hapag-Lloyd
+C000586,Kenya,Paper,53,33869,Black Sea Shipping
+C000587,Spain,Paper,53,33809,Star Container Services
+C000588,Thailand,Ceramics,53,34025,Global Ocean Logistics
+C000589,United States,Corn,20,22021,Seaboard Marine
+C000590,Spain,Vegetables,40,26749,Hamburg Süd
+C000591,Saudi Arabia,Industrial Tools,53,33821,Seaboard Marine
+C000592,Chile,Heavy Machinery,45,28866,Roy Shipping Agency
+C000593,Argentina,Aluminum,20,21518,Emirates Shipping Line
+C000594,Nigeria,Solvents,48,32907,TS Lines
+C000595,Chile,Copper,48,32942,PIL (Pacific International Lines)
+C000596,Colombia,Lithium Batteries,20,21598,Mediterranean Shipping Company (MSC)
+C000597,Mexico,Vegetables,48,32377,Wan Hai Lines
+C000598,Belgium,Copper,45,29185,K Line
+C000599,United Kingdom,Sugar,20,21420,TS Lines
+C000600,South Korea,Pharmaceuticals,48,32529,Roy Shipping Agency
+C000601,Qatar,Iron Ore,45,29261,X-Press Feeders
+C000602,United States,Leather Goods,20,21715,Safmarine
+C000603,Chile,Cement,20,22041,Matson Navigation
+C000604,Peru,Wind Turbine Parts,40,27009,Unifeeder
+C000605,Vietnam,Medical Equipment,20,21827,Bahri
+C000606,Nigeria,Iron Ore,40,26442,Safmarine
+C000607,Egypt,Lubricants,45,29051,OOCL
+C000608,Hong Kong,Automobile Parts,20,21928,Matson Navigation
+C000609,Argentina,Sugar,20,21728,Hapag-Lloyd
+C000610,Kenya,Rice,20,21980,Yang Ming Marine
+C000611,New Zealand,Automobile Parts,53,34397,OOCL
+C000612,Morocco,Glass,40,26740,Wan Hai Lines
+C000613,Bangladesh,Chemicals,20,21464,Iran Shipping Lines
+C000614,Indonesia,Textiles,20,21817,Mediterranean Shipping Company (MSC)
+C000615,Philippines,Coal,48,32845,Baltic Shipping Company
+C000616,Poland,Lubricants,45,29087,Emirates Shipping Line
+C000617,Japan,Machinery,20,22040,Safmarine
+C000618,Colombia,Automobile Parts,40,27071,North Korea Shipping Corporation
+C000619,United Kingdom,Paper,48,32523,North Korea Shipping Corporation
+C000620,Greece,Sugar,53,33860,TS Lines
+C000621,Thailand,Rice,20,21560,Safmarine
+C000622,Colombia,Footwear,45,29034,Sinokor Merchant Marine
+C000623,Sri Lanka,Industrial Chemicals,40,26432,Star Container Services
+C000624,South Africa,Scientific Instruments,53,34208,ZIM Integrated Shipping Services
+C000625,Peru,Cement,20,21768,Ocean Network Express (ONE)
+C000626,Peru,Food Products,45,29240,PIL (Pacific International Lines)
+C000627,India,Marble,40,27156,Global Ocean Logistics
+C000628,Indonesia,Food Products,48,32884,Mediterranean Shipping Company (MSC)
+C000629,Malaysia,Petroleum Products,45,29163,Hapag-Lloyd
+C000630,South Africa,Industrial Tools,53,34321,TS Lines
+C000631,Peru,Seafood,20,21507,Yang Ming Marine
+C000632,Belgium,Food Products,53,34371,Nippon Yusen Kaisha (NYK)
+C000633,Spain,Vaccines,40,26442,Star Container Services
+C000634,Colombia,Aluminum,40,26440,K Line
+C000635,Japan,Seafood,48,32750,CMA CGM
+C000636,Japan,Rubber,53,33707,Grimaldi Lines
+C000637,Russia,Natural Gas Equipment,20,22078,COSCO Shipping
+C000638,South Korea,Leather Goods,40,26435,OOCL
+C000639,Netherlands,Rubber,48,32651,North Korea Shipping Corporation
+C000640,New Zealand,Wind Turbine Parts,45,29447,Sinokor Merchant Marine
+C000641,Indonesia,Cotton,40,27132,Roy Shipping Agency
+C000642,Bangladesh,Paper,45,28918,Crowley Maritime
+C000643,Colombia,Cement,48,32521,Hamburg Süd
+C000644,Sweden,Aluminum,53,34208,Syrian Shipping Lines
+C000645,United States,Medical Equipment,20,22060,Sinokor Merchant Marine
+C000646,Morocco,Automobile Parts,20,21423,Roy Shipping Agency
+C000647,Philippines,Semiconductors,45,29030,Seaboard Marine
+C000648,Sweden,Vegetables,40,26851,Roy Shipping Agency
+C000649,Australia,Automobile Parts,53,34332,ZIM Integrated Shipping Services
+C000650,South Korea,Corn,45,29415,TS Lines
+C000651,Sri Lanka,Rice,40,26558,K Line
+C000652,Hong Kong,Pharmaceuticals,40,27005,PIL (Pacific International Lines)
+C000653,Egypt,Leather Goods,45,29225,CMA CGM
+C000654,Kenya,Fruits,53,34226,Safmarine
+C000655,India,Medical Equipment,48,32737,Baltic Shipping Company
+C000656,Egypt,Fruits,48,32747,Roy Shipping Agency
+C000657,Egypt,Wheat,48,32687,OOCL
+C000658,Oman,Electrical Cables,20,21995,Safmarine
+C000659,Greece,Coal,20,21579,X-Press Feeders
+C000660,New Zealand,Solvents,48,32922,Unifeeder
+C000661,Kenya,Semiconductors,40,26525,Hapag-Lloyd
+C000662,India,Chemicals,48,32521,North Korea Shipping Corporation
+C000663,Denmark,Marble,45,29379,TS Lines
+C000664,Argentina,Vaccines,40,26750,PIL (Pacific International Lines)
+C000665,Russia,Industrial Tools,53,34180,Ocean Network Express (ONE)
+C000666,Kenya,Sand,20,21504,Res Trans-Logis
+C000667,Brazil,Frozen Meat,20,21721,Maersk
+C000668,Italy,Industrial Chemicals,45,28993,Crowley Maritime
+C000669,Argentina,Copper,48,32468,OOCL
+C000670,Netherlands,Rubber,45,28801,Baltic Shipping Company
+C000671,Taiwan,Solvents,48,33007,Nippon Yusen Kaisha (NYK)
+C000672,Germany,Rice,48,32933,Evergreen Marine
+C000673,Brazil,Fruits,40,26824,Safmarine
+C000674,Greece,Granite,40,27173,Iran Shipping Lines
+C000675,Colombia,Petroleum Products,20,21847,Sinokor Merchant Marine
+C000676,Norway,Copper,40,26987,SM Line
+C000677,United States,Wheat,45,29403,OOCL
+C000678,Egypt,Garments,48,32605,Mediterranean Shipping Company (MSC)
+C000679,China,Paint,40,26933,Roy Shipping Agency
+C000680,United Arab Emirates,Garments,48,32799,Syrian Shipping Lines
+C000681,Pakistan,Steel Coils,53,33873,Nippon Yusen Kaisha (NYK)
+C000682,Australia,Ceramics,53,33780,ZIM Integrated Shipping Services
+C000683,Chile,Plastic Granules,48,32810,SITC International
+C000684,Portugal,Coal,45,29399,Iran Shipping Lines
+C000685,Philippines,Automobile Parts,40,26972,Mediterranean Shipping Company (MSC)
+C000686,Argentina,Glass,40,27092,Unifeeder
+C000687,Denmark,Granite,48,32902,COSCO Shipping
+C000688,United States,Rubber,40,26647,Yang Ming Marine
+C000689,Nigeria,Food Products,45,28875,North Korea Shipping Corporation
+C000690,Ukraine,Corn,48,32835,Hamburg Süd
+C000691,Oman,Tea,48,32842,Mitsui O.S.K. Lines (MOL)
+C000692,Italy,Wind Turbine Parts,48,32462,ZIM Integrated Shipping Services
+C000693,Russia,Chemicals,40,27034,Bahri
+C000694,Mexico,Vegetables,53,33631,OOCL
+C000695,Ukraine,Pharmaceuticals,45,29254,Seaboard Marine
+C000696,Oman,Vegetables,20,21327,Safmarine
+C000697,Brazil,Frozen Meat,20,21821,Seaboard Marine
+C000698,Germany,Granite,40,26512,APL
+C000699,Russia,Corn,20,21402,TS Lines
+C000700,Belgium,Tea,40,26905,Global Ocean Logistics
+C000701,Norway,Coal,48,32878,Syrian Shipping Lines
+C000702,Colombia,Copper,20,21873,ZIM Integrated Shipping Services
+C000703,China,Rice,45,29406,Safmarine
+C000704,Taiwan,Furniture,40,27149,SM Line
+C000705,Portugal,Vegetables,53,34211,Unifeeder
+C000706,China,Electrical Cables,45,29404,Bahri
+C000707,Sweden,Chemicals,20,21529,X-Press Feeders
+C000708,Japan,Pharmaceuticals,45,29063,TS Lines
+C000709,South Korea,Paint,20,21500,X-Press Feeders
+C000710,Malaysia,Coffee,53,33699,PIL (Pacific International Lines)
+C000711,Bangladesh,Wheat,40,26594,TS Lines
+C000712,United Kingdom,Plastic Granules,53,34166,Safmarine
+C000713,Spain,Leather Goods,20,21794,COSCO Shipping
+C000714,Poland,Pharmaceuticals,48,32844,CMA CGM
+C000715,Egypt,Industrial Tools,40,26729,Black Sea Shipping
+C000716,Saudi Arabia,Rice,40,27004,North Korea Shipping Corporation
+C000717,Philippines,Food Products,40,27161,Roy Shipping Agency
+C000718,Thailand,Corn,53,34387,Matson Navigation
+C000719,Turkey,Scientific Instruments,20,21459,TS Lines
+C000720,Philippines,Dairy Products,20,21948,Yang Ming Marine
+C000721,Sri Lanka,Paint,48,32968,Emirates Shipping Line
+C000722,Bangladesh,Solvents,53,34191,Nippon Yusen Kaisha (NYK)
+C000723,Sweden,Marble,40,26444,Iran Shipping Lines
+C000724,Kenya,Fertilizer,40,26963,COSCO Shipping
+C000725,France,Textiles,40,27050,PIL (Pacific International Lines)
+C000726,Qatar,Rice,20,22089,SM Line
+C000727,Singapore,Copper,53,33796,X-Press Feeders
+C000728,Thailand,Textiles,48,32447,K Line
+C000729,Thailand,Fertilizer,20,21763,CMA CGM
+C000730,Denmark,Industrial Chemicals,48,32596,ZIM Integrated Shipping Services
+C000731,Chile,Solvents,20,21488,Roy Shipping Agency
+C000732,Vietnam,Vehicles,20,21977,K Line
+C000733,Saudi Arabia,Cement,20,22051,Safmarine
+C000734,Vietnam,Batteries,20,21389,Black Sea Shipping
+C000735,Portugal,Computers,20,22088,SITC International
+C000736,Poland,Machinery,45,28897,TS Lines
+C000737,Philippines,Scientific Instruments,40,26405,Mediterranean Shipping Company (MSC)
+C000738,Thailand,Fertilizer,48,32273,Baltic Shipping Company
+C000739,Hong Kong,Timber,48,32302,Evergreen Marine
+C000740,Singapore,Plastic Granules,20,21339,Crowley Maritime
+C000741,New Zealand,Timber,45,28730,Nippon Yusen Kaisha (NYK)
+C000742,Ukraine,Paint,20,21452,X-Press Feeders
+C000743,Chile,Vehicles,20,21847,Hamburg Süd
+C000744,Qatar,Wheat,20,21637,TS Lines
+C000745,France,Frozen Meat,20,21942,Baltic Shipping Company
+C000746,Greece,Plastic Granules,53,34331,Maersk
+C000747,Colombia,Dairy Products,48,32849,ZIM Integrated Shipping Services
+C000748,Ukraine,Frozen Meat,40,26413,Grimaldi Lines
+C000749,Australia,Seafood,53,34085,Hyundai Merchant Marine (HMM)
+C000750,Sri Lanka,Frozen Meat,45,29318,Star Container Services
+C000751,Mexico,Industrial Chemicals,40,26492,Res Trans-Logis
+C000752,Brazil,Rice,48,32338,Seaboard Marine
+C000753,Poland,Rice,20,21785,Maersk
+C000754,Poland,Electrical Cables,45,29129,Hamburg Süd
+C000755,Mexico,Ceramics,20,22071,Bahri
+C000756,Kenya,Heavy Machinery,45,29154,K Line
+C000757,New Zealand,Medical Equipment,40,26553,OOCL
+C000758,Oman,Coffee,20,21571,Unifeeder
+C000759,Peru,Vaccines,40,26591,Seaboard Marine
+C000760,Morocco,Steel Coils,40,26742,Wan Hai Lines
+C000761,Saudi Arabia,Wheat,40,27162,North Korea Shipping Corporation
+C000762,Chile,Natural Gas Equipment,45,29056,Seaboard Marine
+C000763,Mexico,Footwear,45,28910,X-Press Feeders
+C000764,United Arab Emirates,Petroleum Products,20,21508,Grimaldi Lines
+C000765,Egypt,Wind Turbine Parts,48,32292,Nippon Yusen Kaisha (NYK)
+C000766,Taiwan,Fruits,48,32588,Ocean Network Express (ONE)
+C000767,France,Solvents,48,32724,Baltic Shipping Company
+C000768,Chile,Petroleum Products,48,32650,OOCL
+C000769,Chile,Aluminum,48,32963,Bahri
+C000770,Argentina,Semiconductors,48,32445,Bahri
+C000771,Chile,Textiles,48,32664,Bahri
+C000772,Singapore,Vegetables,40,26798,Syrian Shipping Lines
+C000773,Turkey,Furniture,20,21707,Mitsui O.S.K. Lines (MOL)
+C000774,Bangladesh,Electronics,45,29258,APL
+C000775,Argentina,Industrial Chemicals,48,32646,Unifeeder
+C000776,Sri Lanka,Steel Coils,20,22092,Syrian Shipping Lines
+C000777,South Africa,Automobile Parts,48,32357,Seaboard Marine
+C000778,Singapore,Rice,20,21795,Maersk
+C000779,New Zealand,Mobile Phones,40,27011,Bahri
+C000780,Morocco,Paper,53,34191,Mediterranean Shipping Company (MSC)
+C000781,United Arab Emirates,Copper,40,26841,Hapag-Lloyd
+C000782,Pakistan,Leather Goods,53,34299,APL
+C000783,India,Aluminum,48,32670,Wan Hai Lines
+C000784,Netherlands,Mobile Phones,45,29135,Sinokor Merchant Marine
+C000785,Denmark,Rubber,40,26588,X-Press Feeders
+C000786,Japan,Timber,53,34334,Sinokor Merchant Marine
+C000787,Turkey,Vehicles,20,21951,Roy Shipping Agency
+C000788,India,Lubricants,53,33682,ZIM Integrated Shipping Services
+C000789,Sweden,Automobile Parts,20,21362,Crowley Maritime
+C000790,Canada,Petroleum Products,48,32784,Grimaldi Lines
+C000791,Italy,Coffee,20,21407,Bahri
+C000792,Philippines,Ceramics,48,32976,ZIM Integrated Shipping Services
+C000793,Germany,Aluminum,45,29177,Unifeeder
+C000794,Thailand,Electrical Cables,48,32577,X-Press Feeders
+C000795,Germany,Iron Ore,48,32786,Black Sea Shipping
+C000796,Egypt,Solar Panels,45,29315,Syrian Shipping Lines
+C000797,Germany,Footwear,45,28691,ZIM Integrated Shipping Services
+C000798,Canada,Fertilizer,20,21707,PIL (Pacific International Lines)
+C000799,Canada,Medical Equipment,20,21569,Mediterranean Shipping Company (MSC)
+C000800,Mexico,Electronics,53,33998,Sinokor Merchant Marine
+C000801,Ukraine,Coffee,20,22117,Crowley Maritime
+C000802,Bangladesh,Solvents,48,32324,Wan Hai Lines
+C000803,Egypt,Coffee,53,33877,Emirates Shipping Line
+C000804,Argentina,Lithium Batteries,40,26757,Res Trans-Logis
+C000805,Sri Lanka,Computers,20,21923,SITC International
+C000806,Denmark,Industrial Tools,20,21779,North Korea Shipping Corporation
+C000807,Colombia,Electrical Cables,45,29079,Seaboard Marine
+C000808,Sweden,Dairy Products,45,29349,SITC International
+C000809,Ukraine,Lithium Batteries,40,27109,Seaboard Marine
+C000810,Singapore,Machinery,48,32960,PIL (Pacific International Lines)
+C000811,Russia,Natural Gas Equipment,48,32853,X-Press Feeders
+C000812,Canada,Cement,48,32351,Res Trans-Logis
+C000813,Vietnam,Natural Gas Equipment,40,26616,Star Container Services
+C000814,Sweden,Fruits,53,34172,North Korea Shipping Corporation
+C000815,Italy,Automobile Parts,48,32494,Emirates Shipping Line
+C000816,Thailand,Sugar,48,32400,Hapag-Lloyd
+C000817,South Africa,Vehicles,20,21657,Ocean Network Express (ONE)
+C000818,Italy,Ceramics,53,34109,PIL (Pacific International Lines)
+C000819,Vietnam,Petroleum Products,53,34002,Roy Shipping Agency
+C000820,Thailand,Industrial Chemicals,20,21457,SITC International
+C000821,Ukraine,Fruits,45,28813,Crowley Maritime
+C000822,Sweden,Computers,20,21390,APL
+C000823,Qatar,Petroleum Products,53,34200,SITC International
+C000824,Sweden,Coal,40,26648,ZIM Integrated Shipping Services
+C000825,Russia,Leather Goods,53,33708,CMA CGM
+C000826,Mexico,Rubber,20,21531,APL
+C000827,South Korea,Vegetables,48,32522,Yang Ming Marine
+C000828,Nigeria,Vaccines,45,28793,Hyundai Merchant Marine (HMM)
+C000829,Russia,Medical Equipment,53,34363,Global Ocean Logistics
+C000830,Japan,Paper,53,33872,K Line
+C000831,Kenya,Frozen Meat,40,26885,CMA CGM
+C000832,Singapore,Frozen Meat,48,32944,CMA CGM
+C000833,Mexico,Food Products,53,33631,TS Lines
+C000834,Nigeria,Rubber,20,21596,Emirates Shipping Line
+C000835,United Kingdom,Sand,40,26704,SM Line
+C000836,Japan,Batteries,48,32891,Matson Navigation
+C000837,Morocco,Steel Coils,20,21689,Hamburg Süd
+C000838,United Arab Emirates,Solvents,45,29373,Hapag-Lloyd
+C000839,Mexico,Food Products,53,33704,Nippon Yusen Kaisha (NYK)
+C000840,New Zealand,Mobile Phones,48,32522,Safmarine
+C000841,Russia,Heavy Machinery,53,33844,Iran Shipping Lines
+C000842,Norway,Cement,20,21526,Emirates Shipping Line
+C000843,Turkey,Industrial Chemicals,20,22103,Grimaldi Lines
+C000844,France,Heavy Machinery,53,34064,TS Lines
+C000845,Hong Kong,Rice,45,28759,APL
+C000846,Egypt,Vaccines,53,33886,Hamburg Süd
+C000847,Taiwan,Garments,45,29294,Black Sea Shipping
+C000848,Spain,Wheat,45,29269,K Line
+C000849,Poland,Tea,45,28766,CMA CGM
+C000850,Australia,Coal,20,21555,TS Lines
+C000851,United Kingdom,Garments,40,26865,Nippon Yusen Kaisha (NYK)
+C000852,Vietnam,Dairy Products,40,27123,Emirates Shipping Line
+C000853,Norway,Vegetables,20,21514,Emirates Shipping Line
+C000854,Spain,Chemicals,40,27000,SITC International
+C000855,Oman,Vehicles,40,27078,ZIM Integrated Shipping Services
+C000856,Indonesia,Wheat,45,29307,Mitsui O.S.K. Lines (MOL)
+C000857,Indonesia,Computers,48,32691,PIL (Pacific International Lines)
+C000858,Germany,Petroleum Products,53,34371,Seaboard Marine
+C000859,France,Machinery,45,29232,Hyundai Merchant Marine (HMM)
+C000860,Mexico,Garments,20,21650,Ocean Network Express (ONE)
+C000861,Egypt,Batteries,45,29099,COSCO Shipping
+C000862,Indonesia,Petroleum Products,48,32550,TS Lines
+C000863,India,Solvents,48,32427,Baltic Shipping Company
+C000864,Australia,Scientific Instruments,53,33717,Grimaldi Lines
+C000865,Morocco,Lithium Batteries,48,32655,Emirates Shipping Line
+C000866,United Arab Emirates,Computers,48,32289,SM Line
+C000867,Mexico,Batteries,40,26756,Hapag-Lloyd
+C000868,Russia,Sand,48,32690,SM Line
+C000869,Vietnam,Wind Turbine Parts,48,32617,Emirates Shipping Line
+C000870,Chile,Computers,20,21646,Yang Ming Marine
+C000871,Qatar,Leather Goods,45,29387,North Korea Shipping Corporation
+C000872,Portugal,Ceramics,48,32478,Wan Hai Lines
+C000873,Kenya,Paper,45,28959,North Korea Shipping Corporation
+C000874,Netherlands,Paper,48,32277,Safmarine
+C000875,Sri Lanka,Glass,48,32577,Maersk
+C000876,Peru,Timber,20,21518,Safmarine
+C000877,Portugal,Coffee,20,21474,Syrian Shipping Lines
+C000878,Bangladesh,Batteries,20,21723,COSCO Shipping
+C000879,Spain,Vegetables,48,32418,OOCL
+C000880,Spain,Glass,53,34329,Evergreen Marine
+C000881,Italy,Automobile Parts,45,29183,TS Lines
+C000882,Turkey,Furniture,20,21686,Syrian Shipping Lines
+C000883,Kenya,Iron Ore,20,21710,North Korea Shipping Corporation
+C000884,Philippines,Frozen Meat,20,21970,Syrian Shipping Lines
+C000885,Italy,Scientific Instruments,53,34303,COSCO Shipping
+C000886,Denmark,Vaccines,48,32965,Hamburg Süd
+C000887,Brazil,Textiles,45,29040,North Korea Shipping Corporation
+C000888,Norway,Coal,45,29402,TS Lines
+C000889,Indonesia,Vegetables,45,29198,X-Press Feeders
+C000890,Netherlands,Cotton,20,21418,Syrian Shipping Lines
+C000891,Russia,Electrical Cables,40,26788,SITC International
+C000892,Colombia,Mobile Phones,45,28913,X-Press Feeders
+C000893,France,Lithium Batteries,40,26560,Mitsui O.S.K. Lines (MOL)
+C000894,Vietnam,Computers,45,29357,ZIM Integrated Shipping Services
+C000895,Turkey,Garments,48,32497,ZIM Integrated Shipping Services
+C000896,United States,Garments,48,32983,Evergreen Marine
+C000897,Brazil,Mobile Phones,20,21382,Star Container Services
+C000898,Ukraine,Timber,20,21898,Mediterranean Shipping Company (MSC)
+C000899,United Arab Emirates,Automobile Parts,45,28686,CMA CGM
+C000900,Netherlands,Tea,40,26562,Bahri
+C000901,Russia,Semiconductors,20,21829,Safmarine
+C000902,Greece,Cotton,48,32805,Baltic Shipping Company
+C000903,Kenya,Copper,45,29298,Syrian Shipping Lines
+C000904,Russia,Granite,53,34296,TS Lines
+C000905,Japan,Paper,40,26789,Iran Shipping Lines
+C000906,Italy,Industrial Chemicals,53,33840,CMA CGM
+C000907,Spain,Wheat,53,34220,OOCL
+C000908,Australia,Solar Panels,40,26737,TS Lines
+C000909,Denmark,Coffee,53,34219,Sinokor Merchant Marine
+C000910,Mexico,Seafood,40,27141,Nippon Yusen Kaisha (NYK)
+C000911,Hong Kong,Glass,20,21425,PIL (Pacific International Lines)
+C000912,Philippines,Ceramics,53,33898,Roy Shipping Agency
+C000913,Argentina,Vaccines,40,26765,Sinokor Merchant Marine
+C000914,United States,Coffee,48,32256,Ocean Network Express (ONE)
+C000915,Taiwan,Heavy Machinery,48,32764,Baltic Shipping Company
+C000916,Thailand,Electrical Cables,48,32629,TS Lines
+C000917,Germany,Rubber,48,32261,Baltic Shipping Company
+C000918,New Zealand,Batteries,53,33724,Mediterranean Shipping Company (MSC)
+C000919,Spain,Medical Equipment,48,32976,Bahri
+C000920,Spain,Electrical Cables,48,32718,Syrian Shipping Lines
+C000921,Turkey,Seafood,40,26659,K Line
+C000922,Malaysia,Wheat,20,21409,Black Sea Shipping
+C000923,France,Mobile Phones,53,34393,Mediterranean Shipping Company (MSC)
+C000924,Denmark,Frozen Meat,20,22089,Star Container Services
+C000925,Peru,Rubber,45,29174,TS Lines
+C000926,Poland,Electrical Cables,45,29143,TS Lines
+C000927,Hong Kong,Garments,45,29245,ZIM Integrated Shipping Services
+C000928,Turkey,Lithium Batteries,45,29213,North Korea Shipping Corporation
+C000929,South Africa,Mobile Phones,40,26670,Unifeeder
+C000930,Sri Lanka,Granite,40,26397,OOCL
+C000931,Spain,Food Products,53,33684,K Line
+C000932,Norway,Lubricants,45,29018,Safmarine
+C000933,United States,Copper,45,28699,CMA CGM
+C000934,Bangladesh,Footwear,45,29284,PIL (Pacific International Lines)
+C000935,Singapore,Aluminum,48,32492,Ocean Network Express (ONE)
+C000936,Argentina,Solar Panels,45,29215,Res Trans-Logis
+C000937,Hong Kong,Semiconductors,48,33029,Hamburg Süd
+C000938,Germany,Paper,48,32348,Unifeeder
+C000939,Sri Lanka,Natural Gas Equipment,20,21797,Global Ocean Logistics
+C000940,South Africa,Marble,45,28738,Seaboard Marine
+C000941,Singapore,Automobile Parts,20,21844,COSCO Shipping
+C000942,United States,Furniture,48,33022,Star Container Services
+C000943,France,Industrial Tools,48,32594,TS Lines
+C000944,Bangladesh,Electrical Cables,40,27168,Yang Ming Marine
+C000945,Denmark,Plastic Granules,45,28654,Sinokor Merchant Marine
+C000946,Sweden,Machinery,45,29066,Matson Navigation
+C000947,Chile,Coal,20,21433,Res Trans-Logis
+C000948,Poland,Medical Equipment,20,21984,K Line
+C000949,Brazil,Lubricants,45,28748,SM Line
+C000950,Sweden,Mobile Phones,45,29106,Roy Shipping Agency
+C000951,Oman,Copper,48,32441,Nippon Yusen Kaisha (NYK)
+C000952,Sweden,Heavy Machinery,48,32963,Black Sea Shipping
+C000953,Philippines,Dairy Products,45,29281,Bahri
+C000954,Germany,Tea,40,26834,Mediterranean Shipping Company (MSC)
+C000955,Ukraine,Computers,45,29422,Mediterranean Shipping Company (MSC)
+C000956,Sweden,Electrical Cables,40,27015,Baltic Shipping Company
+C000957,Philippines,Sugar,53,34055,Crowley Maritime
+C000958,Kenya,Plastic Granules,53,33705,Bahri
+C000959,Vietnam,Batteries,20,22060,Evergreen Marine
+C000960,Hong Kong,Chemicals,48,32501,Syrian Shipping Lines
+C000961,Ukraine,Scientific Instruments,20,21816,SITC International
+C000962,Sri Lanka,Leather Goods,20,21450,Seaboard Marine
+C000963,United Kingdom,Industrial Chemicals,40,26555,Mediterranean Shipping Company (MSC)
+C000964,Denmark,Computers,20,21965,Syrian Shipping Lines
+C000965,Germany,Marble,53,33801,OOCL
+C000966,Turkey,Lithium Batteries,45,28941,SM Line
+C000967,Denmark,Computers,45,29137,APL
+C000968,Vietnam,Wheat,45,29071,X-Press Feeders
+C000969,Portugal,Industrial Tools,48,32394,Crowley Maritime
+C000970,Thailand,Semiconductors,45,29170,Matson Navigation
+C000971,Nigeria,Lubricants,48,32806,Emirates Shipping Line
+C000972,Canada,Solar Panels,40,26501,Hamburg Süd
+C000973,Portugal,Vehicles,48,32663,Mediterranean Shipping Company (MSC)
+C000974,Italy,Industrial Chemicals,40,26385,Yang Ming Marine
+C000975,United States,Vegetables,53,33980,Emirates Shipping Line
+C000976,United Arab Emirates,Electronics,48,33007,Evergreen Marine
+C000977,South Africa,Vegetables,53,33901,Unifeeder
+C000978,Vietnam,Petroleum Products,53,33679,Bahri
+C000979,Hong Kong,Natural Gas Equipment,48,32526,Evergreen Marine
+C000980,France,Industrial Chemicals,48,32426,North Korea Shipping Corporation
+C000981,Sri Lanka,Tea,20,21683,Safmarine
+C000982,Netherlands,Footwear,48,32423,X-Press Feeders
+C000983,Spain,Lithium Batteries,53,34214,PIL (Pacific International Lines)
+C000984,Belgium,Solvents,45,29232,APL
+C000985,Vietnam,Corn,40,26880,Matson Navigation
+C000986,South Africa,Vaccines,20,21420,Sinokor Merchant Marine
+C000987,United States,Granite,53,33629,Black Sea Shipping
+C000988,Pakistan,Solvents,20,22113,Unifeeder
+C000989,Greece,Natural Gas Equipment,53,33812,Res Trans-Logis
+C000990,Canada,Ceramics,53,34329,Matson Navigation
+C000991,Denmark,Wheat,53,33854,X-Press Feeders
+C000992,Poland,Machinery,48,32822,SITC International
+C000993,Poland,Granite,20,21741,Hyundai Merchant Marine (HMM)
+C000994,Taiwan,Garments,20,22058,Yang Ming Marine
+C000995,Malaysia,Sand,20,21746,Safmarine
+C000996,Mexico,Automobile Parts,48,32363,Hyundai Merchant Marine (HMM)
+C000997,Bangladesh,Timber,20,21977,Maersk
+C000998,Poland,Machinery,53,34248,Star Container Services
+C000999,Malaysia,Food Products,48,32312,Bahri
+C001000,South Africa,Industrial Tools,53,34035,Global Ocean Logistics
