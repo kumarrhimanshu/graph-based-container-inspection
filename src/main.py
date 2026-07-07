@@ -1,117 +1,97 @@
-"""
-===========================================================
-Graph-Theoretic Algorithmic Inspection (GTA)
+import csv
+from pathlib import Path
 
-Reference implementation accompanying the work:
+BASE_DIR = Path(__file__).resolve().parent.parent
+DATASET_DIR = BASE_DIR / "datasets"
 
-Application of Graph Theory in Detection of Illegal Weapons
-or Drugs at Port
+# Load master data
+destinations = {}
+with open(DATASET_DIR / "destinations.csv", newline="", encoding="utf-8") as f:
+    for row in csv.DictReader(f):
+        destinations[row["Destination"]] = float(row["Risk_Weight"])
 
-Author: Himanshu Kumar
+goods = {}
+with open(DATASET_DIR / "goods.csv", newline="", encoding="utf-8") as f:
+    for row in csv.DictReader(f):
+        goods[row["Goods"]] = float(row["Risk_Weight"])
 
-Originally developed during Master's research
-Department of Mathematics
-National Institute of Technology Durgapur
-===========================================================
-"""
+companies = {}
+with open(DATASET_DIR / "companies.csv", newline="", encoding="utf-8") as f:
+    for row in csv.DictReader(f):
+        companies[row["Company"]] = float(row["Risk_Weight"])
 
-# ==========================================================
-# Configuration Data
-# ==========================================================
+containers = {}
+with open(DATASET_DIR / "containers.csv", newline="", encoding="utf-8") as f:
+    for row in csv.DictReader(f):
+        containers[row["Length_ft"]] = int(row["Standard_Weight_kg"])
 
-DESTINATIONS = ["China", "Singapore", "Sri Lanka", "Malaysia", "Bangladesh"]
+# Priority factors
+lambda1 = 0.4321
+lambda2 = 0.3210
+lambda3 = 0.1542
+lambda4 = 0.0927
 
-DESTINATION_WEIGHTS = [0.073, 0.020, 0.075, 0.073, 0.0695]
+input_file = DATASET_DIR / "sample_containers.csv"
+output_file = DATASET_DIR / "output.csv"
 
-GOODS = ["fertilizer", "coal", "rice", "iron", "sand"]
+with open(input_file, newline="", encoding="utf-8") as infile, \
+     open(output_file, "w", newline="", encoding="utf-8") as outfile:
 
-CONTAINER_CAPACITY = {
-    "20": 21727,
-    "40": 26780,
-    "45": 29050,
-    "48": 32650,
-}
+    reader = csv.DictReader(infile)
+    writer = csv.writer(outfile)
 
-GOODS_WEIGHTS = {
-    "China": [0.461, 0.532, 0.383, 0.635, 0.421],
-    "Singapore": [0.030, 0.050, 0.010, 0.050, 0.010],
-    "Sri Lanka": [0.106, 0.039, 0.507, 0.093, 0.077],
-    "Malaysia": [0.209, 0.305, 0.358, 0.461, 0.342],
-    "Bangladesh": [0.066, 0.177, 0.285, 0.033, 0.335],
-}
+    writer.writerow([
+        "Container_ID",
+        "Destination",
+        "Goods",
+        "Container_Length",
+        "Actual_Weight",
+        "Shipping_Company",
+        "Weight_Difference",
+        "Risk_Score",
+        "Decision"
+    ])
 
-COMPANY_WEIGHTS = {
-    "Roy Shipping Agency": 0.079,
-    "Star Container Services": 0.065,
-    "Res Trans-Logis": 0.042,
-}
+    for row in reader:
 
-# ==========================================================
-# Risk Model Parameters
-# ==========================================================
+        standard_weight = containers[row["Container_Length"]]
+        actual_weight = int(row["Actual_Weight"])
+        difference = abs(actual_weight - standard_weight)
 
-lambda1 = 0.4321   # Weight change
-lambda2 = 0.3210   # Destination
-lambda3 = 0.1542   # Goods
-lambda4 = 0.0927   # Shipping company
+        if difference <= 50:
+            weight_factor = 0.01
+        elif difference <= 100:
+            weight_factor = 0.07
+        elif difference <= 200:
+            weight_factor = 0.40
+        elif difference <= 300:
+            weight_factor = 0.60
+        else:
+            weight_factor = 0.80
 
-# ==========================================================
-# User Input
-# ==========================================================
+        R = (
+            lambda1 * weight_factor
+            + lambda2 * destinations[row["Destination"]]
+            + lambda3 * goods[row["Goods"]]
+            + lambda4 * companies[row["Shipping_Company"]]
+        )
 
-destination = input("Enter the destination: ")
-goods = input("Enter the goods: ")
-container_length = input("Enter the length of container (in ft): ")
-container_weight = int(input("Enter the weight of container (kg): "))
-company = input("Enter the name of shipping company: ")
+        decision = (
+            "Store to ship"
+            if R <= 0.30
+            else "Proceed to further inspection"
+        )
 
-# ==========================================================
-# Weight Change Analysis
-# ==========================================================
+        writer.writerow([
+            row["Container_ID"],
+            row["Destination"],
+            row["Goods"],
+            row["Container_Length"],
+            actual_weight,
+            row["Shipping_Company"],
+            difference,
+            round(R, 3),
+            decision
+        ])
 
-weight_change = abs(container_weight - CONTAINER_CAPACITY[container_length])
-
-if weight_change <= 50:
-    weight_factor = 0.01
-elif weight_change <= 100:
-    weight_factor = 0.07
-elif weight_change <= 200:
-    weight_factor = 0.40
-elif weight_change <= 300:
-    weight_factor = 0.60
-else:
-    weight_factor = 0.80
-
-destination_factor = DESTINATION_WEIGHTS[
-    DESTINATIONS.index(destination)
-]
-
-goods_factor = GOODS_WEIGHTS[destination][GOODS.index(goods)]
-
-company_factor = COMPANY_WEIGHTS[company]
-
-# ==========================================================
-# Risk Score Computation
-# ==========================================================
-
-R = (
-    lambda1 * weight_factor
-    + lambda2 * destination_factor
-    + lambda3 * goods_factor
-    + lambda4 * company_factor
-)
-
-# ==========================================================
-# Final Decision
-# ==========================================================
-
-print("\n------------------------------------------")
-print("Graph-Theoretic Algorithmic Inspection")
-print("------------------------------------------")
-print(f"Weight Difference : {weight_change} kg")
-print(f"Risk Score (R)    : {R:.2f}")
-
-if R <= 0.30:
-    print("Decision          : Store to ship.")
-else:
-    print("Decision          : Proceed to further check.")
+print(f"Analysis completed successfully: {output_file}")
