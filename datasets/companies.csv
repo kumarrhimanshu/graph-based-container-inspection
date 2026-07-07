@@ -1,0 +1,60 @@
+Goods,Category,Risk_Weight
+Coal,Bulk,0.53
+Rice,Food,0.38
+Iron Ore,Metal,0.64
+Sand,Construction,0.42
+Fertilizer,Chemical,0.46
+Cement,Construction,0.30
+Steel Coils,Metal,0.40
+Copper,Metal,0.35
+Aluminum,Metal,0.33
+Timber,Construction,0.29
+Cotton,Textile,0.18
+Textiles,Textile,0.20
+Garments,Textile,0.17
+Leather Goods,Consumer,0.22
+Footwear,Consumer,0.19
+Paper,Industrial,0.21
+Plastic Granules,Chemical,0.39
+Rubber,Industrial,0.27
+Glass,Industrial,0.24
+Ceramics,Industrial,0.25
+Machinery,Industrial,0.34
+Heavy Machinery,Industrial,0.49
+Automobile Parts,Industrial,0.31
+Vehicles,Industrial,0.36
+Batteries,Hazardous,0.68
+Lithium Batteries,Hazardous,0.82
+Chemicals,Chemical,0.71
+Industrial Chemicals,Chemical,0.75
+Paint,Chemical,0.41
+Solvents,Chemical,0.78
+Petroleum Products,Hazardous,0.84
+Lubricants,Chemical,0.37
+Natural Gas Equipment,Energy,0.52
+Medical Equipment,Medical,0.23
+Pharmaceuticals,Medical,0.20
+Vaccines,Medical,0.19
+Electronics,Consumer,0.28
+Mobile Phones,Consumer,0.27
+Computers,Consumer,0.26
+Semiconductors,Electronics,0.32
+Solar Panels,Energy,0.24
+Wind Turbine Parts,Energy,0.31
+Food Products,Food,0.16
+Sugar,Food,0.18
+Wheat,Food,0.17
+Corn,Food,0.16
+Coffee,Food,0.18
+Tea,Food,0.17
+Seafood,Food,0.22
+Frozen Meat,Food,0.24
+Dairy Products,Food,0.20
+Fruits,Food,0.15
+Vegetables,Food,0.14
+Marble,Construction,0.28
+Granite,Construction,0.29
+Electrical Cables,Industrial,0.27
+Industrial Tools,Industrial,0.30
+Scientific Instruments,Industrial,0.25
+Furniture,Consumer,0.21
