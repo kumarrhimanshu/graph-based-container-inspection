@@ -5,7 +5,7 @@
 > *Transforming graph-theoretic models into practical decision-support algorithms.*
 
 <p align="center">
-  <img src="images/gta_framework.png" alt="Graph-Theoretic Algorithmic Inspection Framework" width="900">
+  <img src="gta_framework_workflow.png" alt="Graph-Theoretic Algorithmic Inspection Framework" width="900">
 </p>
 
 ---
